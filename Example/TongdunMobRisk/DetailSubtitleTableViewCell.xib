@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailsSubtitleCellIdentifier" rowHeight="72" id="AQW-cd-fOs" customClass="DetailSubtitleTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="316" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AQW-cd-fOs" id="wqg-Dd-rqr">
+                <rect key="frame" x="0.0" y="0.0" width="316" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="detailsLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhZ-nb-jbD">
+                        <rect key="frame" x="20" y="46" width="276" height="11"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titleLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NML-Ye-zPl">
+                        <rect key="frame" x="20" y="15" width="276" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Kzf-ql-HbL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NML-Ye-zPl" firstAttribute="top" secondItem="wqg-Dd-rqr" secondAttribute="top" constant="15" id="3mg-7Y-sC9"/>
+                    <constraint firstAttribute="trailing" secondItem="GhZ-nb-jbD" secondAttribute="trailing" constant="20" id="7sb-I1-SMh"/>
+                    <constraint firstAttribute="bottom" secondItem="GhZ-nb-jbD" secondAttribute="bottom" constant="15" id="BEO-ee-HVn"/>
+                    <constraint firstItem="GhZ-nb-jbD" firstAttribute="leading" secondItem="wqg-Dd-rqr" secondAttribute="leading" constant="20" id="Hts-pL-Lcp"/>
+                    <constraint firstAttribute="trailing" secondItem="NML-Ye-zPl" secondAttribute="trailing" constant="20" id="b7Z-50-bxb"/>
+                    <constraint firstItem="NML-Ye-zPl" firstAttribute="leading" secondItem="wqg-Dd-rqr" secondAttribute="leading" constant="20" id="dBK-aa-J2y"/>
+                    <constraint firstItem="GhZ-nb-jbD" firstAttribute="top" secondItem="NML-Ye-zPl" secondAttribute="bottom" constant="10" id="rql-PH-Q0T"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="yal-IS-B9k"/>
+            <connections>
+                <outlet property="detailsLabel" destination="GhZ-nb-jbD" id="cj4-5e-kwA"/>
+                <outlet property="titleLabel" destination="NML-Ye-zPl" id="Bqh-ge-T6J"/>
+            </connections>
+            <point key="canvasLocation" x="15" y="15"/>
+        </tableViewCell>
+    </objects>
+</document>
