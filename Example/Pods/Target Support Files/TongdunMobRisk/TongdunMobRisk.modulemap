@@ -1,0 +1,6 @@
+framework module TongdunMobRisk {
+  umbrella header "TongdunMobRisk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TongdunMobRisk (1.0)
+
+DEPENDENCIES:
+  - TongdunMobRisk (from `../`)
+
+EXTERNAL SOURCES:
+  TongdunMobRisk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TongdunMobRisk: 62392eed5f0514cd8284b72c9b2b9be7b488c400
+
+PODFILE CHECKSUM: 78dc642ce7ca069ce317a749d9d8f0904cd63f0c
+
+COCOAPODS: 1.11.2

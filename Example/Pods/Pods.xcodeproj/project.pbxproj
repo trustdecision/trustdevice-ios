@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008399663C5430B0396CFF99DCD17617 /* TongdunMobRiskHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F99A57F9DF7846AED1E80F8279B987 /* TongdunMobRiskHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		077C8D0A945386630168AC41D55811E0 /* TongdunMobRiskEncodeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 378E65F77ABF604867D84AA88A5D7D5E /* TongdunMobRiskEncodeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		115CF790B4560CFBFBC5F720D908185E /* TongdunMobRiskEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF3B03C401779EC0DA46FC59A95397 /* TongdunMobRiskEncodeHelper.m */; };
+		13AEC916EE6F13CB3E523B2127094ECE /* TongdunMobRiskSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F945F37E87EDDD27013380BD4CB1D9DC /* TongdunMobRiskSafeDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FA9A7C14C51174B5869E07F6B22FFF3 /* TongdunMobRiskDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C528EAFBF7F6DB27567CCE16A9E703F3 /* TongdunMobRiskDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A58DECD6C851EFD8E3FDC1D35997DA1 /* TongdunMobRiskCpuInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B73EEA90C27A3ADAAEAEA881766CE5 /* TongdunMobRiskCpuInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A1346665CE1AB5FA2DAB29D751E050A /* TongdunMobRiskIdCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 269329407CF59616C51695659DDFAD67 /* TongdunMobRiskIdCalculator.m */; };
+		3AC3E6797DD4903F993809EDC732E71F /* TongdunMobRiskIdentifierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B464FDB497B7496DBCFCB6214A4B73 /* TongdunMobRiskIdentifierInfo.m */; };
+		3F56DF4D472E49568CF5E63830375E83 /* TongdunMobRiskBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D13E46B72A653E9C7369437630DADA94 /* TongdunMobRiskBaseInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44565F86853C33305F26D3F56F277BD5 /* TongdunMobRiskAPIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EC5CE658653D70354DF96FEEBC3091 /* TongdunMobRiskAPIHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E16A7DA04A5ED3BA20AEA51D22A4EE9 /* TongdunMobRiskAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8015B53DA874970889413409B40B86A3 /* TongdunMobRiskAppInfo.m */; };
+		55C613285BB87B46CFFA5EEE1C30B531 /* TongdunMobRiskKeychainsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 382A17A49D6E0E0B399AE7F7414096A3 /* TongdunMobRiskKeychainsHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		571F9216340FFDB9D365C29B71116A7D /* TongdunMobRiskCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D35154C6D140A6D1E9F8E7BF80DAFA /* TongdunMobRiskCollector.m */; };
+		5E90DF89FC33D86B994D4A1400A436CF /* TongdunMobRiskTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F4C8C60D901DD895FC2F68223C7FFD /* TongdunMobRiskTimeInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F4F9F5D079A996F4526E74838DC7060 /* TongdunMobRiskKeychainsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0052AE8029A1E75B904521416FFD90D /* TongdunMobRiskKeychainsHelper.m */; };
+		629FE290DA91EB550FC994F1283BE3F3 /* TongdunMobRisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 237450F1AA7DF03CB3A18743D2A9C072 /* TongdunMobRisk.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C07A8E554793D130A95963F667CAED3 /* TongdunMobRiskDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0ABC0E9A6956BA4908A8F3AE2B1116 /* TongdunMobRiskDeviceInfo.m */; };
+		7DBC29EA59337842B2E043B7E60A7829 /* TongdunMobRiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A417693A2161E7068C4E40DB9A3E8300 /* TongdunMobRiskManager.m */; };
+		87D697E1DD255F657BBD56307892FC08 /* TongdunMobRiskBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E99CBDA013B6F07F5AE6B64098F24 /* TongdunMobRiskBaseInfo.m */; };
+		8A8F8D273AAF47C57A54F68E355D0A99 /* TongdunMobRiskSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B653E2196A7C041A2DF57D5F59F4A /* TongdunMobRiskSafeDictionary.m */; };
+		9CE7045629473D0E003FEAA7 /* TongdunMobRiskRiskCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE7045429473D0D003FEAA7 /* TongdunMobRiskRiskCalculator.h */; };
+		9CE7045729473D0E003FEAA7 /* TongdunMobRiskRiskCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7045529473D0D003FEAA7 /* TongdunMobRiskRiskCalculator.m */; };
+		9D30C833770F6D5236012FCF90F2326A /* TongdunMobRiskOSInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB9343FA679B003114DFA2B7B97DB2E /* TongdunMobRiskOSInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F4D108966745757AED746B8BF418B49 /* TongdunMobRiskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CB8B26F0328BFCD138CBC9038AAB02 /* TongdunMobRiskManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FCE20CEE246113F85AFE55E7BB6BC22 /* TongdunMobRiskIdCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 596ED591B434D850A4570E759F5DA08F /* TongdunMobRiskIdCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A88A271E9C7F737AEF5428792482C4D2 /* Pods-TongdunMobRisk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 706FC54A0615A816C4F5731AE17B5A1B /* Pods-TongdunMobRisk_Example-dummy.m */; };
+		C8C2BC2A89DA14E3FBD7B27BAF6BE0F1 /* TongdunMobRiskDeviceStatusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7232B1C849A30E08E0507E4AD476F /* TongdunMobRiskDeviceStatusInfo.m */; };
+		CE8AD680D2D53FF9C4FB24E574030624 /* TongdunMobRiskOSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D2EF188C5CD7297A9AEA87FBF884 /* TongdunMobRiskOSInfo.m */; };
+		D6B21B452918007D992ABF65974039CA /* TongdunMobRiskCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2669A7C5D50EAB69516FB39D3FC10328 /* TongdunMobRiskCollector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D93A26B367B155D7961370F65B659DC7 /* Pods-TongdunMobRisk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 465969A632C28B173C0F0EDC80800D7F /* Pods-TongdunMobRisk_Tests-dummy.m */; };
+		E12B68D1017223E8EEAFD2260AD10521 /* TongdunMobRiskTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E384334B6E76EA761DAE0A07779E4 /* TongdunMobRiskTimeInfo.m */; };
+		E21D5176ED3DF06328DB8F45E6853927 /* TongdunMobRisk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F07DCFA71A289BFB578FBA09E4A16B4C /* TongdunMobRisk-dummy.m */; };
+		E64197D554E2643E7C0C0CBCEF0B2361 /* TongdunMobRiskCpuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFC6734AAAF14C1EA9309B4DC13912 /* TongdunMobRiskCpuInfo.m */; };
+		E8BB43C013E5DEF17D8FEAE9F08FDB99 /* TongdunMobRiskSpaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5AAC917107BCB2EDE4DEAAB3D4793E /* TongdunMobRiskSpaceInfo.m */; };
+		E931C625C55011CCA55B6E74F3CA0BDB /* TongdunMobRiskAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A94723D9BCC9E882BE08A71748244EA0 /* TongdunMobRiskAPIHelper.m */; };
+		EA55C86122A31C8CF2C4CA4EFD82E984 /* TongdunMobRiskAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2170B068211D70E56D1CD1FCE9ABF6D2 /* TongdunMobRiskAppInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB33FFEB187224B0D4D8A4622A68BFDC /* TongdunMobRiskIdentifierInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEF405B37FA373061BF5EB0AA267D62 /* TongdunMobRiskIdentifierInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD3E496F6456127B2A9352589CE348F9 /* TongdunMobRiskDeviceStatusInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BB599969A14868F0C86F0ADBCFE1BB /* TongdunMobRiskDeviceStatusInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF98410B9E4EC2F349C7FEFEF70BA095 /* TongdunMobRiskSpaceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8B8159A30839D81FB8E122E2A23380 /* TongdunMobRiskSpaceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCABDE257C9F1BF75B20DA4DB9FC1F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1ABCB643D9CD1AAE851784BCBFE863F;
+			remoteInfo = TongdunMobRisk;
+		};
+		C2A6BF4D9B79A4A54AAA1F54477536CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670297778E8A5F887257F12359514E60;
+			remoteInfo = "Pods-TongdunMobRisk_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CF51D3E746D7A269692E28303830C7 /* Pods-TongdunMobRisk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TongdunMobRisk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C26A86677F34348AF22A114A0819A5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CBFC6734AAAF14C1EA9309B4DC13912 /* TongdunMobRiskCpuInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskCpuInfo.m; sourceTree = "<group>"; };
+		20C3627831432156E6E36FABB24635CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2170B068211D70E56D1CD1FCE9ABF6D2 /* TongdunMobRiskAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskAppInfo.h; sourceTree = "<group>"; };
+		230244A9F56A89429D3E649FA9401B46 /* Pods-TongdunMobRisk_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-TongdunMobRisk_Example"; path = "libPods-TongdunMobRisk_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237450F1AA7DF03CB3A18743D2A9C072 /* TongdunMobRisk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TongdunMobRisk.h; path = TongdunMobRisk/Classes/TongdunMobRisk.h; sourceTree = "<group>"; };
+		2669A7C5D50EAB69516FB39D3FC10328 /* TongdunMobRiskCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskCollector.h; sourceTree = "<group>"; };
+		269329407CF59616C51695659DDFAD67 /* TongdunMobRiskIdCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskIdCalculator.m; sourceTree = "<group>"; };
+		35B73EEA90C27A3ADAAEAEA881766CE5 /* TongdunMobRiskCpuInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskCpuInfo.h; sourceTree = "<group>"; };
+		35BB599969A14868F0C86F0ADBCFE1BB /* TongdunMobRiskDeviceStatusInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskDeviceStatusInfo.h; sourceTree = "<group>"; };
+		3783153F88613E42414340C16C3EC6DB /* Pods-TongdunMobRisk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TongdunMobRisk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		378E65F77ABF604867D84AA88A5D7D5E /* TongdunMobRiskEncodeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskEncodeHelper.h; sourceTree = "<group>"; };
+		382A17A49D6E0E0B399AE7F7414096A3 /* TongdunMobRiskKeychainsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskKeychainsHelper.h; sourceTree = "<group>"; };
+		3CEF405B37FA373061BF5EB0AA267D62 /* TongdunMobRiskIdentifierInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskIdentifierInfo.h; sourceTree = "<group>"; };
+		3F1B69228155F5FAF483BAE54E248642 /* Pods-TongdunMobRisk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TongdunMobRisk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F29E9C58A49F3757814447FC9C499ED /* Pods-TongdunMobRisk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TongdunMobRisk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		465969A632C28B173C0F0EDC80800D7F /* Pods-TongdunMobRisk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TongdunMobRisk_Tests-dummy.m"; sourceTree = "<group>"; };
+		596ED591B434D850A4570E759F5DA08F /* TongdunMobRiskIdCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskIdCalculator.h; sourceTree = "<group>"; };
+		65BF3B03C401779EC0DA46FC59A95397 /* TongdunMobRiskEncodeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskEncodeHelper.m; sourceTree = "<group>"; };
+		663E99CBDA013B6F07F5AE6B64098F24 /* TongdunMobRiskBaseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskBaseInfo.m; sourceTree = "<group>"; };
+		69CB8B26F0328BFCD138CBC9038AAB02 /* TongdunMobRiskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TongdunMobRiskManager.h; path = TongdunMobRisk/Classes/TongdunMobRiskManager.h; sourceTree = "<group>"; };
+		6A0B653E2196A7C041A2DF57D5F59F4A /* TongdunMobRiskSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskSafeDictionary.m; sourceTree = "<group>"; };
+		6AC62AE8715CAEB9BFBF6EFE7C2659FD /* Pods-TongdunMobRisk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TongdunMobRisk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		706FC54A0615A816C4F5731AE17B5A1B /* Pods-TongdunMobRisk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TongdunMobRisk_Example-dummy.m"; sourceTree = "<group>"; };
+		78EC5CE658653D70354DF96FEEBC3091 /* TongdunMobRiskAPIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskAPIHelper.h; sourceTree = "<group>"; };
+		8015B53DA874970889413409B40B86A3 /* TongdunMobRiskAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskAppInfo.m; sourceTree = "<group>"; };
+		883D15629EE0A19CEAC0509E71E28021 /* TongdunMobRisk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TongdunMobRisk-prefix.pch"; sourceTree = "<group>"; };
+		8EB9343FA679B003114DFA2B7B97DB2E /* TongdunMobRiskOSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskOSInfo.h; sourceTree = "<group>"; };
+		92D35154C6D140A6D1E9F8E7BF80DAFA /* TongdunMobRiskCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskCollector.m; sourceTree = "<group>"; };
+		96B18A3C80CA92301F0CDB4464C74583 /* Pods-TongdunMobRisk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TongdunMobRisk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		96B464FDB497B7496DBCFCB6214A4B73 /* TongdunMobRiskIdentifierInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskIdentifierInfo.m; sourceTree = "<group>"; };
+		9BC7232B1C849A30E08E0507E4AD476F /* TongdunMobRiskDeviceStatusInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskDeviceStatusInfo.m; sourceTree = "<group>"; };
+		9CE7045429473D0D003FEAA7 /* TongdunMobRiskRiskCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskRiskCalculator.h; sourceTree = "<group>"; };
+		9CE7045529473D0D003FEAA7 /* TongdunMobRiskRiskCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskRiskCalculator.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0ABC0E9A6956BA4908A8F3AE2B1116 /* TongdunMobRiskDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskDeviceInfo.m; sourceTree = "<group>"; };
+		A417693A2161E7068C4E40DB9A3E8300 /* TongdunMobRiskManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TongdunMobRiskManager.m; path = TongdunMobRisk/Classes/TongdunMobRiskManager.m; sourceTree = "<group>"; };
+		A51B1BD983794D1475B3AC8E5BD36057 /* TongdunMobRisk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TongdunMobRisk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A94723D9BCC9E882BE08A71748244EA0 /* TongdunMobRiskAPIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskAPIHelper.m; sourceTree = "<group>"; };
+		AB5B6608A49A1184CC52C52BC90ACAE3 /* Pods-TongdunMobRisk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TongdunMobRisk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD5AAC917107BCB2EDE4DEAAB3D4793E /* TongdunMobRiskSpaceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskSpaceInfo.m; sourceTree = "<group>"; };
+		AF9C29DA1D24BF4BAD5E6B6F8B56311D /* TongdunMobRisk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TongdunMobRisk.release.xcconfig; sourceTree = "<group>"; };
+		B0052AE8029A1E75B904521416FFD90D /* TongdunMobRiskKeychainsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskKeychainsHelper.m; sourceTree = "<group>"; };
+		B3C7A624360F402543A8D8908C7E1F2C /* Pods-TongdunMobRisk_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-TongdunMobRisk_Tests"; path = "libPods-TongdunMobRisk_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C528EAFBF7F6DB27567CCE16A9E703F3 /* TongdunMobRiskDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskDeviceInfo.h; sourceTree = "<group>"; };
+		C6A086D9D9BE056F4A17DDE9CDDF4C4A /* TongdunMobRisk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TongdunMobRisk.debug.xcconfig; sourceTree = "<group>"; };
+		C7F99A57F9DF7846AED1E80F8279B987 /* TongdunMobRiskHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TongdunMobRiskHeader.h; path = TongdunMobRisk/Classes/TongdunMobRiskHeader.h; sourceTree = "<group>"; };
+		CF55AE613EC86EF490D74E5B1DB0CF09 /* Pods-TongdunMobRisk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TongdunMobRisk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8B8159A30839D81FB8E122E2A23380 /* TongdunMobRiskSpaceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskSpaceInfo.h; sourceTree = "<group>"; };
+		D13E46B72A653E9C7369437630DADA94 /* TongdunMobRiskBaseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskBaseInfo.h; sourceTree = "<group>"; };
+		D5F4C8C60D901DD895FC2F68223C7FFD /* TongdunMobRiskTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskTimeInfo.h; sourceTree = "<group>"; };
+		E8E8D2EF188C5CD7297A9AEA87FBF884 /* TongdunMobRiskOSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskOSInfo.m; sourceTree = "<group>"; };
+		ED98CFD5024F8D423E2DCF976CC2062D /* TongdunMobRisk */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = TongdunMobRisk; path = libTongdunMobRisk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07DCFA71A289BFB578FBA09E4A16B4C /* TongdunMobRisk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TongdunMobRisk-dummy.m"; sourceTree = "<group>"; };
+		F12E384334B6E76EA761DAE0A07779E4 /* TongdunMobRiskTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskTimeInfo.m; sourceTree = "<group>"; };
+		F945F37E87EDDD27013380BD4CB1D9DC /* TongdunMobRiskSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskSafeDictionary.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E575F9EC982946CE56F8DEA023FBF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CD630988EE9B1402C133668EC2691D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C916D9B6A628E7EFC6745B4A42324422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8FBC93C63E7D851512981CE97CCA96 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				78EC5CE658653D70354DF96FEEBC3091 /* TongdunMobRiskAPIHelper.h */,
+				A94723D9BCC9E882BE08A71748244EA0 /* TongdunMobRiskAPIHelper.m */,
+				378E65F77ABF604867D84AA88A5D7D5E /* TongdunMobRiskEncodeHelper.h */,
+				65BF3B03C401779EC0DA46FC59A95397 /* TongdunMobRiskEncodeHelper.m */,
+				382A17A49D6E0E0B399AE7F7414096A3 /* TongdunMobRiskKeychainsHelper.h */,
+				B0052AE8029A1E75B904521416FFD90D /* TongdunMobRiskKeychainsHelper.m */,
+			);
+			name = Helper;
+			path = TongdunMobRisk/Classes/Helper;
+			sourceTree = "<group>";
+		};
+		23E736F68B94CB4FC7E34790BE4FF920 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				20C3627831432156E6E36FABB24635CE /* LICENSE */,
+				0C26A86677F34348AF22A114A0819A5F /* README.md */,
+				A51B1BD983794D1475B3AC8E5BD36057 /* TongdunMobRisk.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33390FD1A40E0082C2691E28719D1030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230244A9F56A89429D3E649FA9401B46 /* Pods-TongdunMobRisk_Example */,
+				B3C7A624360F402543A8D8908C7E1F2C /* Pods-TongdunMobRisk_Tests */,
+				ED98CFD5024F8D423E2DCF976CC2062D /* TongdunMobRisk */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36255A0A6CC5543DFA2575B4543BAF23 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6825ABF64B68EB5DBC7442168C25BBC7 /* TongdunMobRisk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		58B31CBD341DB9110A710CF91B15C62E /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				2669A7C5D50EAB69516FB39D3FC10328 /* TongdunMobRiskCollector.h */,
+				92D35154C6D140A6D1E9F8E7BF80DAFA /* TongdunMobRiskCollector.m */,
+				5C0D5ED367F85001F08B070562CD96A4 /* Info */,
+			);
+			name = Collect;
+			path = TongdunMobRisk/Classes/Collect;
+			sourceTree = "<group>";
+		};
+		5C0D5ED367F85001F08B070562CD96A4 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				2170B068211D70E56D1CD1FCE9ABF6D2 /* TongdunMobRiskAppInfo.h */,
+				8015B53DA874970889413409B40B86A3 /* TongdunMobRiskAppInfo.m */,
+				35B73EEA90C27A3ADAAEAEA881766CE5 /* TongdunMobRiskCpuInfo.h */,
+				0CBFC6734AAAF14C1EA9309B4DC13912 /* TongdunMobRiskCpuInfo.m */,
+				C528EAFBF7F6DB27567CCE16A9E703F3 /* TongdunMobRiskDeviceInfo.h */,
+				9E0ABC0E9A6956BA4908A8F3AE2B1116 /* TongdunMobRiskDeviceInfo.m */,
+				35BB599969A14868F0C86F0ADBCFE1BB /* TongdunMobRiskDeviceStatusInfo.h */,
+				9BC7232B1C849A30E08E0507E4AD476F /* TongdunMobRiskDeviceStatusInfo.m */,
+				3CEF405B37FA373061BF5EB0AA267D62 /* TongdunMobRiskIdentifierInfo.h */,
+				96B464FDB497B7496DBCFCB6214A4B73 /* TongdunMobRiskIdentifierInfo.m */,
+				8EB9343FA679B003114DFA2B7B97DB2E /* TongdunMobRiskOSInfo.h */,
+				E8E8D2EF188C5CD7297A9AEA87FBF884 /* TongdunMobRiskOSInfo.m */,
+				CF8B8159A30839D81FB8E122E2A23380 /* TongdunMobRiskSpaceInfo.h */,
+				AD5AAC917107BCB2EDE4DEAAB3D4793E /* TongdunMobRiskSpaceInfo.m */,
+				D5F4C8C60D901DD895FC2F68223C7FFD /* TongdunMobRiskTimeInfo.h */,
+				F12E384334B6E76EA761DAE0A07779E4 /* TongdunMobRiskTimeInfo.m */,
+				D5A4A5EACA37B948CB63DC18D12B1F36 /* Base */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		64BF9B9598030977859EB336B7671B8C /* Pods-TongdunMobRisk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6AC62AE8715CAEB9BFBF6EFE7C2659FD /* Pods-TongdunMobRisk_Example-acknowledgements.markdown */,
+				3F1B69228155F5FAF483BAE54E248642 /* Pods-TongdunMobRisk_Example-acknowledgements.plist */,
+				706FC54A0615A816C4F5731AE17B5A1B /* Pods-TongdunMobRisk_Example-dummy.m */,
+				CF55AE613EC86EF490D74E5B1DB0CF09 /* Pods-TongdunMobRisk_Example.debug.xcconfig */,
+				96B18A3C80CA92301F0CDB4464C74583 /* Pods-TongdunMobRisk_Example.release.xcconfig */,
+			);
+			name = "Pods-TongdunMobRisk_Example";
+			path = "Target Support Files/Pods-TongdunMobRisk_Example";
+			sourceTree = "<group>";
+		};
+		6825ABF64B68EB5DBC7442168C25BBC7 /* TongdunMobRisk */ = {
+			isa = PBXGroup;
+			children = (
+				237450F1AA7DF03CB3A18743D2A9C072 /* TongdunMobRisk.h */,
+				C7F99A57F9DF7846AED1E80F8279B987 /* TongdunMobRiskHeader.h */,
+				69CB8B26F0328BFCD138CBC9038AAB02 /* TongdunMobRiskManager.h */,
+				A417693A2161E7068C4E40DB9A3E8300 /* TongdunMobRiskManager.m */,
+				58B31CBD341DB9110A710CF91B15C62E /* Collect */,
+				B4F5DA3025A936D3B61F81939A3763A6 /* Containers */,
+				753CF6AAF0DD8B233A7EAB01FA8DF2B9 /* Core */,
+				0F8FBC93C63E7D851512981CE97CCA96 /* Helper */,
+				23E736F68B94CB4FC7E34790BE4FF920 /* Pod */,
+				85B6BDC001EA4EBFB33C10D093FA502F /* Support Files */,
+			);
+			name = TongdunMobRisk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		753CF6AAF0DD8B233A7EAB01FA8DF2B9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				596ED591B434D850A4570E759F5DA08F /* TongdunMobRiskIdCalculator.h */,
+				269329407CF59616C51695659DDFAD67 /* TongdunMobRiskIdCalculator.m */,
+				9CE7045429473D0D003FEAA7 /* TongdunMobRiskRiskCalculator.h */,
+				9CE7045529473D0D003FEAA7 /* TongdunMobRiskRiskCalculator.m */,
+			);
+			name = Core;
+			path = TongdunMobRisk/Classes/Core;
+			sourceTree = "<group>";
+		};
+		85B6BDC001EA4EBFB33C10D093FA502F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07DCFA71A289BFB578FBA09E4A16B4C /* TongdunMobRisk-dummy.m */,
+				883D15629EE0A19CEAC0509E71E28021 /* TongdunMobRisk-prefix.pch */,
+				C6A086D9D9BE056F4A17DDE9CDDF4C4A /* TongdunMobRisk.debug.xcconfig */,
+				AF9C29DA1D24BF4BAD5E6B6F8B56311D /* TongdunMobRisk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TongdunMobRisk";
+			sourceTree = "<group>";
+		};
+		B4F5DA3025A936D3B61F81939A3763A6 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				F945F37E87EDDD27013380BD4CB1D9DC /* TongdunMobRiskSafeDictionary.h */,
+				6A0B653E2196A7C041A2DF57D5F59F4A /* TongdunMobRiskSafeDictionary.m */,
+			);
+			name = Containers;
+			path = TongdunMobRisk/Classes/Containers;
+			sourceTree = "<group>";
+		};
+		BA7CAFB28C9BF7392F796C7C374765A3 /* Pods-TongdunMobRisk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07CF51D3E746D7A269692E28303830C7 /* Pods-TongdunMobRisk_Tests-acknowledgements.markdown */,
+				3F29E9C58A49F3757814447FC9C499ED /* Pods-TongdunMobRisk_Tests-acknowledgements.plist */,
+				465969A632C28B173C0F0EDC80800D7F /* Pods-TongdunMobRisk_Tests-dummy.m */,
+				3783153F88613E42414340C16C3EC6DB /* Pods-TongdunMobRisk_Tests.debug.xcconfig */,
+				AB5B6608A49A1184CC52C52BC90ACAE3 /* Pods-TongdunMobRisk_Tests.release.xcconfig */,
+			);
+			name = "Pods-TongdunMobRisk_Tests";
+			path = "Target Support Files/Pods-TongdunMobRisk_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36255A0A6CC5543DFA2575B4543BAF23 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				33390FD1A40E0082C2691E28719D1030 /* Products */,
+				ED0955B36D321516816C920598963FB1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A4A5EACA37B948CB63DC18D12B1F36 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D13E46B72A653E9C7369437630DADA94 /* TongdunMobRiskBaseInfo.h */,
+				663E99CBDA013B6F07F5AE6B64098F24 /* TongdunMobRiskBaseInfo.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED0955B36D321516816C920598963FB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64BF9B9598030977859EB336B7671B8C /* Pods-TongdunMobRisk_Example */,
+				BA7CAFB28C9BF7392F796C7C374765A3 /* Pods-TongdunMobRisk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		097110841965CB69F67303639B933106 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C226B589426EB7B6300D33163CCFDBFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56684868075F85A8DC2649682D9A5AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FE290DA91EB550FC994F1283BE3F3 /* TongdunMobRisk.h in Headers */,
+				44565F86853C33305F26D3F56F277BD5 /* TongdunMobRiskAPIHelper.h in Headers */,
+				EA55C86122A31C8CF2C4CA4EFD82E984 /* TongdunMobRiskAppInfo.h in Headers */,
+				3F56DF4D472E49568CF5E63830375E83 /* TongdunMobRiskBaseInfo.h in Headers */,
+				D6B21B452918007D992ABF65974039CA /* TongdunMobRiskCollector.h in Headers */,
+				2A58DECD6C851EFD8E3FDC1D35997DA1 /* TongdunMobRiskCpuInfo.h in Headers */,
+				1FA9A7C14C51174B5869E07F6B22FFF3 /* TongdunMobRiskDeviceInfo.h in Headers */,
+				FD3E496F6456127B2A9352589CE348F9 /* TongdunMobRiskDeviceStatusInfo.h in Headers */,
+				9CE7045629473D0E003FEAA7 /* TongdunMobRiskRiskCalculator.h in Headers */,
+				077C8D0A945386630168AC41D55811E0 /* TongdunMobRiskEncodeHelper.h in Headers */,
+				008399663C5430B0396CFF99DCD17617 /* TongdunMobRiskHeader.h in Headers */,
+				9FCE20CEE246113F85AFE55E7BB6BC22 /* TongdunMobRiskIdCalculator.h in Headers */,
+				FB33FFEB187224B0D4D8A4622A68BFDC /* TongdunMobRiskIdentifierInfo.h in Headers */,
+				55C613285BB87B46CFFA5EEE1C30B531 /* TongdunMobRiskKeychainsHelper.h in Headers */,
+				9F4D108966745757AED746B8BF418B49 /* TongdunMobRiskManager.h in Headers */,
+				9D30C833770F6D5236012FCF90F2326A /* TongdunMobRiskOSInfo.h in Headers */,
+				13AEC916EE6F13CB3E523B2127094ECE /* TongdunMobRiskSafeDictionary.h in Headers */,
+				FF98410B9E4EC2F349C7FEFEF70BA095 /* TongdunMobRiskSpaceInfo.h in Headers */,
+				5E90DF89FC33D86B994D4A1400A436CF /* TongdunMobRiskTimeInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65EC972DDACD871BE54C6362599C760E /* Pods-TongdunMobRisk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E3A7F7F720C1E204F692C9FD77437F /* Build configuration list for PBXNativeTarget "Pods-TongdunMobRisk_Tests" */;
+			buildPhases = (
+				C226B589426EB7B6300D33163CCFDBFC /* Headers */,
+				98D213148F6D4831E006CA147B54A48E /* Sources */,
+				32CD630988EE9B1402C133668EC2691D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE35DC295F835E5034A4254A0A32632 /* PBXTargetDependency */,
+			);
+			name = "Pods-TongdunMobRisk_Tests";
+			productName = "Pods-TongdunMobRisk_Tests";
+			productReference = B3C7A624360F402543A8D8908C7E1F2C /* Pods-TongdunMobRisk_Tests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		670297778E8A5F887257F12359514E60 /* Pods-TongdunMobRisk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C4209E5E1ED5CCA9A5F57A0CA20F6C /* Build configuration list for PBXNativeTarget "Pods-TongdunMobRisk_Example" */;
+			buildPhases = (
+				097110841965CB69F67303639B933106 /* Headers */,
+				D4497B0B6E8EEE63902A9CF491B5E116 /* Sources */,
+				C916D9B6A628E7EFC6745B4A42324422 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BBC7D865FC4F25758160B08CAE9A71 /* PBXTargetDependency */,
+			);
+			name = "Pods-TongdunMobRisk_Example";
+			productName = "Pods-TongdunMobRisk_Example";
+			productReference = 230244A9F56A89429D3E649FA9401B46 /* Pods-TongdunMobRisk_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1ABCB643D9CD1AAE851784BCBFE863F /* TongdunMobRisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46E8E9474D137A2D7C13CFB391305A3 /* Build configuration list for PBXNativeTarget "TongdunMobRisk" */;
+			buildPhases = (
+				E56684868075F85A8DC2649682D9A5AD /* Headers */,
+				4D499E62CA735B16C6AAA7C4942A43D0 /* Sources */,
+				2E575F9EC982946CE56F8DEA023FBF62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TongdunMobRisk;
+			productName = TongdunMobRisk;
+			productReference = ED98CFD5024F8D423E2DCF976CC2062D /* TongdunMobRisk */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 33390FD1A40E0082C2691E28719D1030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670297778E8A5F887257F12359514E60 /* Pods-TongdunMobRisk_Example */,
+				65EC972DDACD871BE54C6362599C760E /* Pods-TongdunMobRisk_Tests */,
+				A1ABCB643D9CD1AAE851784BCBFE863F /* TongdunMobRisk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D499E62CA735B16C6AAA7C4942A43D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21D5176ED3DF06328DB8F45E6853927 /* TongdunMobRisk-dummy.m in Sources */,
+				E931C625C55011CCA55B6E74F3CA0BDB /* TongdunMobRiskAPIHelper.m in Sources */,
+				4E16A7DA04A5ED3BA20AEA51D22A4EE9 /* TongdunMobRiskAppInfo.m in Sources */,
+				87D697E1DD255F657BBD56307892FC08 /* TongdunMobRiskBaseInfo.m in Sources */,
+				571F9216340FFDB9D365C29B71116A7D /* TongdunMobRiskCollector.m in Sources */,
+				E64197D554E2643E7C0C0CBCEF0B2361 /* TongdunMobRiskCpuInfo.m in Sources */,
+				9CE7045729473D0E003FEAA7 /* TongdunMobRiskRiskCalculator.m in Sources */,
+				6C07A8E554793D130A95963F667CAED3 /* TongdunMobRiskDeviceInfo.m in Sources */,
+				C8C2BC2A89DA14E3FBD7B27BAF6BE0F1 /* TongdunMobRiskDeviceStatusInfo.m in Sources */,
+				115CF790B4560CFBFBC5F720D908185E /* TongdunMobRiskEncodeHelper.m in Sources */,
+				3A1346665CE1AB5FA2DAB29D751E050A /* TongdunMobRiskIdCalculator.m in Sources */,
+				3AC3E6797DD4903F993809EDC732E71F /* TongdunMobRiskIdentifierInfo.m in Sources */,
+				5F4F9F5D079A996F4526E74838DC7060 /* TongdunMobRiskKeychainsHelper.m in Sources */,
+				7DBC29EA59337842B2E043B7E60A7829 /* TongdunMobRiskManager.m in Sources */,
+				CE8AD680D2D53FF9C4FB24E574030624 /* TongdunMobRiskOSInfo.m in Sources */,
+				8A8F8D273AAF47C57A54F68E355D0A99 /* TongdunMobRiskSafeDictionary.m in Sources */,
+				E8BB43C013E5DEF17D8FEAE9F08FDB99 /* TongdunMobRiskSpaceInfo.m in Sources */,
+				E12B68D1017223E8EEAFD2260AD10521 /* TongdunMobRiskTimeInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D213148F6D4831E006CA147B54A48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93A26B367B155D7961370F65B659DC7 /* Pods-TongdunMobRisk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4497B0B6E8EEE63902A9CF491B5E116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88A271E9C7F737AEF5428792482C4D2 /* Pods-TongdunMobRisk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14BBC7D865FC4F25758160B08CAE9A71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TongdunMobRisk;
+			target = A1ABCB643D9CD1AAE851784BCBFE863F /* TongdunMobRisk */;
+			targetProxy = BCABDE257C9F1BF75B20DA4DB9FC1F0E /* PBXContainerItemProxy */;
+		};
+		9AE35DC295F835E5034A4254A0A32632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TongdunMobRisk_Example";
+			target = 670297778E8A5F887257F12359514E60 /* Pods-TongdunMobRisk_Example */;
+			targetProxy = C2A6BF4D9B79A4A54AAA1F54477536CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E49AD258C5D36F3A4EFD6D5776DC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B18A3C80CA92301F0CDB4464C74583 /* Pods-TongdunMobRisk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C1DFF7D43439792CCFD2BAA4E98FE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A086D9D9BE056F4A17DDE9CDDF4C4A /* TongdunMobRisk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TongdunMobRisk/TongdunMobRisk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TongdunMobRisk;
+				PRODUCT_NAME = TongdunMobRisk;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F3C7A138A025776191DF6A5CA0FBF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9C29DA1D24BF4BAD5E6B6F8B56311D /* TongdunMobRisk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TongdunMobRisk/TongdunMobRisk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TongdunMobRisk;
+				PRODUCT_NAME = TongdunMobRisk;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D79BD44188B4DFAF60A18BE0CAE20A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5B6608A49A1184CC52C52BC90ACAE3 /* Pods-TongdunMobRisk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A151B8A1FEF7A8F0415F05F5A44DD4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF55AE613EC86EF490D74E5B1DB0CF09 /* Pods-TongdunMobRisk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D189165194D5BDE366FEE43422A9CFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3783153F88613E42414340C16C3EC6DB /* Pods-TongdunMobRisk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C4209E5E1ED5CCA9A5F57A0CA20F6C /* Build configuration list for PBXNativeTarget "Pods-TongdunMobRisk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A151B8A1FEF7A8F0415F05F5A44DD4FA /* Debug */,
+				05E49AD258C5D36F3A4EFD6D5776DC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46E8E9474D137A2D7C13CFB391305A3 /* Build configuration list for PBXNativeTarget "TongdunMobRisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1DFF7D43439792CCFD2BAA4E98FE8D /* Debug */,
+				3F3C7A138A025776191DF6A5CA0FBF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E3A7F7F720C1E204F692C9FD77437F /* Build configuration list for PBXNativeTarget "Pods-TongdunMobRisk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D189165194D5BDE366FEE43422A9CFBA /* Debug */,
+				8D79BD44188B4DFAF60A18BE0CAE20A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
