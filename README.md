@@ -96,8 +96,8 @@ manager?.pointee.initWithOptions(options)
 ```
 ## Open Source Features
 
-+ Basic device ID, consistent when uninstalling applications and reinstalling.
-+ Basic equipment information, which can be used for simple data analysis.
++ Basic device ID, consistent when uninstalling applications and reinstalling
++ Basic equipment information, which can be used for simple data analysis
 + Basic risk identification ability
 
 | RiskLabel      |       Risk Description |
@@ -110,7 +110,7 @@ manager?.pointee.initWithOptions(options)
 ## Open Source VS Pro
 | Ability | Open Source |  Pro  |
 | :-------: | :-------: | :-------------------------: |
-| Device ID | Basic | Extremely stable, |
+| Device ID | Basic | Extremely stable, even if the device is restored to factory settings, it can still be recognized as the same |
 | Device Risk Label | Basic | Extremely rich |
 | Device Details | Basic  | Extremely rich |
 | IP Location | ❌  | ✅ |
