@@ -6,11 +6,21 @@
       <img src="images/logo_dark.png" alt="trustdevice logo" width="729px" height="67px"/>    </picture>
   </a>
 </p>
+
 <p align="center">
   <img src="images/demoApp.gif" width="195">
 </p>
 
-## Integration Description
+# TrustDevice-iOS
+A lightweight library for determining device uniqueness and risk identification.
+
+Create a device identifier based on basic device information.
+
+Will remain the same after uninstalling and reinstalling or clearing app data.
+
+## Quick Start 
+
+### 1. Add Dependcy
 
 TongdunMobRisk is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
@@ -19,9 +29,10 @@ TongdunMobRisk is available through [CocoaPods](https://cocoapods.org). To insta
 pod 'TongdunMobRisk', '1.0'
 ```
 
-## Quick Start 
+### 2. Get DeviceInfo
+DeviceInfo contains device id, risk information and device details.
 
-### Objective-C
+#### Objective-C
 
 ```objective-c
 #import <TongdunMobRisk/TongdunMobRisk.h>
@@ -40,7 +51,7 @@ NSMutableDictionary *options = [[NSMutableDictionary alloc] init];
 manager->initWithOptions(options);
 ```
 
-### Swift
+#### Swift
 
 ```swift
 import TongdunMobRisk
@@ -110,17 +121,53 @@ manager?.pointee.initWithOptions(options)
 ## Open Source VS Pro
 | Ability | Open Source |  Pro  |
 | :-------: | :-------: | :-------------------------: |
+| 100% open source | Yes | No |
 | Device ID | Basic | Extremely stable, even if the device is restored to factory settings, it can still be recognized as the same |
 | Device Risk Label | Basic | Extremely rich |
 | Device Details | Basic  | Extremely rich |
-| IP Location | ❌  | ✅ |
-| Device Risk Score | ❌  | ✅ |
-| Environment Risk Evaluation | ❌  | ✅ |
-| Fraud Tools Detection | ❌  | ✅ |
-| Behavioral Activity Capturing | ❌  | ✅ |
+| IP Location | -  | ✓ |
+| Device Risk Score | -  | ✓ |
+| Environment Risk Evaluation | -  | ✓ |
+| Fraud Tools Detection | -  | ✓ |
+| Behavioral Activity Capturing | -  | ✓ |
 
+## Pro Introduction
 
+TrustDecision TrustDevice has the leading device fingerprint technology, which has been integrated by more than 10000 global leading brands, protecting the entire customer journey.
 
-## License
+**There are 6 leading core features about TrustDevice Pro:**
+
+### 1. Wide Coverage
+Comprehensive coverage of Android, iOS, Web, H5, applets and other device types.
+
+### 2. Stable and Reliable
+TrustDevice served more than 10,000 clients, 200 million+ daily active users , and 6 billion+ devices , with excellent product functions and stability.
+The fingerprint accuracy of different terminal devices exceeded 99.9%, and the output of risk labels exceeded 70 items.
+
+### 3. Unparalleled Safety
+TrustDevice's code virtualization & obfuscation technology make the malware fraudsters suffer from painful cost and imprecision when performing reverse-engineering.
+
+### 4. Core Intellectual Property
+Fully independent intellectual property rights, with a number of patented technology.
+
+### 5. Security Compliance
+TrustDevice is committed to the highest standards in security and compliance to keep your data safe.
+GDPR/CCA/PCI DSS/ISO 27701/ISO 9001 Compliant.
+
+### 6. Easy to Deploy
+SaaS（Software as a Service）deployment supported, reducing massively your integration cost and enabling rapid access to device fingerprint service.
+
+## Where to get support
+We are happy to provide technical support for our open-source trustdevice-ios library. We recommend using GitHub Issues to submit bugs or Discussions to ask questions. Using issues and discussions publicly will help the open-source community and other users with similar issues.
+
+In addition, any idea or interest in using TrustDevice Pro can be found on the official website（ https://www.trustdecision.com ）, registered account, free trial; Or via email（ TrustDevice@TrustDecision.com ）, contact us directly and quickly open the service.
+
+## Compatibility
+| Items     | Description          |
+| :-------: | :-------------------------: |
+| Supported System Versions | iOS9.0+              |
+| Supported Architecture   | armv7, arm64, x86_64 |
+
+## Licens
 
 This library is MIT licensed. Copyright trustdecision, Inc. 2022.
