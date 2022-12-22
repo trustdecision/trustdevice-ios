@@ -23,11 +23,11 @@ Will remain the same after uninstalling and reinstalling or clearing app data.
 
 ### 1. Add Dependcy
 
-TongdunMobRisk is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+TrustDecision is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 # Podfile
-pod 'TongdunMobRisk', '1.0'
+pod 'TrustDecision', '1.0'
 ```
 
 ### 2. Get DeviceInfo
@@ -36,7 +36,7 @@ DeviceInfo contains device id, risk information and device details.
 #### Objective-C
 
 ```objective-c
-#import <TongdunMobRisk/TongdunMobRisk.h>
+#import <TrustDecision/TongdunMobRisk.h>
 
 TongdunMobRiskManager_t *manager = [TongdunMobRiskManager sharedManager];
 NSMutableDictionary *options = [[NSMutableDictionary alloc] init];
@@ -55,7 +55,7 @@ manager->initWithOptions(options);
 #### Swift
 
 ```swift
-import TongdunMobRisk
+import TrustDecision
 
 var options = [String : NSObject]()
 let responseCallback: ([String : Any])-> Void = { response in
@@ -84,7 +84,7 @@ manager?.pointee.initWithOptions(options)
     "device_detail":{
         "appVersion":"1.0",
         "bootTime":1670888977003957,
-        "bundleId":"org.cocoapods.demo.TongdunMobRisk-Example",
+        "bundleId":"org.cocoapods.demo.TrustDecision-Example",
         "cpuCount":"6",
         "currentTime":1670983993560205,
         "debug":true,

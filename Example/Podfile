@@ -1,11 +1,11 @@
-#use_frameworks!
+use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
-target 'TongdunMobRisk_Example' do
-  pod 'TongdunMobRisk', :path => '../'
+target 'TrustDecision_Example' do
+  pod 'TrustDecision', :path => '../'
 
-  target 'TongdunMobRisk_Tests' do
+  target 'TrustDecision_Tests' do
     inherit! :search_paths
 
     
