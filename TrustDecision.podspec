@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description      = 'Local fingerprint of trust device, generate your unique device fingerprint.'
   s.homepage         = 'https://trustdecision.com/trustDevice'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'TrustDevice' => 'xiaoduntest@163.com' }
+  s.author           = { 'TrustDevice' => 'TrustDevice@TrustDecision.com' }
   s.source           = { :git => 'https://github.com/trustdecision/trustdevice-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'TrustDecision/Classes/**/*'
