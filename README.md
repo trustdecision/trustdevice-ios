@@ -161,7 +161,7 @@ SaaS（Software as a Service）deployment supported, reducing massively your int
 ## Where to get support
 We are happy to provide technical support for our open-source trustdevice-ios library. We recommend using GitHub Issues to submit bugs or Discussions to ask questions. Using [Issues](https://github.com/trustdecision/trustdevice-ios/issues) and [Discussions](https://github.com/trustdecision/trustdevice-ios/discussions) publicly will help the open-source community and other users with similar issues.
 
-In addition, any idea or interest in using TrustDevice Pro can be found on the official website [https://www.trustdecision.com/trustDevice](https://www.trustdecision.com/trustDevice), registered account, free trial; Or via email TrustDevice@TrustDecision.com, contact us directly and quickly open the service.
+In addition, any idea or interest in using TrustDevice Pro can be found on the [www.trustdecision.com](https://www.trustdecision.com/trustDevice), registered account for a free trial; or via email trustdevice@trustdecision.com contact us directly and quickly open the service.
 
 ## Compatibility
 | Items     | Description          |
@@ -169,6 +169,6 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the o
 | Supported System Versions | iOS9.0+              |
 | Supported Architecture   | armv7, arm64, x86_64 |
 
-## Licens
+## License
 
 This library is MIT licensed. Copyright trustdecision, Inc. 2022.
