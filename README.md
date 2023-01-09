@@ -158,7 +158,7 @@ GDPR/CCA/PCI DSS/ISO 27701/ISO 9001 Compliant.
 ### 6. Easy to Deploy
 SaaS（Software as a Service）deployment supported, reducing massively your integration cost and enabling rapid access to device fingerprint service.
 
-## Where to get support
+## Where to Get Support
 We are happy to provide technical support for our open-source trustdevice-ios library. We recommend using GitHub Issues to submit bugs or Discussions to ask questions. Using [Issues](https://github.com/trustdecision/trustdevice-ios/issues) and [Discussions](https://github.com/trustdecision/trustdevice-ios/discussions) publicly will help the open-source community and other users with similar issues.
 
 In addition, any idea or interest in using TrustDevice Pro can be found on the [www.trustdecision.com](https://www.trustdecision.com/trustDevice), registered account for a free trial; or via email trustdevice@trustdecision.com contact us directly and quickly open the service.
