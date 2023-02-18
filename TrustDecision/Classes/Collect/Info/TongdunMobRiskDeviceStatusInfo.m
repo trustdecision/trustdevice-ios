@@ -61,6 +61,7 @@
 
 - (int)checkdebug {
     int debug = -1;
+    // check sysctl antidebug
     struct kinfo_proc info;
     size_t size;
     info.kp_proc.p_flag = 0;
@@ -73,6 +74,10 @@
     int status = sysctl(mib, sizeof(mib) / sizeof(*mib), &info, &size, NULL, 0);
     if (status == 0) {
         debug = (info.kp_proc.p_flag & P_TRACED) != 0;
+    }
+    // check isatty antidebug
+    if (debug < 1) {
+        debug = isatty(1);
     }
     return debug;
 }
