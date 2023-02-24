@@ -12,6 +12,7 @@
 #import <sys/types.h>
 #import <unistd.h>
 #import <sys/sysctl.h>
+#import <sys/stat.h>
 
 @implementation TongdunMobRiskDeviceStatusInfo
 #pragma mark - Collect Methods
@@ -37,13 +38,15 @@
 
 #pragma mark - Private Collect Methods
 - (int)isJailbreak {
-    NSArray *jailBreakFileList = @[@"/Applications/Cydia.app",
-                                   @"/private/var/lib/apt/",
-                                   @"/User/Applications/",
-                                   @"/Library/MobileSubstrate/MobileSubstrate.dylib",
-                                   @"/bin/bash",
-                                   @"/usr/sbin/sshd",
-                                   @"/etc/apt"];
+    NSArray *jailBreakFileList = @[
+        @"/Applications/Cydia.app",
+        @"/private/var/lib/apt/",
+        @"/User/Applications/",
+        @"/Library/MobileSubstrate/MobileSubstrate.dylib",
+        @"/bin/bash",
+        @"/usr/sbin/sshd",
+        @"/etc/apt"
+    ];
     for (NSString *filePath in jailBreakFileList) {
         if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
             return YES;
@@ -55,6 +58,23 @@
     }
     if (!access("/Library/MobileSubstrate/DynamicLibraries/",R_OK)) {
         return YES;
+    }
+    //symlink verification check
+    NSArray *symlinkList = @[
+        @"/Applications",
+        @"/var/stash/Library/Ringtones",
+        @"/var/stash/Library/Wallpaper",
+        @"/var/stash/usr/include",
+        @"/var/stash/usr/libexec",
+        @"/var/stash/usr/share",
+        @"/var/stash/usr/arm-apple-darwin9"
+    ];
+    for (NSString *symlinkPath in symlinkList) {
+        struct stat sym;
+        int f = lstat(symlinkPath.UTF8String, &sym);
+        if (f == 0 && (sym.st_mode & S_IFLNK)) {
+            return YES;
+        }
     }
     return NO;
 }
