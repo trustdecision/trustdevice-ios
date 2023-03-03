@@ -16,7 +16,7 @@ import Foundation
             NotificationCenter.default.post(name: Notification.Name("MobRiskSDK_InitWithOptions_Response"), object: response)
         }
         options["callback"] = unsafeBitCast(responseCallback as @convention(block) ([String : Any]) -> Void, to: AnyObject.self) as? NSObject
-        let manager = TongdunMobRiskManager.sharedManager()
+        let manager = TDMobRiskManager.sharedManager()
         manager?.pointee.initWithOptions(options)
     }
 }
