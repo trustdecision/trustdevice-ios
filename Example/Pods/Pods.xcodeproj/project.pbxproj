@@ -112,10 +112,10 @@
 		8DF5DE5304FD14ADB82A8F7A9518D82E /* Pods-TrustDecision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92A9B5E0775E10B3969A46C020193140 /* TrustDecision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrustDecision.modulemap; sourceTree = "<group>"; };
 		963A219B3703387527E615674B30B165 /* TongdunMobRiskTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskTimeInfo.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A007E34F82BD8C4DF3B00F92FF1AF20F /* Pods-TrustDecision_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrustDecision_Example-umbrella.h"; sourceTree = "<group>"; };
 		A0294AB5543DBB190416C7E7FFB254EB /* TongdunMobRiskRiskCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskRiskCalculator.m; sourceTree = "<group>"; };
-		A1E8034B045600864C47303D9D96E008 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A1E8034B045600864C47303D9D96E008 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A54BBA75ECFDB03E6008C22892EA35CC /* Pods-TrustDecision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A7F89280F0DFEB18FEDFF1EB7F705318 /* TongdunMobRiskTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskTimeInfo.m; sourceTree = "<group>"; };
 		AC669F1C1760B279F61517E71C24C7BA /* TongdunMobRiskCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskCollector.h; sourceTree = "<group>"; };
@@ -132,11 +132,11 @@
 		DD29DACF77C7E106D836D9B86A28AC61 /* TongdunMobRiskOSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskOSInfo.h; sourceTree = "<group>"; };
 		E4119058FA0A5881E3731AFF96DA8FEF /* Pods-TrustDecision_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrustDecision_Tests-dummy.m"; sourceTree = "<group>"; };
 		E565E4A7E5856689A2D05A2B5DDCDF26 /* TrustDecision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-umbrella.h"; sourceTree = "<group>"; };
-		E99574DCF10312F235843DBC99F4B95E /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E99574DCF10312F235843DBC99F4B95E /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		EF49433CFC06697B279F0F0B059DF2EA /* Pods-TrustDecision_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrustDecision_Example-dummy.m"; sourceTree = "<group>"; };
 		F281FC82877E9B9EEC931B999CA31A9A /* TrustDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.release.xcconfig; sourceTree = "<group>"; };
 		FA3FF0DD632943ED4D7D0D0FD2401A98 /* TrustDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.debug.xcconfig; sourceTree = "<group>"; };
-		FCCFD84F00448B935CF350623EB6D795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FCCFD84F00448B935CF350623EB6D795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FE3C010722F59D699C7408BE4F5D87F9 /* TongdunMobRiskBaseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskBaseInfo.m; sourceTree = "<group>"; };
 		FF98216532CAABF4379B9F2BD7F95389 /* Pods-TrustDecision_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -273,7 +273,6 @@
 				A7F89280F0DFEB18FEDFF1EB7F705318 /* TongdunMobRiskTimeInfo.m */,
 				D4682290AB55DFE665F3C4B0C94965BF /* Base */,
 			);
-			name = Info;
 			path = Info;
 			sourceTree = "<group>";
 		};
@@ -357,7 +356,6 @@
 				4709DCFEFEFA7C4101B39302C82169B2 /* TongdunMobRiskBaseInfo.h */,
 				FE3C010722F59D699C7408BE4F5D87F9 /* TongdunMobRiskBaseInfo.m */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -720,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

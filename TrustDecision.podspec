@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrustDecision'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'Local fingerprint of trust device.'
   s.description      = 'Local fingerprint of trust device, generate your unique device fingerprint.'
   s.homepage         = 'https://trustdecision.com/trustDevice'
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'TrustDecision/Classes/**/*'
   s.static_framework = true
-  s.public_header_files = ['TrustDecision/Classes/TongdunMobRisk.h','TrustDecision/Classes/TongdunMobRiskManager.h']
+  s.public_header_files = ['TrustDecision/Classes/TDMobRisk.h','TrustDecision/Classes/TDMobRiskManager.h']
 end

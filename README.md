@@ -27,7 +27,7 @@ TrustDecision is available through [CocoaPods](https://cocoapods.org). To instal
 
 ```ruby
 # Podfile
-pod 'TrustDecision', '1.0'
+pod 'TrustDecision', '1.1'
 ```
 
 ### 2. Get DeviceInfo
@@ -36,9 +36,9 @@ DeviceInfo contains device id, risk information and device details.
 #### Objective-C
 
 ```objective-c
-#import <TrustDecision/TongdunMobRisk.h>
+#import <TrustDecision/TDMobRisk.h>
 
-TongdunMobRiskManager_t *manager = [TongdunMobRiskManager sharedManager];
+TDMobRiskManager_t *manager = [TDMobRiskManager sharedManager];
 NSMutableDictionary *options = [[NSMutableDictionary alloc] init];
 [options setObject:^(NSDictionary *response) {
     // Response in sub-thread, do something with the response
@@ -68,7 +68,7 @@ let responseCallback: ([String : Any])-> Void = { response in
     let deviceDetail = response["device_detail"]                                         
 }
 options["callback"] = unsafeBitCast(responseCallback as @convention(block) ([String : Any]) -> Void, to: AnyObject.self) as? NSObject
-let manager = TongdunMobRiskManager.sharedManager()
+let manager = TDMobRiskManager.sharedManager()
 manager?.pointee.initWithOptions(options)
 ```
 

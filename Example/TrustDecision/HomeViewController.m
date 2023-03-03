@@ -6,7 +6,7 @@
 //
 
 #import "HomeViewController.h"
-#import <TrustDecision/TongdunMobRisk.h>
+#import <TrustDecision/TDMobRisk.h>
 #import "DetailsViewController.h"
 #import "TrustDecision_Example-Swift.h"
 #import "MobRiskSDKOCAPI.h"
@@ -25,7 +25,7 @@
 #pragma mark - View Func
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = [TongdunMobRiskManager sharedManager]->getSDKVersion();
+    self.navigationItem.title = [TDMobRiskManager sharedManager]->getSDKVersion();
     self.showDetailsButton.enabled = NO;
     
     // Add Observer For MobRiskSDK Response

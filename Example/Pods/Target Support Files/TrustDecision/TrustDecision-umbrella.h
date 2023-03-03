@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "TongdunMobRisk.h"
-#import "TongdunMobRiskManager.h"
+#import "TDMobRisk.h"
+#import "TDMobRiskManager.h"
 
 FOUNDATION_EXPORT double TrustDecisionVersionNumber;
 FOUNDATION_EXPORT const unsigned char TrustDecisionVersionString[];
