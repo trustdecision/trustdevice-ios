@@ -7,51 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07866C801DFEC91EA80328FE14000634 /* TongdunMobRiskAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE4A886559E9B6C009D6F15A9EA25A4 /* TongdunMobRiskAppInfo.m */; };
-		15AB124C84E156BB9BC7B5F206D95D9A /* TongdunMobRiskSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 14187FE7898505588F3FFDCC4216F682 /* TongdunMobRiskSafeDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1696177C1207E4056174E7D7FEF16D1A /* TongdunMobRiskDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4F32334BA426589D6D22A72FDD7117 /* TongdunMobRiskDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		224273689B647DAE68326BB1CAC3026F /* TongdunMobRiskKeychainsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB165CEFFC2E6EC813E6F880FDB10A /* TongdunMobRiskKeychainsHelper.m */; };
-		2273BCBF060394486316C472CF37D2BC /* TongdunMobRiskIdentifierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8931991DDEF9DCE3CC987E729C631 /* TongdunMobRiskIdentifierInfo.m */; };
-		22DE28F95BFE057F098775C90EE4C925 /* TongdunMobRiskOSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88075A14AC1B75CBFA0BF40FB5AF01 /* TongdunMobRiskOSInfo.m */; };
-		2910EF335A597644541BE6F55C2E17D9 /* TongdunMobRiskAPIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C682DC80EE109EB6FB870A49CA24C6 /* TongdunMobRiskAPIHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D55454B2EB6D03F30FE707C1B3021E6 /* TongdunMobRiskBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4709DCFEFEFA7C4101B39302C82169B2 /* TongdunMobRiskBaseInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		376632429E205689A5C70BB04576876C /* TongdunMobRiskAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 199328F77F1BBAB4B8E8E9665F16579E /* TongdunMobRiskAppInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		39165507387447D3E83BB0BD193BE99A /* TongdunMobRiskTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F89280F0DFEB18FEDFF1EB7F705318 /* TongdunMobRiskTimeInfo.m */; };
-		3FBAEC8CED0131F0FC822404038157E9 /* TongdunMobRiskEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D858770FDE1AD3E9C7918D40D7D3CD /* TongdunMobRiskEncodeHelper.m */; };
-		48541A5DE7CDA4ED3806B1E4618555C7 /* TongdunMobRiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE5476506503F28B38FAC13DEEF4F4 /* TongdunMobRiskManager.m */; };
-		4AA1DCA4247130FA062A3626B65641EB /* TongdunMobRiskEncodeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C08F30A4CF7C1F476348F729A4CD7634 /* TongdunMobRiskEncodeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D60C8F38249B55CAD410A0513102DA2 /* TrustDecision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E565E4A7E5856689A2D05A2B5DDCDF26 /* TrustDecision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		514AD1B861DBF47DACE1804E8CC4608A /* TongdunMobRiskCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = AC669F1C1760B279F61517E71C24C7BA /* TongdunMobRiskCollector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0ED95E356FF6EFE20F26484C4ED0D5A0 /* TDMobRiskOSInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 681C76E145F90DB167A0D79DAFFC9C60 /* TDMobRiskOSInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		228C50CFA5A9ACF278C6D1B191C225DB /* TDMobRiskIdCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7CBDD159323D8DA2F13225CE3CE21 /* TDMobRiskIdCalculator.m */; };
+		23A38516C70730E61EDD02E114398E89 /* TDMobRiskIdentifierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 261040EF3F095670483BFDDC90C1590A /* TDMobRiskIdentifierInfo.m */; };
+		262AF9590086160193738CE199F6A5BF /* TDMobRiskCpuInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CDCE67BE3281286148B13B33D6F69B /* TDMobRiskCpuInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		287000F3E1834CE4DB56A80D88D95AA0 /* TDMobRiskBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5B3B52A35A5BE77F821A24D89BBF13 /* TDMobRiskBaseInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A70662AD9307461F43CDCB528057C69 /* TDMobRiskSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20EE1576F79CE409AA79A908F21007 /* TDMobRiskSafeDictionary.m */; };
 		57368C3546E74A33416365B3E1F27B68 /* Pods-TrustDecision_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF49433CFC06697B279F0F0B059DF2EA /* Pods-TrustDecision_Example-dummy.m */; };
-		60160035A6CA4551F5CCB35A5EA72CEC /* TongdunMobRiskAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A6AA870BB209918595266927C0D15 /* TongdunMobRiskAPIHelper.m */; };
-		69EE457388E226F37E86F88B70C39C67 /* TongdunMobRiskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B344CB0A4AEFE3C7218F91DDC6CB3CF /* TongdunMobRiskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C2784AA2CC151BB8D09A26892ACD08C /* TongdunMobRiskBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3C010722F59D699C7408BE4F5D87F9 /* TongdunMobRiskBaseInfo.m */; };
-		6E8221A928079B462624F65A7A4379AA /* TongdunMobRiskOSInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DD29DACF77C7E106D836D9B86A28AC61 /* TongdunMobRiskOSInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76030E252679F9DA513FEFB8B8BB0F8F /* TongdunMobRiskIdentifierInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 133393EFD902D9535524854958377BD2 /* TongdunMobRiskIdentifierInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7CABEC66117F4B2FB6544552F420CAF6 /* TongdunMobRiskCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB98532570470CD12045B65069939F7 /* TongdunMobRiskCollector.m */; };
-		8369D2BE2F479E577DEE13457E8CD959 /* TongdunMobRiskDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D12B18BAAF5041F59E1AF484F52D4D6A /* TongdunMobRiskDeviceInfo.m */; };
+		58E8B47D67F3F83CAFDE9D0EA3D9DC5D /* TDMobRiskSpaceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DD10551BB53B81A2BE1117D79B605998 /* TDMobRiskSpaceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		614090C2711BA7AC5812479EBDAB3953 /* TDMobRiskHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 845D9C105B98C0AFAA6898FF016F367D /* TDMobRiskHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63A5B7C77C91FDEDB36F59E9317868C1 /* TDMobRiskOSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 86788186BB8F679EF1DB63FD8AB2D471 /* TDMobRiskOSInfo.m */; };
+		6B81A842CA689369DD403580B606758A /* TDMobRiskAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACA93430418307ED5FE268D5AB8E419 /* TDMobRiskAppInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73B74767FD4295A614945B7C9EEA0D77 /* TDMobRiskEncodeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE1E62C3FE6840698CC34C93CCBA7DA /* TDMobRiskEncodeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B109CBB85203865026797E00FB06A27 /* TDMobRiskAPIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DF0B9B56255E54D747827C90BD7B2B /* TDMobRiskAPIHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89147E4E3BD0B4790A2980E01D94FE35 /* TDMobRiskCpuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B70B54D23413BFE2ED18DEAC943756 /* TDMobRiskCpuInfo.m */; };
+		8B392DBBDE05B10510859F666870A059 /* TDMobRiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A59BEC1ACAF15FD0EA66AB6A260AC1 /* TDMobRiskManager.m */; };
 		8D5EBA8B1DD3457CE97F65A6B953519E /* Pods-TrustDecision_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4119058FA0A5881E3731AFF96DA8FEF /* Pods-TrustDecision_Tests-dummy.m */; };
-		8EEF3F1254D3A24D2E4D89F0FFE591CF /* TongdunMobRiskSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C4B0CC64C14FB1D370B9DA6F5768E4 /* TongdunMobRiskSafeDictionary.m */; };
-		9194A1D8CB7FAFA43F5AE2F373FC1107 /* TrustDecision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D651BDF45EDE2FAC7715D3E50FC8BA4E /* TrustDecision-dummy.m */; };
-		9CCAA540A5642DBD696FED965DAE5B76 /* TongdunMobRiskCpuInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5B632B1F4A7316D13C4A23A1911F9C /* TongdunMobRiskCpuInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A79DE373585AD60A0B81D0571BE7389E /* TongdunMobRiskIdCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FC389696A68A3B314A519D5CD6915 /* TongdunMobRiskIdCalculator.m */; };
+		973A7056DA825D6324002FA27D6D4900 /* TDMobRiskKeychainsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BE9BB55E7ECE385D274F6A102623D3 /* TDMobRiskKeychainsHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A887781F6D035EC33598C61108A185B /* TDMobRiskTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998A8429BAAC29BECA4A64AF0FDFA8C /* TDMobRiskTimeInfo.m */; };
+		9AB3EC801C3CB4DEBD0F5765C50626C6 /* TDMobRiskDeviceStatusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA35EFBEB8ED5C702AC05991F601D689 /* TDMobRiskDeviceStatusInfo.m */; };
+		9EAF24D8DC181341F815001658B0C64D /* TDMobRiskCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDCEA81A22FED95EA43590D9881A0A1 /* TDMobRiskCollector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FE20FA85EEFF2FB41112C145D6DD088 /* TDMobRisk.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDDE73734911A6A01573C6081CCB25C /* TDMobRisk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07354AACD439DADC893D0E8569FA81A /* TDMobRiskEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C259081CA080F04730C0714A8C0269 /* TDMobRiskEncodeHelper.m */; };
+		A670F5EFE1D1100AD2B3A79A8F0089D2 /* TDMobRiskBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C38B7EF23EE4E7F336179168DCEB866C /* TDMobRiskBaseInfo.m */; };
+		AA0E92268C8903C24EF4D6B5AB11C802 /* TDMobRiskTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 26355950366CF5178149D370CD183D56 /* TDMobRiskTimeInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABB6B510B6BBAEAEDB5D27686EAF7EA4 /* TrustDecision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0D169E5B1C392DE95A92F51F228E7A /* TrustDecision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB29CA78B1A564354A44CE35A755730 /* TDMobRiskDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB77B41578A6165881D092F8018F57 /* TDMobRiskDeviceInfo.m */; };
 		AF43CE9A8089BBA86874EE26CC38684E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B0D8EA46570E5B8C20A2CE9B3232F881 /* Pods-TrustDecision_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4607AE5BAB28BE0C2ED798D16ADC8E /* Pods-TrustDecision_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4D2A13696083A827009A9258A33E1B2 /* TongdunMobRiskIdCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2393BD1FD414681404C708BD88C62177 /* TongdunMobRiskIdCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B9212BADFC00C913CBE7F7EA84DCBC7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B9A8AAFEB4EFF492C65EFF7528126392 /* TongdunMobRisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5E9120AACF28765271F077C2555685 /* TongdunMobRisk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2BBF653C66DAF8FFB1DFA33B5DDA9B2 /* TDMobRiskCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AE07E58A9A8889A1B39DE450F1BCC /* TDMobRiskCalculator.m */; };
+		C2F0A837720831A46069BA0447D2F158 /* TDMobRiskIdentifierInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5240788E04CA113E298770A13C0392 /* TDMobRiskIdentifierInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C31086693B8CD91BFE0D0F84F646014C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5868D7F7A042D574173B07C886E41B2 /* TDMobRiskDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D176C5029C6BE21AA9B68F47460014E /* TDMobRiskDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5C27529E3EC3FEF89835BEC27B4F21F /* TDMobRiskCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F54D424BA50159078E9B547D6C9639 /* TDMobRiskCollector.m */; };
 		C96E3B7A8EB4DDB623045B71679AAC22 /* Pods-TrustDecision_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A007E34F82BD8C4DF3B00F92FF1AF20F /* Pods-TrustDecision_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAAFACC7EB20E4BDD147B52E66CF2D58 /* TongdunMobRiskKeychainsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB604711944BC084B1BD46E32E455C7 /* TongdunMobRiskKeychainsHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D4449D3F8CA417B4CE74DEA46070F1C0 /* TongdunMobRiskTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 963A219B3703387527E615674B30B165 /* TongdunMobRiskTimeInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DA6F1E8B18B0E30AE02E956639ED39A6 /* TongdunMobRiskRiskCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A0294AB5543DBB190416C7E7FFB254EB /* TongdunMobRiskRiskCalculator.m */; };
-		DCF11A86813EF40651D64B5F2FC62CCD /* TongdunMobRiskRiskCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EFD85EAB231D2C406190AB7E2A5F7E /* TongdunMobRiskRiskCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E25B1BF88C22F007EAFFFA68596FAC57 /* TongdunMobRiskHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 650BCA58750D74C9475DFF20DE4D5A5D /* TongdunMobRiskHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ED5DEAF267D932D13929AC451AA40841 /* TongdunMobRiskDeviceStatusInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 511012F4B2770FFD6CFE4FAF4D367D66 /* TongdunMobRiskDeviceStatusInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F293C8314038BB6E607E2B4A755D9B16 /* TongdunMobRiskSpaceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6A396B77CBC1FEFB05EAD2B95D9575 /* TongdunMobRiskSpaceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F6316D84DFF189B7940C9489E1119A6B /* TongdunMobRiskDeviceStatusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C781D356796EB65824F4956FC420E558 /* TongdunMobRiskDeviceStatusInfo.m */; };
-		F65CCE14128A0249B217B25C33B2DCC5 /* TongdunMobRiskCpuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20620F9F4084B1D38276AF9BD98FF914 /* TongdunMobRiskCpuInfo.m */; };
-		F702A5F2189936DE938BE43180073D5A /* TongdunMobRiskSpaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 596FBDE44C135B1F3E61B848806BAE42 /* TongdunMobRiskSpaceInfo.m */; };
+		CAE77022EE39D61BEC530D9084813A1A /* TDMobRiskDeviceStatusInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A95624A31ED26A9B7F15FBF048715AF /* TDMobRiskDeviceStatusInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBE55F0B2B1198D3CEFE26DFE83E1A98 /* TDMobRiskSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5AB4C54B376791A41EBF281D2B8B39 /* TDMobRiskSafeDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D219E2D1D9F42D41A34D50A2DF217E38 /* TDMobRiskAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A804A912D781FAD9684F73F36BD102A /* TDMobRiskAppInfo.m */; };
+		E0698A3840012A1BDCF40CDB777E3B14 /* TDMobRiskIdCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AF6029124F7954979BB935F08921B5 /* TDMobRiskIdCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB7256C310876CF5723032FD5C881693 /* TDMobRiskKeychainsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C349C1B7BCAA441345E892FFCCD0433 /* TDMobRiskKeychainsHelper.m */; };
+		EDD5974905E016697D1DEAC89C80ABC1 /* TDMobRiskCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A4EFAC0F97885B352B133CC38279C /* TDMobRiskCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1CC5BB8D8FD83F5E7569F9EC64B6904 /* TDMobRiskSpaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 147EA37A942CF94B1A846FD6C0E9245B /* TDMobRiskSpaceInfo.m */; };
+		F9645F89E64E7D56A51561B4245E2C5F /* TrustDecision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFB9318891AD91E59579362D188EA04 /* TrustDecision-dummy.m */; };
+		FB07DFDB240579C26E78B6F32A738905 /* TDMobRiskAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD123DB249BF991265734AF9B80E018B /* TDMobRiskAPIHelper.m */; };
+		FBCD827188E9238155CAD4DCFBD44B4C /* TDMobRiskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F12BE1D71AB6FDC6C3ADC8485B24B0 /* TDMobRiskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,72 +72,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C682DC80EE109EB6FB870A49CA24C6 /* TongdunMobRiskAPIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskAPIHelper.h; sourceTree = "<group>"; };
+		00F12BE1D71AB6FDC6C3ADC8485B24B0 /* TDMobRiskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskManager.h; path = TrustDecision/Classes/TDMobRiskManager.h; sourceTree = "<group>"; };
+		02B70B54D23413BFE2ED18DEAC943756 /* TDMobRiskCpuInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskCpuInfo.m; sourceTree = "<group>"; };
 		0630B3402D9149282F2840812AB66D0B /* Pods-TrustDecision_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TrustDecision_Example"; path = Pods_TrustDecision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		085060607798E73A17BBEBFB23DE88DC /* Pods-TrustDecision_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrustDecision_Example.modulemap"; sourceTree = "<group>"; };
-		117FBE2F5D5737A284A592F6C6B4C3B6 /* TrustDecision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrustDecision-Info.plist"; sourceTree = "<group>"; };
-		133393EFD902D9535524854958377BD2 /* TongdunMobRiskIdentifierInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskIdentifierInfo.h; sourceTree = "<group>"; };
-		14187FE7898505588F3FFDCC4216F682 /* TongdunMobRiskSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskSafeDictionary.h; sourceTree = "<group>"; };
-		199328F77F1BBAB4B8E8E9665F16579E /* TongdunMobRiskAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskAppInfo.h; sourceTree = "<group>"; };
+		09CDCE67BE3281286148B13B33D6F69B /* TDMobRiskCpuInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskCpuInfo.h; sourceTree = "<group>"; };
+		0A20EE1576F79CE409AA79A908F21007 /* TDMobRiskSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskSafeDictionary.m; sourceTree = "<group>"; };
+		0ACA93430418307ED5FE268D5AB8E419 /* TDMobRiskAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskAppInfo.h; sourceTree = "<group>"; };
+		147EA37A942CF94B1A846FD6C0E9245B /* TDMobRiskSpaceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskSpaceInfo.m; sourceTree = "<group>"; };
+		1C349C1B7BCAA441345E892FFCCD0433 /* TDMobRiskKeychainsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskKeychainsHelper.m; sourceTree = "<group>"; };
 		1EBC17218B0315FE3A914098881D63DB /* Pods-TrustDecision_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrustDecision_Tests.modulemap"; sourceTree = "<group>"; };
-		20620F9F4084B1D38276AF9BD98FF914 /* TongdunMobRiskCpuInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskCpuInfo.m; sourceTree = "<group>"; };
-		2393BD1FD414681404C708BD88C62177 /* TongdunMobRiskIdCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskIdCalculator.h; sourceTree = "<group>"; };
+		261040EF3F095670483BFDDC90C1590A /* TDMobRiskIdentifierInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskIdentifierInfo.m; sourceTree = "<group>"; };
+		26355950366CF5178149D370CD183D56 /* TDMobRiskTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskTimeInfo.h; sourceTree = "<group>"; };
 		27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrustDecision; path = TrustDecision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A4F32334BA426589D6D22A72FDD7117 /* TongdunMobRiskDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskDeviceInfo.h; sourceTree = "<group>"; };
-		2D88075A14AC1B75CBFA0BF40FB5AF01 /* TongdunMobRiskOSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskOSInfo.m; sourceTree = "<group>"; };
+		2CD7CBDD159323D8DA2F13225CE3CE21 /* TDMobRiskIdCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskIdCalculator.m; sourceTree = "<group>"; };
+		2E5AB4C54B376791A41EBF281D2B8B39 /* TDMobRiskSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskSafeDictionary.h; sourceTree = "<group>"; };
 		341E7966A3C2E5A8203748EEF7B20173 /* Pods-TrustDecision_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B344CB0A4AEFE3C7218F91DDC6CB3CF /* TongdunMobRiskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TongdunMobRiskManager.h; path = TrustDecision/Classes/TongdunMobRiskManager.h; sourceTree = "<group>"; };
-		3BF8931991DDEF9DCE3CC987E729C631 /* TongdunMobRiskIdentifierInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskIdentifierInfo.m; sourceTree = "<group>"; };
-		3E6A6AA870BB209918595266927C0D15 /* TongdunMobRiskAPIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskAPIHelper.m; sourceTree = "<group>"; };
-		3F5E9120AACF28765271F077C2555685 /* TongdunMobRisk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TongdunMobRisk.h; path = TrustDecision/Classes/TongdunMobRisk.h; sourceTree = "<group>"; };
+		344AE07E58A9A8889A1B39DE450F1BCC /* TDMobRiskCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskCalculator.m; sourceTree = "<group>"; };
+		3A95624A31ED26A9B7F15FBF048715AF /* TDMobRiskDeviceStatusInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskDeviceStatusInfo.h; sourceTree = "<group>"; };
+		3C34715399E03CC85ADD9795787FB331 /* TrustDecision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrustDecision.modulemap; sourceTree = "<group>"; };
+		3D176C5029C6BE21AA9B68F47460014E /* TDMobRiskDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskDeviceInfo.h; sourceTree = "<group>"; };
+		45BE9BB55E7ECE385D274F6A102623D3 /* TDMobRiskKeychainsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskKeychainsHelper.h; sourceTree = "<group>"; };
 		46A2E1D81070C5D39B27522AEED7C4D0 /* Pods-TrustDecision_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Example-Info.plist"; sourceTree = "<group>"; };
-		4709DCFEFEFA7C4101B39302C82169B2 /* TongdunMobRiskBaseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskBaseInfo.h; sourceTree = "<group>"; };
 		4E08FD4E82667C032C7D69D73EDF72F6 /* Pods-TrustDecision_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		511012F4B2770FFD6CFE4FAF4D367D66 /* TongdunMobRiskDeviceStatusInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskDeviceStatusInfo.h; sourceTree = "<group>"; };
-		54C4B0CC64C14FB1D370B9DA6F5768E4 /* TongdunMobRiskSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskSafeDictionary.m; sourceTree = "<group>"; };
-		596FBDE44C135B1F3E61B848806BAE42 /* TongdunMobRiskSpaceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskSpaceInfo.m; sourceTree = "<group>"; };
-		5AB604711944BC084B1BD46E32E455C7 /* TongdunMobRiskKeychainsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskKeychainsHelper.h; sourceTree = "<group>"; };
-		5BB98532570470CD12045B65069939F7 /* TongdunMobRiskCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskCollector.m; sourceTree = "<group>"; };
-		5DE4A886559E9B6C009D6F15A9EA25A4 /* TongdunMobRiskAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskAppInfo.m; sourceTree = "<group>"; };
+		4E7D52CFB9D5C67433EAC454CE88AFAF /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55C259081CA080F04730C0714A8C0269 /* TDMobRiskEncodeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskEncodeHelper.m; sourceTree = "<group>"; };
+		5998A8429BAAC29BECA4A64AF0FDFA8C /* TDMobRiskTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskTimeInfo.m; sourceTree = "<group>"; };
 		5E207BED7F67A61339C779308B12EC48 /* Pods-TrustDecision_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TrustDecision_Tests"; path = Pods_TrustDecision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E80DFF1D96F189B933F84C20828C90E /* Pods-TrustDecision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		64D858770FDE1AD3E9C7918D40D7D3CD /* TongdunMobRiskEncodeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskEncodeHelper.m; sourceTree = "<group>"; };
-		650BCA58750D74C9475DFF20DE4D5A5D /* TongdunMobRiskHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TongdunMobRiskHeader.h; path = TrustDecision/Classes/TongdunMobRiskHeader.h; sourceTree = "<group>"; };
 		6516C08D40CE9D760900C6C163AF5379 /* Pods-TrustDecision_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		681C76E145F90DB167A0D79DAFFC9C60 /* TDMobRiskOSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskOSInfo.h; sourceTree = "<group>"; };
+		689A4EFAC0F97885B352B133CC38279C /* TDMobRiskCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskCalculator.h; sourceTree = "<group>"; };
+		6FDCEA81A22FED95EA43590D9881A0A1 /* TDMobRiskCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskCollector.h; sourceTree = "<group>"; };
+		72C2A67F906A080798157C9E39A1365F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		743FC389696A68A3B314A519D5CD6915 /* TongdunMobRiskIdCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskIdCalculator.m; sourceTree = "<group>"; };
-		7D6A396B77CBC1FEFB05EAD2B95D9575 /* TongdunMobRiskSpaceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskSpaceInfo.h; sourceTree = "<group>"; };
+		7E0D169E5B1C392DE95A92F51F228E7A /* TrustDecision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-umbrella.h"; sourceTree = "<group>"; };
+		845D9C105B98C0AFAA6898FF016F367D /* TDMobRiskHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskHeader.h; path = TrustDecision/Classes/TDMobRiskHeader.h; sourceTree = "<group>"; };
 		8602B22E9E5960A05165EAB66C6E9BEE /* Pods-TrustDecision_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrustDecision_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89AE5476506503F28B38FAC13DEEF4F4 /* TongdunMobRiskManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TongdunMobRiskManager.m; path = TrustDecision/Classes/TongdunMobRiskManager.m; sourceTree = "<group>"; };
+		86788186BB8F679EF1DB63FD8AB2D471 /* TDMobRiskOSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskOSInfo.m; sourceTree = "<group>"; };
+		869FEEF8D8BD5F4E28C0FE14BED50146 /* TrustDecision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrustDecision-Info.plist"; sourceTree = "<group>"; };
+		8A804A912D781FAD9684F73F36BD102A /* TDMobRiskAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskAppInfo.m; sourceTree = "<group>"; };
+		8B5240788E04CA113E298770A13C0392 /* TDMobRiskIdentifierInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskIdentifierInfo.h; sourceTree = "<group>"; };
 		8DF5DE5304FD14ADB82A8F7A9518D82E /* Pods-TrustDecision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		92A9B5E0775E10B3969A46C020193140 /* TrustDecision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrustDecision.modulemap; sourceTree = "<group>"; };
-		963A219B3703387527E615674B30B165 /* TongdunMobRiskTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskTimeInfo.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A59BEC1ACAF15FD0EA66AB6A260AC1 /* TDMobRiskManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskManager.m; path = TrustDecision/Classes/TDMobRiskManager.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A007E34F82BD8C4DF3B00F92FF1AF20F /* Pods-TrustDecision_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrustDecision_Example-umbrella.h"; sourceTree = "<group>"; };
-		A0294AB5543DBB190416C7E7FFB254EB /* TongdunMobRiskRiskCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskRiskCalculator.m; sourceTree = "<group>"; };
-		A1E8034B045600864C47303D9D96E008 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A0AF6029124F7954979BB935F08921B5 /* TDMobRiskIdCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskIdCalculator.h; sourceTree = "<group>"; };
+		A0F341F36396F69B27BF332261520E68 /* TrustDecision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-prefix.pch"; sourceTree = "<group>"; };
 		A54BBA75ECFDB03E6008C22892EA35CC /* Pods-TrustDecision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A7F89280F0DFEB18FEDFF1EB7F705318 /* TongdunMobRiskTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskTimeInfo.m; sourceTree = "<group>"; };
-		AC669F1C1760B279F61517E71C24C7BA /* TongdunMobRiskCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskCollector.h; sourceTree = "<group>"; };
-		B1EFD85EAB231D2C406190AB7E2A5F7E /* TongdunMobRiskRiskCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskRiskCalculator.h; sourceTree = "<group>"; };
-		B474AE9BD2E944766F2DBFF9FE098CDF /* TrustDecision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-prefix.pch"; sourceTree = "<group>"; };
-		B7CB165CEFFC2E6EC813E6F880FDB10A /* TongdunMobRiskKeychainsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskKeychainsHelper.m; sourceTree = "<group>"; };
-		BA5B632B1F4A7316D13C4A23A1911F9C /* TongdunMobRiskCpuInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskCpuInfo.h; sourceTree = "<group>"; };
-		C08F30A4CF7C1F476348F729A4CD7634 /* TongdunMobRiskEncodeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskEncodeHelper.h; sourceTree = "<group>"; };
+		BDE1E62C3FE6840698CC34C93CCBA7DA /* TDMobRiskEncodeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskEncodeHelper.h; sourceTree = "<group>"; };
+		C38B7EF23EE4E7F336179168DCEB866C /* TDMobRiskBaseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskBaseInfo.m; sourceTree = "<group>"; };
 		C39955CA15D3D998B0038C7828322692 /* Pods-TrustDecision_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrustDecision_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C781D356796EB65824F4956FC420E558 /* TongdunMobRiskDeviceStatusInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskDeviceStatusInfo.m; sourceTree = "<group>"; };
+		CCFC891360410D1ED834C0B47FA6416D /* TrustDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.release.xcconfig; sourceTree = "<group>"; };
+		CD123DB249BF991265734AF9B80E018B /* TDMobRiskAPIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskAPIHelper.m; sourceTree = "<group>"; };
 		CE4607AE5BAB28BE0C2ED798D16ADC8E /* Pods-TrustDecision_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrustDecision_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D12B18BAAF5041F59E1AF484F52D4D6A /* TongdunMobRiskDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskDeviceInfo.m; sourceTree = "<group>"; };
-		D651BDF45EDE2FAC7715D3E50FC8BA4E /* TrustDecision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrustDecision-dummy.m"; sourceTree = "<group>"; };
-		DD29DACF77C7E106D836D9B86A28AC61 /* TongdunMobRiskOSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TongdunMobRiskOSInfo.h; sourceTree = "<group>"; };
+		CF5B3B52A35A5BE77F821A24D89BBF13 /* TDMobRiskBaseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskBaseInfo.h; sourceTree = "<group>"; };
+		D0DF0B9B56255E54D747827C90BD7B2B /* TDMobRiskAPIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskAPIHelper.h; sourceTree = "<group>"; };
+		D1F54D424BA50159078E9B547D6C9639 /* TDMobRiskCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskCollector.m; sourceTree = "<group>"; };
+		D32E93C508DBFD673C536559D339AF57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5EB77B41578A6165881D092F8018F57 /* TDMobRiskDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskDeviceInfo.m; sourceTree = "<group>"; };
+		DD10551BB53B81A2BE1117D79B605998 /* TDMobRiskSpaceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskSpaceInfo.h; sourceTree = "<group>"; };
 		E4119058FA0A5881E3731AFF96DA8FEF /* Pods-TrustDecision_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrustDecision_Tests-dummy.m"; sourceTree = "<group>"; };
-		E565E4A7E5856689A2D05A2B5DDCDF26 /* TrustDecision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-umbrella.h"; sourceTree = "<group>"; };
-		E99574DCF10312F235843DBC99F4B95E /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E933D864C5045E16F2EF9965A05B05F7 /* TrustDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.debug.xcconfig; sourceTree = "<group>"; };
+		EA35EFBEB8ED5C702AC05991F601D689 /* TDMobRiskDeviceStatusInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskDeviceStatusInfo.m; sourceTree = "<group>"; };
+		EBFB9318891AD91E59579362D188EA04 /* TrustDecision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrustDecision-dummy.m"; sourceTree = "<group>"; };
 		EF49433CFC06697B279F0F0B059DF2EA /* Pods-TrustDecision_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrustDecision_Example-dummy.m"; sourceTree = "<group>"; };
-		F281FC82877E9B9EEC931B999CA31A9A /* TrustDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.release.xcconfig; sourceTree = "<group>"; };
-		FA3FF0DD632943ED4D7D0D0FD2401A98 /* TrustDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.debug.xcconfig; sourceTree = "<group>"; };
-		FCCFD84F00448B935CF350623EB6D795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FE3C010722F59D699C7408BE4F5D87F9 /* TongdunMobRiskBaseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TongdunMobRiskBaseInfo.m; sourceTree = "<group>"; };
+		EFDDE73734911A6A01573C6081CCB25C /* TDMobRisk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRisk.h; path = TrustDecision/Classes/TDMobRisk.h; sourceTree = "<group>"; };
 		FF98216532CAABF4379B9F2BD7F95389 /* Pods-TrustDecision_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,12 +169,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		167E321125C7732A5051652AE11327A9 /* Collect */ = {
+		13F873D84E3C81CD6723BF56318BADFF /* Collect */ = {
 			isa = PBXGroup;
 			children = (
-				AC669F1C1760B279F61517E71C24C7BA /* TongdunMobRiskCollector.h */,
-				5BB98532570470CD12045B65069939F7 /* TongdunMobRiskCollector.m */,
-				7D0840AA6966CD8BD99BD5537A98EBAB /* Info */,
+				6FDCEA81A22FED95EA43590D9881A0A1 /* TDMobRiskCollector.h */,
+				D1F54D424BA50159078E9B547D6C9639 /* TDMobRiskCollector.m */,
+				6FB6654A2B7EFCE3C13A750A95D210C6 /* Info */,
 			);
 			name = Collect;
 			path = TrustDecision/Classes/Collect;
@@ -188,6 +188,16 @@
 				27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFF25DE242FD5B8680C9033A1C7A011 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CF5B3B52A35A5BE77F821A24D89BBF13 /* TDMobRiskBaseInfo.h */,
+				C38B7EF23EE4E7F336179168DCEB866C /* TDMobRiskBaseInfo.m */,
+			);
+			name = Base;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		4490C374E857951A19E7FFBF63F55960 /* Pods-TrustDecision_Tests */ = {
@@ -206,20 +216,6 @@
 			path = "Target Support Files/Pods-TrustDecision_Tests";
 			sourceTree = "<group>";
 		};
-		4AE318AC14457666EEA5913181B88178 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				00C682DC80EE109EB6FB870A49CA24C6 /* TongdunMobRiskAPIHelper.h */,
-				3E6A6AA870BB209918595266927C0D15 /* TongdunMobRiskAPIHelper.m */,
-				C08F30A4CF7C1F476348F729A4CD7634 /* TongdunMobRiskEncodeHelper.h */,
-				64D858770FDE1AD3E9C7918D40D7D3CD /* TongdunMobRiskEncodeHelper.m */,
-				5AB604711944BC084B1BD46E32E455C7 /* TongdunMobRiskKeychainsHelper.h */,
-				B7CB165CEFFC2E6EC813E6F880FDB10A /* TongdunMobRiskKeychainsHelper.m */,
-			);
-			name = Helper;
-			path = TrustDecision/Classes/Helper;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,7 +227,7 @@
 		658E0402F1B3B8B09CC0DAA73EE2334F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7EA5FA80381C166DA7AE9A838585C432 /* TrustDecision */,
+				97B4157FA080609A4227376139F09F1C /* TrustDecision */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -252,83 +248,96 @@
 			path = "Target Support Files/Pods-TrustDecision_Example";
 			sourceTree = "<group>";
 		};
-		7D0840AA6966CD8BD99BD5537A98EBAB /* Info */ = {
+		6FB6654A2B7EFCE3C13A750A95D210C6 /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				199328F77F1BBAB4B8E8E9665F16579E /* TongdunMobRiskAppInfo.h */,
-				5DE4A886559E9B6C009D6F15A9EA25A4 /* TongdunMobRiskAppInfo.m */,
-				BA5B632B1F4A7316D13C4A23A1911F9C /* TongdunMobRiskCpuInfo.h */,
-				20620F9F4084B1D38276AF9BD98FF914 /* TongdunMobRiskCpuInfo.m */,
-				2A4F32334BA426589D6D22A72FDD7117 /* TongdunMobRiskDeviceInfo.h */,
-				D12B18BAAF5041F59E1AF484F52D4D6A /* TongdunMobRiskDeviceInfo.m */,
-				511012F4B2770FFD6CFE4FAF4D367D66 /* TongdunMobRiskDeviceStatusInfo.h */,
-				C781D356796EB65824F4956FC420E558 /* TongdunMobRiskDeviceStatusInfo.m */,
-				133393EFD902D9535524854958377BD2 /* TongdunMobRiskIdentifierInfo.h */,
-				3BF8931991DDEF9DCE3CC987E729C631 /* TongdunMobRiskIdentifierInfo.m */,
-				DD29DACF77C7E106D836D9B86A28AC61 /* TongdunMobRiskOSInfo.h */,
-				2D88075A14AC1B75CBFA0BF40FB5AF01 /* TongdunMobRiskOSInfo.m */,
-				7D6A396B77CBC1FEFB05EAD2B95D9575 /* TongdunMobRiskSpaceInfo.h */,
-				596FBDE44C135B1F3E61B848806BAE42 /* TongdunMobRiskSpaceInfo.m */,
-				963A219B3703387527E615674B30B165 /* TongdunMobRiskTimeInfo.h */,
-				A7F89280F0DFEB18FEDFF1EB7F705318 /* TongdunMobRiskTimeInfo.m */,
-				D4682290AB55DFE665F3C4B0C94965BF /* Base */,
+				0ACA93430418307ED5FE268D5AB8E419 /* TDMobRiskAppInfo.h */,
+				8A804A912D781FAD9684F73F36BD102A /* TDMobRiskAppInfo.m */,
+				09CDCE67BE3281286148B13B33D6F69B /* TDMobRiskCpuInfo.h */,
+				02B70B54D23413BFE2ED18DEAC943756 /* TDMobRiskCpuInfo.m */,
+				3D176C5029C6BE21AA9B68F47460014E /* TDMobRiskDeviceInfo.h */,
+				D5EB77B41578A6165881D092F8018F57 /* TDMobRiskDeviceInfo.m */,
+				3A95624A31ED26A9B7F15FBF048715AF /* TDMobRiskDeviceStatusInfo.h */,
+				EA35EFBEB8ED5C702AC05991F601D689 /* TDMobRiskDeviceStatusInfo.m */,
+				8B5240788E04CA113E298770A13C0392 /* TDMobRiskIdentifierInfo.h */,
+				261040EF3F095670483BFDDC90C1590A /* TDMobRiskIdentifierInfo.m */,
+				681C76E145F90DB167A0D79DAFFC9C60 /* TDMobRiskOSInfo.h */,
+				86788186BB8F679EF1DB63FD8AB2D471 /* TDMobRiskOSInfo.m */,
+				DD10551BB53B81A2BE1117D79B605998 /* TDMobRiskSpaceInfo.h */,
+				147EA37A942CF94B1A846FD6C0E9245B /* TDMobRiskSpaceInfo.m */,
+				26355950366CF5178149D370CD183D56 /* TDMobRiskTimeInfo.h */,
+				5998A8429BAAC29BECA4A64AF0FDFA8C /* TDMobRiskTimeInfo.m */,
+				3FFF25DE242FD5B8680C9033A1C7A011 /* Base */,
 			);
+			name = Info;
 			path = Info;
 			sourceTree = "<group>";
 		};
-		7EA5FA80381C166DA7AE9A838585C432 /* TrustDecision */ = {
+		7412D2ADE200EEA9145FD1278E309D98 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				3F5E9120AACF28765271F077C2555685 /* TongdunMobRisk.h */,
-				650BCA58750D74C9475DFF20DE4D5A5D /* TongdunMobRiskHeader.h */,
-				3B344CB0A4AEFE3C7218F91DDC6CB3CF /* TongdunMobRiskManager.h */,
-				89AE5476506503F28B38FAC13DEEF4F4 /* TongdunMobRiskManager.m */,
-				167E321125C7732A5051652AE11327A9 /* Collect */,
-				C3F9DB17E516DF3EB0F8BCD9F7776464 /* Containers */,
-				9D182226458525879074793C43B581B1 /* Core */,
-				4AE318AC14457666EEA5913181B88178 /* Helper */,
-				F477E6A887CA18094DA0EE74CB8740ED /* Pod */,
-				B2E2926E83EF8F13FEA9D8D66973E99A /* Support Files */,
+				D0DF0B9B56255E54D747827C90BD7B2B /* TDMobRiskAPIHelper.h */,
+				CD123DB249BF991265734AF9B80E018B /* TDMobRiskAPIHelper.m */,
+				BDE1E62C3FE6840698CC34C93CCBA7DA /* TDMobRiskEncodeHelper.h */,
+				55C259081CA080F04730C0714A8C0269 /* TDMobRiskEncodeHelper.m */,
+				45BE9BB55E7ECE385D274F6A102623D3 /* TDMobRiskKeychainsHelper.h */,
+				1C349C1B7BCAA441345E892FFCCD0433 /* TDMobRiskKeychainsHelper.m */,
 			);
-			name = TrustDecision;
-			path = ../..;
+			name = Helper;
+			path = TrustDecision/Classes/Helper;
 			sourceTree = "<group>";
 		};
-		9D182226458525879074793C43B581B1 /* Core */ = {
+		80D33F324B01C9664195A5EC3F874DB4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2393BD1FD414681404C708BD88C62177 /* TongdunMobRiskIdCalculator.h */,
-				743FC389696A68A3B314A519D5CD6915 /* TongdunMobRiskIdCalculator.m */,
-				B1EFD85EAB231D2C406190AB7E2A5F7E /* TongdunMobRiskRiskCalculator.h */,
-				A0294AB5543DBB190416C7E7FFB254EB /* TongdunMobRiskRiskCalculator.m */,
-			);
-			name = Core;
-			path = TrustDecision/Classes/Core;
-			sourceTree = "<group>";
-		};
-		B2E2926E83EF8F13FEA9D8D66973E99A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				92A9B5E0775E10B3969A46C020193140 /* TrustDecision.modulemap */,
-				D651BDF45EDE2FAC7715D3E50FC8BA4E /* TrustDecision-dummy.m */,
-				117FBE2F5D5737A284A592F6C6B4C3B6 /* TrustDecision-Info.plist */,
-				B474AE9BD2E944766F2DBFF9FE098CDF /* TrustDecision-prefix.pch */,
-				E565E4A7E5856689A2D05A2B5DDCDF26 /* TrustDecision-umbrella.h */,
-				FA3FF0DD632943ED4D7D0D0FD2401A98 /* TrustDecision.debug.xcconfig */,
-				F281FC82877E9B9EEC931B999CA31A9A /* TrustDecision.release.xcconfig */,
+				3C34715399E03CC85ADD9795787FB331 /* TrustDecision.modulemap */,
+				EBFB9318891AD91E59579362D188EA04 /* TrustDecision-dummy.m */,
+				869FEEF8D8BD5F4E28C0FE14BED50146 /* TrustDecision-Info.plist */,
+				A0F341F36396F69B27BF332261520E68 /* TrustDecision-prefix.pch */,
+				7E0D169E5B1C392DE95A92F51F228E7A /* TrustDecision-umbrella.h */,
+				E933D864C5045E16F2EF9965A05B05F7 /* TrustDecision.debug.xcconfig */,
+				CCFC891360410D1ED834C0B47FA6416D /* TrustDecision.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TrustDecision";
 			sourceTree = "<group>";
 		};
-		C3F9DB17E516DF3EB0F8BCD9F7776464 /* Containers */ = {
+		8F5375FD3624FB4D23667CACB61B6643 /* Containers */ = {
 			isa = PBXGroup;
 			children = (
-				14187FE7898505588F3FFDCC4216F682 /* TongdunMobRiskSafeDictionary.h */,
-				54C4B0CC64C14FB1D370B9DA6F5768E4 /* TongdunMobRiskSafeDictionary.m */,
+				2E5AB4C54B376791A41EBF281D2B8B39 /* TDMobRiskSafeDictionary.h */,
+				0A20EE1576F79CE409AA79A908F21007 /* TDMobRiskSafeDictionary.m */,
 			);
 			name = Containers;
 			path = TrustDecision/Classes/Containers;
+			sourceTree = "<group>";
+		};
+		97B4157FA080609A4227376139F09F1C /* TrustDecision */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDE73734911A6A01573C6081CCB25C /* TDMobRisk.h */,
+				845D9C105B98C0AFAA6898FF016F367D /* TDMobRiskHeader.h */,
+				00F12BE1D71AB6FDC6C3ADC8485B24B0 /* TDMobRiskManager.h */,
+				93A59BEC1ACAF15FD0EA66AB6A260AC1 /* TDMobRiskManager.m */,
+				13F873D84E3C81CD6723BF56318BADFF /* Collect */,
+				8F5375FD3624FB4D23667CACB61B6643 /* Containers */,
+				F446C77224D5834D7B581FEBB42E2E3B /* Core */,
+				7412D2ADE200EEA9145FD1278E309D98 /* Helper */,
+				A23F9FD84C0A442BB7ED43E8E6995CE5 /* Pod */,
+				80D33F324B01C9664195A5EC3F874DB4 /* Support Files */,
+			);
+			name = TrustDecision;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A23F9FD84C0A442BB7ED43E8E6995CE5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				72C2A67F906A080798157C9E39A1365F /* LICENSE */,
+				D32E93C508DBFD673C536559D339AF57 /* README.md */,
+				4E7D52CFB9D5C67433EAC454CE88AFAF /* TrustDecision.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -350,15 +359,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4682290AB55DFE665F3C4B0C94965BF /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				4709DCFEFEFA7C4101B39302C82169B2 /* TongdunMobRiskBaseInfo.h */,
-				FE3C010722F59D699C7408BE4F5D87F9 /* TongdunMobRiskBaseInfo.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		EBCD7BA1DB44695F5DEE91E4CE711E71 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,14 +368,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F477E6A887CA18094DA0EE74CB8740ED /* Pod */ = {
+		F446C77224D5834D7B581FEBB42E2E3B /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				FCCFD84F00448B935CF350623EB6D795 /* LICENSE */,
-				A1E8034B045600864C47303D9D96E008 /* README.md */,
-				E99574DCF10312F235843DBC99F4B95E /* TrustDecision.podspec */,
+				689A4EFAC0F97885B352B133CC38279C /* TDMobRiskCalculator.h */,
+				344AE07E58A9A8889A1B39DE450F1BCC /* TDMobRiskCalculator.m */,
+				A0AF6029124F7954979BB935F08921B5 /* TDMobRiskIdCalculator.h */,
+				2CD7CBDD159323D8DA2F13225CE3CE21 /* TDMobRiskIdCalculator.m */,
 			);
-			name = Pod;
+			name = Core;
+			path = TrustDecision/Classes/Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,30 +399,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0A45832060903FB329EDBAFAC12481 /* Headers */ = {
+		FC9CFEBF7D690FAF4492088ED25F110A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9A8AAFEB4EFF492C65EFF7528126392 /* TongdunMobRisk.h in Headers */,
-				2910EF335A597644541BE6F55C2E17D9 /* TongdunMobRiskAPIHelper.h in Headers */,
-				376632429E205689A5C70BB04576876C /* TongdunMobRiskAppInfo.h in Headers */,
-				2D55454B2EB6D03F30FE707C1B3021E6 /* TongdunMobRiskBaseInfo.h in Headers */,
-				514AD1B861DBF47DACE1804E8CC4608A /* TongdunMobRiskCollector.h in Headers */,
-				9CCAA540A5642DBD696FED965DAE5B76 /* TongdunMobRiskCpuInfo.h in Headers */,
-				1696177C1207E4056174E7D7FEF16D1A /* TongdunMobRiskDeviceInfo.h in Headers */,
-				ED5DEAF267D932D13929AC451AA40841 /* TongdunMobRiskDeviceStatusInfo.h in Headers */,
-				4AA1DCA4247130FA062A3626B65641EB /* TongdunMobRiskEncodeHelper.h in Headers */,
-				E25B1BF88C22F007EAFFFA68596FAC57 /* TongdunMobRiskHeader.h in Headers */,
-				B4D2A13696083A827009A9258A33E1B2 /* TongdunMobRiskIdCalculator.h in Headers */,
-				76030E252679F9DA513FEFB8B8BB0F8F /* TongdunMobRiskIdentifierInfo.h in Headers */,
-				CAAFACC7EB20E4BDD147B52E66CF2D58 /* TongdunMobRiskKeychainsHelper.h in Headers */,
-				69EE457388E226F37E86F88B70C39C67 /* TongdunMobRiskManager.h in Headers */,
-				6E8221A928079B462624F65A7A4379AA /* TongdunMobRiskOSInfo.h in Headers */,
-				DCF11A86813EF40651D64B5F2FC62CCD /* TongdunMobRiskRiskCalculator.h in Headers */,
-				15AB124C84E156BB9BC7B5F206D95D9A /* TongdunMobRiskSafeDictionary.h in Headers */,
-				F293C8314038BB6E607E2B4A755D9B16 /* TongdunMobRiskSpaceInfo.h in Headers */,
-				D4449D3F8CA417B4CE74DEA46070F1C0 /* TongdunMobRiskTimeInfo.h in Headers */,
-				4D60C8F38249B55CAD410A0513102DA2 /* TrustDecision-umbrella.h in Headers */,
+				9FE20FA85EEFF2FB41112C145D6DD088 /* TDMobRisk.h in Headers */,
+				7B109CBB85203865026797E00FB06A27 /* TDMobRiskAPIHelper.h in Headers */,
+				6B81A842CA689369DD403580B606758A /* TDMobRiskAppInfo.h in Headers */,
+				287000F3E1834CE4DB56A80D88D95AA0 /* TDMobRiskBaseInfo.h in Headers */,
+				EDD5974905E016697D1DEAC89C80ABC1 /* TDMobRiskCalculator.h in Headers */,
+				9EAF24D8DC181341F815001658B0C64D /* TDMobRiskCollector.h in Headers */,
+				262AF9590086160193738CE199F6A5BF /* TDMobRiskCpuInfo.h in Headers */,
+				C5868D7F7A042D574173B07C886E41B2 /* TDMobRiskDeviceInfo.h in Headers */,
+				CAE77022EE39D61BEC530D9084813A1A /* TDMobRiskDeviceStatusInfo.h in Headers */,
+				73B74767FD4295A614945B7C9EEA0D77 /* TDMobRiskEncodeHelper.h in Headers */,
+				614090C2711BA7AC5812479EBDAB3953 /* TDMobRiskHeader.h in Headers */,
+				E0698A3840012A1BDCF40CDB777E3B14 /* TDMobRiskIdCalculator.h in Headers */,
+				C2F0A837720831A46069BA0447D2F158 /* TDMobRiskIdentifierInfo.h in Headers */,
+				973A7056DA825D6324002FA27D6D4900 /* TDMobRiskKeychainsHelper.h in Headers */,
+				FBCD827188E9238155CAD4DCFBD44B4C /* TDMobRiskManager.h in Headers */,
+				0ED95E356FF6EFE20F26484C4ED0D5A0 /* TDMobRiskOSInfo.h in Headers */,
+				CBE55F0B2B1198D3CEFE26DFE83E1A98 /* TDMobRiskSafeDictionary.h in Headers */,
+				58E8B47D67F3F83CAFDE9D0EA3D9DC5D /* TDMobRiskSpaceInfo.h in Headers */,
+				AA0E92268C8903C24EF4D6B5AB11C802 /* TDMobRiskTimeInfo.h in Headers */,
+				ABB6B510B6BBAEAEDB5D27686EAF7EA4 /* TrustDecision-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +433,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5691EDC0B336F545FF5FD0D14C865F9 /* Build configuration list for PBXNativeTarget "TrustDecision" */;
 			buildPhases = (
-				DA0A45832060903FB329EDBAFAC12481 /* Headers */,
-				EB3A379D7B06674CE95D09084A5DB18A /* Sources */,
+				FC9CFEBF7D690FAF4492088ED25F110A /* Headers */,
+				2BB1ABFA2D05450DFB8C5546BCE6C399 /* Sources */,
 				1FBC55F931045E93F4D1A4D3412A0930 /* Frameworks */,
 				F02D44F27BC5FDC9CD49B4D9DC113ACB /* Resources */,
 			);
@@ -553,28 +555,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB3A379D7B06674CE95D09084A5DB18A /* Sources */ = {
+		2BB1ABFA2D05450DFB8C5546BCE6C399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60160035A6CA4551F5CCB35A5EA72CEC /* TongdunMobRiskAPIHelper.m in Sources */,
-				07866C801DFEC91EA80328FE14000634 /* TongdunMobRiskAppInfo.m in Sources */,
-				6C2784AA2CC151BB8D09A26892ACD08C /* TongdunMobRiskBaseInfo.m in Sources */,
-				7CABEC66117F4B2FB6544552F420CAF6 /* TongdunMobRiskCollector.m in Sources */,
-				F65CCE14128A0249B217B25C33B2DCC5 /* TongdunMobRiskCpuInfo.m in Sources */,
-				8369D2BE2F479E577DEE13457E8CD959 /* TongdunMobRiskDeviceInfo.m in Sources */,
-				F6316D84DFF189B7940C9489E1119A6B /* TongdunMobRiskDeviceStatusInfo.m in Sources */,
-				3FBAEC8CED0131F0FC822404038157E9 /* TongdunMobRiskEncodeHelper.m in Sources */,
-				A79DE373585AD60A0B81D0571BE7389E /* TongdunMobRiskIdCalculator.m in Sources */,
-				2273BCBF060394486316C472CF37D2BC /* TongdunMobRiskIdentifierInfo.m in Sources */,
-				224273689B647DAE68326BB1CAC3026F /* TongdunMobRiskKeychainsHelper.m in Sources */,
-				48541A5DE7CDA4ED3806B1E4618555C7 /* TongdunMobRiskManager.m in Sources */,
-				22DE28F95BFE057F098775C90EE4C925 /* TongdunMobRiskOSInfo.m in Sources */,
-				DA6F1E8B18B0E30AE02E956639ED39A6 /* TongdunMobRiskRiskCalculator.m in Sources */,
-				8EEF3F1254D3A24D2E4D89F0FFE591CF /* TongdunMobRiskSafeDictionary.m in Sources */,
-				F702A5F2189936DE938BE43180073D5A /* TongdunMobRiskSpaceInfo.m in Sources */,
-				39165507387447D3E83BB0BD193BE99A /* TongdunMobRiskTimeInfo.m in Sources */,
-				9194A1D8CB7FAFA43F5AE2F373FC1107 /* TrustDecision-dummy.m in Sources */,
+				FB07DFDB240579C26E78B6F32A738905 /* TDMobRiskAPIHelper.m in Sources */,
+				D219E2D1D9F42D41A34D50A2DF217E38 /* TDMobRiskAppInfo.m in Sources */,
+				A670F5EFE1D1100AD2B3A79A8F0089D2 /* TDMobRiskBaseInfo.m in Sources */,
+				C2BBF653C66DAF8FFB1DFA33B5DDA9B2 /* TDMobRiskCalculator.m in Sources */,
+				C5C27529E3EC3FEF89835BEC27B4F21F /* TDMobRiskCollector.m in Sources */,
+				89147E4E3BD0B4790A2980E01D94FE35 /* TDMobRiskCpuInfo.m in Sources */,
+				ACB29CA78B1A564354A44CE35A755730 /* TDMobRiskDeviceInfo.m in Sources */,
+				9AB3EC801C3CB4DEBD0F5765C50626C6 /* TDMobRiskDeviceStatusInfo.m in Sources */,
+				A07354AACD439DADC893D0E8569FA81A /* TDMobRiskEncodeHelper.m in Sources */,
+				228C50CFA5A9ACF278C6D1B191C225DB /* TDMobRiskIdCalculator.m in Sources */,
+				23A38516C70730E61EDD02E114398E89 /* TDMobRiskIdentifierInfo.m in Sources */,
+				EB7256C310876CF5723032FD5C881693 /* TDMobRiskKeychainsHelper.m in Sources */,
+				8B392DBBDE05B10510859F666870A059 /* TDMobRiskManager.m in Sources */,
+				63A5B7C77C91FDEDB36F59E9317868C1 /* TDMobRiskOSInfo.m in Sources */,
+				3A70662AD9307461F43CDCB528057C69 /* TDMobRiskSafeDictionary.m in Sources */,
+				F1CC5BB8D8FD83F5E7569F9EC64B6904 /* TDMobRiskSpaceInfo.m in Sources */,
+				9A887781F6D035EC33598C61108A185B /* TDMobRiskTimeInfo.m in Sources */,
+				F9645F89E64E7D56A51561B4245E2C5F /* TrustDecision-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +720,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -760,7 +763,7 @@
 		};
 		A953CBB4D5653270D286AE3835DDB7A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3FF0DD632943ED4D7D0D0FD2401A98 /* TrustDecision.debug.xcconfig */;
+			baseConfigurationReference = E933D864C5045E16F2EF9965A05B05F7 /* TrustDecision.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -791,7 +794,7 @@
 		};
 		C465641CD0A1787A03E8741C7D35F9ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F281FC82877E9B9EEC931B999CA31A9A /* TrustDecision.release.xcconfig */;
+			baseConfigurationReference = CCFC891360410D1ED834C0B47FA6416D /* TrustDecision.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

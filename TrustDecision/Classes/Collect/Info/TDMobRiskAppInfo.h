@@ -13,4 +13,8 @@
 @property (nonatomic, copy) NSString *bundleId;
 /// appVersion
 @property (nonatomic, copy) NSString *appVersion;
+/// applicationId
+@property (nonatomic, copy) NSString *applicationId;
+/// teamName
+@property (nonatomic, copy) NSString *teamName;
 @end

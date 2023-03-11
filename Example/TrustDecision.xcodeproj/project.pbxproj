@@ -84,7 +84,7 @@
 		9C7533A6295452C500E2A476 /* TrustDecision_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrustDecision_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		A10BE41A3734908F947BE298 /* Pods-TrustDecision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustDecision_Tests.release.xcconfig"; path = "Target Support Files/Pods-TrustDecision_Tests/Pods-TrustDecision_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE2FF113488C7536B2995BD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E749CAFDCD2DB8D3F136BD37 /* TrustDecision.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TrustDecision.podspec; path = ../TrustDecision.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E749CAFDCD2DB8D3F136BD37 /* TrustDecision.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TrustDecision.podspec; path = ../TrustDecision.podspec; sourceTree = "<group>"; };
 		ECABA8B838550FE0535B90E4 /* Pods_TrustDecision_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustDecision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -526,6 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R3F7G5M76J;
+				EXCLUDED_ARCHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrustDecision/TrustDecision-Prefix.pch";
 				INFOPLIST_FILE = "TrustDecision/TrustDecision-Info.plist";
