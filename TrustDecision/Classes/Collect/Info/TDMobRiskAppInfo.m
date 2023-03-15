@@ -36,46 +36,74 @@
         NSString *applicationId = nil;
         NSString *teamName = nil;
         NSString *embeddedPath = [[NSBundle mainBundle] pathForResource:@"embedded" ofType:@"mobileprovision"];
-        const char *embeddedPathCStr = [embeddedPath UTF8String];
-        if (embeddedPathCStr) {
-            FILE *fp = fopen(embeddedPathCStr, "r");
-            if (fp) {
-                rewind(fp);
-                char lineBuf[10000];
-                int appidFlag = 0;
-                int teamNameFlag = 0;
-                NSString *string_0 = @"<string>";
-                NSString *string_1 = @"</string>";
-                while (fgets(lineBuf, sizeof(lineBuf), fp)) {
-                    NSString *lineStr = [NSString stringWithFormat:@"%s",lineBuf ?: ""];
-                    if (appidFlag == 1 && strstr(lineBuf, string_0.UTF8String) && strstr(lineBuf, string_1.UTF8String)) {
-                        appidFlag = 2;
-                        NSInteger fromPosition = [lineStr rangeOfString:string_0].location+8;
-                        NSInteger toPosition = [lineStr rangeOfString:string_1].location;
-                        NSRange range = NSMakeRange(fromPosition, toPosition - fromPosition);
-                        applicationId = [lineStr substringWithRange:range];
-                        applicationId = [applicationId stringByReplacingOccurrencesOfString:string_0 withString:@""];
-                        applicationId = [applicationId stringByReplacingOccurrencesOfString:string_1 withString:@""];
+        const char *embeddedPath_c = [embeddedPath UTF8String];
+        FILE *fp = fopen(embeddedPath_c, "r");
+        if (fp) {
+            fseek(fp, 0L, SEEK_END);
+            uint64_t sz = ftell(fp);
+            rewind(fp);
+            char *mobileProvisionContent = malloc(sz);
+            memset(mobileProvisionContent, 0, sz);
+            fread(mobileProvisionContent,sz,1, fp);
+            
+            char *plistBeginTag = "<plist version";
+            bool isPlistBeginTagMatch = false;
+            uint64_t plistBeginTagCount = 0;
+            uint64_t plistBeginTagPos = 0;
+            
+            char* plistEndTag = "</plist>";
+            bool isPlistEndTagMatch = false;
+            uint64_t plistEndTagCount = 0;
+            uint64_t plistEndTagPos = 0;
+            
+            for (int i = 0;i < sz;i++) {
+                if (isPlistBeginTagMatch && isPlistEndTagMatch) {
+                    break;
+                }
+                if (!isPlistBeginTagMatch) {
+                    while (plistBeginTag[plistBeginTagCount] && i < sz && plistBeginTag[plistBeginTagCount++] == mobileProvisionContent[i++]);
+                    if (plistBeginTag[plistBeginTagCount] == 0) {
+                        isPlistBeginTagMatch = true;
+                        plistBeginTagPos = i - plistBeginTagCount;
+                    }else {
+                        plistBeginTagCount = 0;
                     }
-                    if (teamNameFlag == 1 && strstr(lineBuf, string_0.UTF8String) && strstr(lineBuf, string_1.UTF8String)) {
-                        teamNameFlag = 2;
-                        NSInteger fromPosition = [lineStr rangeOfString:string_0].location+8;
-                        NSInteger toPosition = [lineStr rangeOfString:string_1].location;
-                        NSRange range = NSMakeRange(fromPosition, toPosition - fromPosition);
-                        teamName = [lineStr substringWithRange:range];
-                        teamName = [teamName stringByReplacingOccurrencesOfString:string_0 withString:@""];
-                        teamName = [teamName stringByReplacingOccurrencesOfString:string_1 withString:@""];
+                }
+                
+                if (!isPlistEndTagMatch) {
+                    while (plistEndTag[plistEndTagCount] && i < sz && plistEndTag[plistEndTagCount++] == mobileProvisionContent[i++]);
+                    if(plistEndTag[plistEndTagCount] == 0) {
+                        isPlistEndTagMatch = true;
+                        plistEndTagPos = i;
+                    }else{
+                        plistEndTagCount = 0;
                     }
-                    if (appidFlag == 0 && strstr(lineBuf, "application-identifier")) {
-                        appidFlag = 1;
-                    }
-                    if (teamNameFlag == 0 && strstr(lineBuf, "TeamName")) {
-                        teamNameFlag = 1;
-                    }
-                    fclose(fp);
                 }
             }
+            mobileProvisionContent[plistEndTagPos] = 0;
+            char *plistContent = mobileProvisionContent + plistBeginTagPos;
+            if (plistEndTagPos > plistBeginTagPos) {
+                uint64_t plistContent_len = plistEndTagPos - plistBeginTagPos;
+                NSData *data = [NSData dataWithBytes:plistContent length:plistContent_len];
+                NSError *error;
+                NSDictionary * plistDic = [NSPropertyListSerialization propertyListWithData:data options:NSPropertyListWriteStreamError format:nil error:&error];
+                
+                if ([plistDic isKindOfClass:[NSDictionary class]]) {
+                    teamName = plistDic[@"TeamName"];
+                    NSDictionary *entitlementsDic = plistDic[@"Entitlements"];
+                    if ([entitlementsDic isKindOfClass:[NSDictionary class]]) {
+                        applicationId = entitlementsDic[@"application-identifier"];
+                    }
+                }
+            }
+            if (mobileProvisionContent) {
+                free(mobileProvisionContent);
+            }
+            if (fp) {
+                fclose(fp);
+            }
         }
+        
         _applicationId = applicationId;
         _teamName = teamName;
     }
