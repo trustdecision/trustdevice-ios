@@ -24,6 +24,8 @@
     // Load Local Privacy Policy Html
     NSString *privacyPolicyPath = [[NSBundle mainBundle] pathForResource:@"Privacy Policy" ofType:@"html"];
     NSString *htmlString = [NSString stringWithContentsOfFile:privacyPolicyPath encoding:NSUTF8StringEncoding error:nil];
+    self.webView.scrollView.showsVerticalScrollIndicator = NO;
+    self.webView.scrollView.showsHorizontalScrollIndicator = NO;
     [self.webView loadHTMLString:htmlString baseURL:nil];
 }
 
