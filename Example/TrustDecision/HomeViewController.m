@@ -6,8 +6,9 @@
 //
 
 #import "HomeViewController.h"
-#import <TrustDecision/TDMobRisk.h>
 #import "DetailsViewController.h"
+#import "PrivacyPolicyViewController.h"
+#import <TrustDecision/TDMobRisk.h>
 #import "TrustDecision_Example-Swift.h"
 #import "MobRiskSDKOCAPI.h"
 
@@ -58,6 +59,18 @@
 // If you want to know how to use SDK API by swift, please switch SWIFT_TEST on.
 #define SWIFT_TEST 1
 - (IBAction)getDeviceFingerprintClick:(id)sender {
+    bool isAgreePrivacy = [[NSUserDefaults standardUserDefaults] boolForKey:@"isAgreePrivacy"];
+    if (!isAgreePrivacy) {
+        UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        PrivacyPolicyViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:@"PrivacyPolicyViewController"];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else {
+        [self initTrustDevice];
+    }
+}
+
+#pragma mark - Init
+- (void)initTrustDevice {
 #ifdef SWIFT_TEST
     [MobRiskSDKSwiftAPI initWithOptions];
 #else

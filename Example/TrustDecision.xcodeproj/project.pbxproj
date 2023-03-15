@@ -21,6 +21,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		77DF58FC245E3F27578CB2D1 /* Pods_TrustDecision_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECABA8B838550FE0535B90E4 /* Pods_TrustDecision_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9C08AF2129C191AB001224C7 /* PrivacyPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C08AF2029C191AB001224C7 /* PrivacyPolicyViewController.m */; };
+		9C08AF2329C1D912001224C7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C08AF2229C1D911001224C7 /* WebKit.framework */; };
+		9C08AF2529C1D922001224C7 /* Privacy Policy.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C08AF2429C1D921001224C7 /* Privacy Policy.html */; };
 		9C75339D2954511100E2A476 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C75338D2954510300E2A476 /* DetailsViewController.m */; };
 		9C75339E2954511100E2A476 /* DetailsDefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7533902954510600E2A476 /* DetailsDefaultTableViewCell.m */; };
 		9C75339F2954511100E2A476 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7533922954510800E2A476 /* HomeViewController.m */; };
@@ -66,6 +69,10 @@
 		80C07CFA68DA60E321855FA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		85FDD320080E83DA23739273 /* Pods-TrustDecision_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustDecision_Example.debug.xcconfig"; path = "Target Support Files/Pods-TrustDecision_Example/Pods-TrustDecision_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C08AF1F29C191AB001224C7 /* PrivacyPolicyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyPolicyViewController.h; sourceTree = "<group>"; };
+		9C08AF2029C191AB001224C7 /* PrivacyPolicyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyPolicyViewController.m; sourceTree = "<group>"; };
+		9C08AF2229C1D911001224C7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9C08AF2429C1D921001224C7 /* Privacy Policy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Privacy Policy.html"; sourceTree = "<group>"; };
 		9C75338D2954510300E2A476 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		9C75338E2954510400E2A476 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		9C75338F2954510500E2A476 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -93,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C08AF2329C1D912001224C7 /* WebKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -138,6 +146,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C08AF2229C1D911001224C7 /* WebKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -163,6 +172,8 @@
 				9C75338D2954510300E2A476 /* DetailsViewController.m */,
 				9C75338F2954510500E2A476 /* HomeViewController.h */,
 				9C7533922954510800E2A476 /* HomeViewController.m */,
+				9C08AF1F29C191AB001224C7 /* PrivacyPolicyViewController.h */,
+				9C08AF2029C191AB001224C7 /* PrivacyPolicyViewController.m */,
 				9C7533972954510E00E2A476 /* SDKAPI */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -176,6 +187,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C08AF2429C1D921001224C7 /* Privacy Policy.html */,
 				6003F595195388D20070C39A /* TrustDecision-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -320,6 +332,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				9C08AF2529C1D922001224C7 /* Privacy Policy.html in Resources */,
 				9C7533A22954511100E2A476 /* DetailSubtitleTableViewCell.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -395,6 +408,7 @@
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				9C7533A52954511200E2A476 /* AppDelegate.m in Sources */,
 				9C75339D2954511100E2A476 /* DetailsViewController.m in Sources */,
+				9C08AF2129C191AB001224C7 /* PrivacyPolicyViewController.m in Sources */,
 				9C75339F2954511100E2A476 /* HomeViewController.m in Sources */,
 				9C7533A42954511200E2A476 /* MobRiskSDKOCAPI.m in Sources */,
 			);
@@ -530,7 +544,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrustDecision/TrustDecision-Prefix.pch";
 				INFOPLIST_FILE = "TrustDecision/TrustDecision-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,7 +564,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrustDecision/TrustDecision-Prefix.pch";
 				INFOPLIST_FILE = "TrustDecision/TrustDecision-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
