@@ -17,4 +17,6 @@
 @property (nonatomic, assign) double displayScale;
 /// deviceModel
 @property (nonatomic, copy) NSString *deviceModel;
+/// deviceName
+@property (nonatomic, copy) NSString *deviceName;
 @end
