@@ -18,7 +18,7 @@ void (*initWithOptions)(NSDictionary *);
  */
 NSDictionary *(*getBlackBox)(void);
 /**
- * get sdkVersion，currentVersion is 1.0
+ * get sdkVersion，currentVersion is 1.1
  */
 NSString *(*getSDKVersion)(void);
 } TDMobRiskManager_t;

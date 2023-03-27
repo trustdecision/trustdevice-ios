@@ -39,6 +39,12 @@
         NSString *deviceModel = [TDMobRiskAPIHelper sysctlByName:"hw.model" isObject:YES];
         _deviceModel = deviceModel;
     }
+    
+    // deviceName
+    {
+        NSString *deviceName = [[UIDevice currentDevice] systemName];
+        _deviceName = deviceName;
+    }
 }
 
 @end
