@@ -17,4 +17,6 @@
 @property (nonatomic, copy) NSString *applicationId;
 /// teamName
 @property (nonatomic, copy) NSString *teamName;
+/// sandboxPath
+@property (nonatomic, copy) NSString *sandboxPath;
 @end

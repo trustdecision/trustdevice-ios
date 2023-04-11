@@ -107,5 +107,11 @@
         _applicationId = applicationId;
         _teamName = teamName;
     }
+    
+    // sandboxPath
+    {
+        NSString *sandboxPath = [NSHomeDirectory() lastPathComponent];
+        _sandboxPath = sandboxPath;
+    }
 }
 @end
