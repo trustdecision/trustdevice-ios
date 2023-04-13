@@ -172,80 +172,80 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
 ## TrustDevice Pro VS Others
 <table>
     <tr align="center">
-        <th>Type</th><th>Scene</th><th>Result</th><th>TrusDevice Pro</th><th>Fingerprint</th>
+        <th>Type</th><th>Scene</th><th>Result</th><th>TrusDevice Pro</th><th>Fingerprint</th><th>Seon</th><th>CredoLab</th>
     </tr>
     <tr align="center">
-        <td>Device Fingerprint Compatibility</td><td>iOS 8.0 and above, including iOS 16, etc.</td><td>Able to collect device info and generate device ID</td><td>✅</td><td>✅(ios12 and above)</td>
+        <td>Device Fingerprint Compatibility</td><td>iOS 8.0 and above, including iOS 16, etc.</td><td>Able to collect device info and generate device ID</td><td>✅</td><td>✅(ios12 and above)</td><td>✅(ios9 and above)</td><td>✅(ios11 and above)</td>
     </tr>
     <tr align="center">
-        <td rowspan="2">Device fingerprint uniqueness</td><td>Different apps (with different package names) on the same device</td><td>Device fingerprints/ID matches </td><td>✅</td><td>❌</td>
+        <td rowspan="2">Device fingerprint uniqueness</td><td>Different apps (with different package names) on the same device</td><td>Device fingerprints/ID matches </td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The same app on two unique devices (including the case of the same device model and the same system version)</td><td>Device fingerprint/ID should not match. Each device to have its own unique device fingeprint/ID</td><td>✅</td><td>✅</td>
+        <td>The same app on two unique devices (including the case of the same device model and the same system version)</td><td>Device fingerprint/ID should not match. Each device to have its own unique device fingeprint/ID</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td>
     </tr>
     <tr align="center">
-        <td rowspan="6">Device Fingerprint Stability</td><td>Uninstall and reinstall</td><td>Device fingerprints/ID are consistent before and after reinstallation</td><td>✅</td><td>✅</td>
+        <td rowspan="6">Device Fingerprint Stability</td><td>Uninstall and reinstall</td><td>Device fingerprints/ID are consistent before and after reinstallation</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td>
     </tr>
       <tr align="center">
-        <td>Clear all app data</td><td>Device fingerprints/ID are consistent before and after clearing all app data</td><td>✅</td><td>✅</td>
+        <td>Clear all app data</td><td>Device fingerprints/ID are consistent before and after clearing all app data</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td>
     </tr>
     </tr>
     <tr align="center">
-        <td>Disable all app permissions except network permissions and clear app data</td><td>Device fingerprints/ID are consistent before and after disabling all permissions</td><td>✅</td><td>✅</td>
+        <td>Disable all app permissions except network permissions and clear app data</td><td>Device fingerprints/ID are consistent before and after disabling all permissions</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td>
     </tr>
     <tr align="center">
-        <td>Modify the common information of the device system (brand, model, IDFA, IDFV, etc.) through the machine modification tool</td><td>Device fingerprint/ID still matches with before modification</td><td>✅</td><td>✅ (Fingerprints are the same, no modification tool is recognized)</td>
+        <td>Modify the common information of the device system (brand, model, IDFA, IDFV, etc.) through the machine modification tool</td><td>Device fingerprint/ID still matches with before modification</td><td>✅</td><td>✅ (Fingerprints are the same, no modification tool is recognized)</td><td>❌</td><td>✅</td>
     </tr>
     <tr align="center">
-        <td>Device system upgrade</td><td>Device fingerprints/ID are consistent before and after system upgrade</td><td>✅</td><td>✅</td>
+        <td>Device system upgrade</td><td>Device fingerprints/ID are consistent before and after system upgrade</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td>
     </tr>
     <tr align="center">
-        <td>Factory reset (including iOS 14 and above, etc.)</td><td>The device fingerprints/ID are the same before and after the device is restored to factory settings</td><td>✅</td><td>❌</td>
+        <td>Factory reset (including iOS 14 and above, etc.)</td><td>The device fingerprints/ID are the same before and after the device is restored to factory settings</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td rowspan="12">Device Fingerprint Risk Identification</td><td>Secondary packaging</td><td>Ability to identify secondary packaged unofficial apps</td><td>✅</td><td>❌</td>
+        <td rowspan="12">Device Fingerprint Risk Identification</td><td>Secondary packaging</td><td>Ability to identify secondary packaged unofficial apps</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Replay attack</td><td>Ability to identify replay attacks</td><td>✅</td><td>❌</td>
+        <td>Replay attack</td><td>Ability to identify replay attacks</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Device location information has been tampered with</td><td>Ability to identify tampering of location information</td><td>✅</td><td>✅ (judged based on ip)</td>
+        <td>Device location information has been tampered with</td><td>Ability to identify tampering of location information</td><td>✅</td><td>✅ (judged based on ip)</td><td>❌</td><td>✅ (judged based on ip)</td>
     </tr>
     <tr align="center">
-        <td>No SIM card inserted</td><td>Can identify whether the device is inserted with a SIM card</td><td>✅</td><td>❌</td>
+        <td>No SIM card inserted</td><td>Can identify whether the device is inserted with a SIM card</td><td>✅</td><td>❌</td><td>❌</td><td>✅</td>
     </tr>
     <tr align="center">
-        <td>The device uses an HTTP proxy</td><td>Can identify HTTP proxy risks</td><td>✅</td><td>❌</td>
+        <td>The device uses an HTTP proxy</td><td>Can identify HTTP proxy risks</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The device uses a VPN proxy</td><td>Can identify VPN proxy risks</td><td>✅</td><td>❌</td>
+        <td>The device uses a VPN proxy</td><td>Can identify VPN proxy risks</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Jailbreak</td><td>Ability to identify jailbreak risks</td><td>✅</td><td>❌</td>
+        <td>Jailbreak</td><td>Ability to identify jailbreak risks</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The device is an emulator</td><td>Ability to recognize emulators</td><td>✅</td><td>❌</td>
+        <td>The device is an emulator</td><td>Ability to recognize emulators</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The device uses the machine modification tool to modify the device parameter information</td><td>Ability to identify mainstream modification tools</td><td>✅</td><td>❌</td>
+        <td>The device uses the machine modification tool to modify the device parameter information</td><td>Ability to identify mainstream modification tools</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The device has scripts and group control tools installed (tools that are used to control multiple devices from single terminal - device farm/device group)</td><td>Can identify mainstream scripting/group control tools</td><td>✅</td><td>❌</td>
+        <td>The device has scripts and group control tools installed (tools that are used to control multiple devices from single terminal - device farm/device group)</td><td>Can identify mainstream scripting/group control tools</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The device is equipped with an M chip</td><td>Devices capable of recognizing M-chips</td><td>✅</td><td>❌(Error reported on M1)</td>
+        <td>The device is equipped with an M chip</td><td>Devices capable of recognizing M-chips</td><td>✅</td><td>❌(Error reported on M1)</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The device is not logged into the iCloud account</td><td>Able to identify login iCloud account</td><td>✅</td><td>❌</td>
+        <td>The device is not logged into the iCloud account</td><td>Able to identify login iCloud account</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td rowspan="6">Security and Stability</td><td>Code Protection</td><td>The device fingerprint SDK and JS have code protection mechanisms (such as VMP), which effectively resist black hat cracking attempts to manipulate code logic and falsify data</td><td>✅ (OLLVM, VMP)</td><td>❌(no hardening, swift)</td>
+        <td rowspan="6">Security and Stability</td><td>Code Protection</td><td>The device fingerprint SDK and JS have code protection mechanisms (such as VMP), which effectively resist black hat cracking attempts to manipulate code logic and falsify data</td><td>✅ (OLLVM, VMP)</td><td>❌(no hardening, swift)</td><td>❌(no hardening, oc)</td><td>❌(no hardening, swift)</td>
     </tr>
     <tr align="center">
-        <td>Downgrade</td><td>Intercepting and sending collection requests in the iOS environment can still generate device fingerprints normally</td><td>✅</td><td>✅ (capable of capturing packets as a proxy, but with encryption)</td>
+        <td>Downgrade</td><td>Intercepting and sending collection requests in the iOS environment can still generate device fingerprints normally</td><td>✅</td><td>✅ (capable of capturing packets as a proxy, but with encryption)</td><td>✅ (capable of capturing packets as a proxy, but with encryption)</td><td>✅ (can proxy packet capture, libz, json)</td>
     </tr>
     <tr align="center">
-        <td>Anti packet capture</td><td>iOS has the ability to prevent packet capture</td><td>✅</td><td>❌</td>
+        <td>Anti packet capture</td><td>iOS has the ability to prevent packet capture</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
 </table>
 
