@@ -112,25 +112,25 @@ manager?.pointee.initWithOptions(options)
 + Basic equipment information, which can be used for simple data analysis
 + Basic risk identification ability
 
-| RiskLabel      |       Risk Description |
-| --------- | --------------------------- |
-| jailbreak   |     Attackers will have higher privileges and can install many cheating software to affect the normal development of application business.      |
-| simulator   | The simulator provides many simulation functions, which will affect the normal operation of applications, such as virtual positioning. |
-| debug   |   Applications can be modified by attackers at will, and the program will return unexpected values.         |
+| RiskLabel | Risk Description                                             |
+| --------- | ------------------------------------------------------------ |
+| jailbreak | Attackers will have higher privileges and can install many cheating software to affect the normal development of application business. |
+| simulator | The simulator provides many simulation functions, which will affect the normal operation of applications, such as virtual positioning. |
+| debug     | Applications can be modified by attackers at will, and the program will return unexpected values. |
 
 
 ## Open Source VS Pro
-| Ability | Open Source |  Pro  |
-| :-------: | :-------: | :-------------------------: |
-| 100% open source | Yes | No |
-| Device ID | Basic | Extremely stable, even if the device is restored to factory settings, it can still be recognized as the same |
-| Device Risk Label | Basic | Extremely rich |
-| Device Details | Basic  | Extremely rich |
-| IP Location | -  | ✓ |
-| Device Risk Score | -  | ✓ |
-| Environment Risk Evaluation | -  | ✓ |
-| Fraud Tools Detection | -  | ✓ |
-| Behavioral Activity Capturing | -  | ✓ |
+|            Ability            | Open Source |                             Pro                              |
+| :---------------------------: | :---------: | :----------------------------------------------------------: |
+|       100% open source        |     Yes     |                              No                              |
+|           Device ID           |    Basic    | Extremely stable, even if the device is restored to factory settings, it can still be recognized as the same |
+|       Device Risk Label       |    Basic    |                        Extremely rich                        |
+|        Device Details         |    Basic    |                        Extremely rich                        |
+|          IP Location          |      -      |                              ✓                               |
+|       Device Risk Score       |      -      |                              ✓                               |
+|  Environment Risk Evaluation  |      -      |                              ✓                               |
+|     Fraud Tools Detection     |      -      |                              ✓                               |
+| Behavioral Activity Capturing |      -      |                              ✓                               |
 
 ## Pro Introduction
 
@@ -164,10 +164,10 @@ We are happy to provide technical support for our open-source trustdevice-ios li
 In addition, any idea or interest in using TrustDevice Pro can be found on the [www.trustdecision.com](https://www.trustdecision.com/trustDevice), registered account for a free trial; or via email trustdevice@trustdecision.com contact us directly and quickly open the service.
 
 ## Compatibility
-| Items     | Description          |
-| :-------: | :-------------------------: |
-| Supported System Versions | iOS9.0+              |
-| Supported Architecture   | armv7, arm64, x86_64 |
+|           Items           |     Description      |
+| :-----------------------: | :------------------: |
+| Supported System Versions |       iOS9.0+        |
+|  Supported Architecture   | armv7, arm64, x86_64 |
 
 ## TrustDevice Pro VS Others
 <table>
@@ -175,7 +175,7 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
         <th>Type</th><th>Scene</th><th>Result</th><th>TrusDevice Pro</th><th>Fingerprint</th><th>Seon</th><th>CredoLab</th>
     </tr>
     <tr align="center">
-        <td>Device Fingerprint Compatibility</td><td>iOS 8.0 and above, including iOS 16, etc.</td><td>Able to collect device info and generate device ID</td><td>✅</td><td>✅(ios12 and above)</td><td>✅(ios9 and above)</td><td>✅(ios11 and above)</td>
+        <td>Device Fingerprint Compatibility</td><td>iOS 9.0 and above, including iOS 16, etc.</td><td>Able to collect device info and generate device ID</td><td>✅</td><td>✅(ios12 and above)</td><td>✅(ios9 and above)</td><td>✅(ios11 and above)</td>
     </tr>
     <tr align="center">
         <td rowspan="2">Device fingerprint uniqueness</td><td>Different apps (with different package names) on the same device</td><td>Device fingerprints/ID matches </td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
@@ -194,7 +194,7 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
         <td>Disable all app permissions except network permissions and clear app data</td><td>Device fingerprints/ID are consistent before and after disabling all permissions</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td>
     </tr>
     <tr align="center">
-        <td>Modify the common information of the device system (brand, model, IDFA, IDFV, etc.) through the machine modification tool</td><td>Device fingerprint/ID still matches with before modification</td><td>✅</td><td>✅ (Fingerprints are the same, no modification tool is recognized)</td><td>❌</td><td>✅</td>
+        <td>Modify the common information of the device system (brand, model, IDFA, IDFV, etc.) through the machine modification tool</td><td>Device fingerprint/ID still matches with before modification</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td>
     </tr>
     <tr align="center">
         <td>Device system upgrade</td><td>Device fingerprints/ID are consistent before and after system upgrade</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td>
@@ -209,7 +209,7 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
         <td>Replay attack</td><td>Ability to identify replay attacks</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Device location information has been tampered with</td><td>Ability to identify tampering of location information</td><td>✅</td><td>✅ (judged based on ip)</td><td>❌</td><td>✅ (judged based on ip)</td>
+        <td>Device location information has been tampered with</td><td>Ability to identify tampering of location information</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td>
     </tr>
     <tr align="center">
         <td>No SIM card inserted</td><td>Can identify whether the device is inserted with a SIM card</td><td>✅</td><td>❌</td><td>❌</td><td>✅</td>
@@ -233,21 +233,22 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
         <td>The device has scripts and group control tools installed (tools that are used to control multiple devices from single terminal - device farm/device group)</td><td>Can identify mainstream scripting/group control tools</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>The device is equipped with an M chip</td><td>Devices capable of recognizing M-chips</td><td>✅</td><td>❌(Error reported on M1)</td><td>❌</td><td>❌</td>
+        <td>The device is equipped with an M chip</td><td>Devices capable of recognizing M-chips</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
         <td>The device is not logged into the iCloud account</td><td>Able to identify login iCloud account</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td rowspan="6">Security and Stability</td><td>Code Protection</td><td>The device fingerprint SDK and JS have code protection mechanisms (such as VMP), which effectively resist black hat cracking attempts to manipulate code logic and falsify data</td><td>✅ (OLLVM, VMP)</td><td>❌(no hardening, swift)</td><td>❌(no hardening, oc)</td><td>❌(no hardening, swift)</td>
+        <td rowspan="6">Security and Stability</td><td>Code Protection</td><td>The device fingerprint SDK and JS have code protection mechanisms (such as VMP), which effectively resist black hat cracking attempts to manipulate code logic and falsify data</td><td>✅ (OLLVM, VMP)</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Downgrade</td><td>Intercepting and sending collection requests in the iOS environment can still generate device fingerprints normally</td><td>✅</td><td>✅ (capable of capturing packets as a proxy, but with encryption)</td><td>✅ (capable of capturing packets as a proxy, but with encryption)</td><td>✅ (can proxy packet capture, libz, json)</td>
+        <td>Downgrade</td><td>Intercepting and sending collection requests in the iOS environment can still generate device fingerprints normally</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td>
     </tr>
     <tr align="center">
         <td>Anti packet capture</td><td>iOS has the ability to prevent packet capture</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
 </table>
+
 
 ## License
 
