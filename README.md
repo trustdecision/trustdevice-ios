@@ -209,7 +209,7 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
         <td>Replay attack</td><td>Ability to identify replay attacks</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Device location information has been tampered with</td><td>Ability to identify tampering of location information</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
+        <td>Device location information has been tampered with</td><td>Ability to identify tampering of location information</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>✅</td>
     </tr>
     <tr align="center">
         <td>No SIM card inserted</td><td>Can identify whether the device is inserted with a SIM card</td><td>✅</td><td>❌</td><td>❌</td><td>✅</td><td>✅</td>
