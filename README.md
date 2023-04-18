@@ -187,17 +187,17 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
         <td rowspan="6">Device Fingerprint Stability</td><td>Uninstall and reinstall</td><td>Device fingerprints/ID are consistent before and after reinstallation</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
     </tr>
       <tr align="center">
-        <td>Clear all app data</td><td>Device fingerprints/ID are consistent before and after clearing all app data</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>❌</td>
+        <td>Clear all app data</td><td>Device fingerprints/ID are consistent before and after clearing all app data</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
     </tr>
     </tr>
     <tr align="center">
-        <td>Disable all app permissions except network permissions and clear app data</td><td>Device fingerprints/ID are consistent before and after disabling all permissions</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>✅</td><td>✅</td>
+        <td>Disable all app permissions except network permissions and clear app data</td><td>Device fingerprints/ID are consistent before and after disabling all permissions</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>✅</td>
     </tr>
     <tr align="center">
-        <td>Modify the common information of the device system (brand, model, IDFA, IDFV, etc.) through the machine modification tool</td><td>Device fingerprint/ID still matches with before modification</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>❌</td>
+        <td>Modify the common information of the device system (brand, model, IDFA, IDFV, etc.) through the machine modification tool</td><td>Device fingerprint/ID still matches with before modification</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Device system upgrade</td><td>Device fingerprints/ID are consistent before and after system upgrade</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td>
+        <td>Device system upgrade</td><td>Device fingerprints/ID are consistent before and after system upgrade</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td>
     </tr>
     <tr align="center">
         <td>Factory reset (including iOS 14 and above, etc.)</td><td>The device fingerprints/ID are the same before and after the device is restored to factory settings</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td>
@@ -206,7 +206,7 @@ In addition, any idea or interest in using TrustDevice Pro can be found on the [
         <td rowspan="12">Device Fingerprint Risk Identification</td><td>Secondary packaging</td><td>Ability to identify secondary packaged unofficial apps</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
-        <td>Replay attack</td><td>Ability to identify replay attacks</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td>
+        <td>Replay attack</td><td>Ability to identify replay attacks</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td>
     </tr>
     <tr align="center">
         <td>Device location information has been tampered with</td><td>Ability to identify tampering of location information</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td>
