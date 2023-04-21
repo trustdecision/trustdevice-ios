@@ -11,4 +11,7 @@
 /** Identifier */
 /// idfv
 @property (nonatomic, copy) NSString *idfv;
+
+/// cloudid
+@property (nonatomic, copy) NSString *cloudid;
 @end

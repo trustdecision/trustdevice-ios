@@ -8,6 +8,7 @@
 #import "TDMobRiskIdentifierInfo.h"
 #import "TDMobRiskKeychainsHelper.h"
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @implementation TDMobRiskIdentifierInfo
 #pragma mark - Collect Methods
@@ -22,5 +23,15 @@
         }
         _idfv = idfvCache;
     }
+    
+    //cloudid need to iCloud Key-Value storage Capability
+    NSString  *cloudid = [[NSUbiquitousKeyValueStore defaultStore] stringForKey:@"td_cloudid"];
+    if(!cloudid) {
+        cloudid = [NSUUID UUID].UUIDString;
+        [[NSUbiquitousKeyValueStore defaultStore] setString:cloudid forKey:@"td_cloudid"];
+        [[NSUbiquitousKeyValueStore defaultStore] synchronize];
+    }
+    _cloudid = cloudid;
+    
 }
 @end
