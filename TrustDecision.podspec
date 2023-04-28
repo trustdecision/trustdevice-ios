@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrustDecision'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'Local fingerprint of trust device.'
   s.description      = 'Local fingerprint of trust device, generate your unique device fingerprint.'
   s.homepage         = 'https://trustdecision.com/trustDevice'
