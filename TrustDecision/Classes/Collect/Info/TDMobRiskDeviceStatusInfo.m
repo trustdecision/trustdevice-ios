@@ -13,6 +13,7 @@
 #import <unistd.h>
 #import <sys/sysctl.h>
 #import <sys/stat.h>
+#import <mach-o/dyld.h>
 
 @implementation TDMobRiskDeviceStatusInfo
 #pragma mark - Collect Methods
