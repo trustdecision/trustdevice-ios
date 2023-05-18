@@ -68,7 +68,8 @@
         @"/var/stash/usr/include",
         @"/var/stash/usr/libexec",
         @"/var/stash/usr/share",
-        @"/var/stash/usr/arm-apple-darwin9"
+        @"/var/stash/usr/arm-apple-darwin9",
+        @"/bin/bash"
     ];
     for (NSString *symlinkPath in symlinkList) {
         struct stat sym;
