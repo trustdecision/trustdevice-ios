@@ -19,4 +19,6 @@
 @property (nonatomic, copy) NSString *deviceModel;
 /// deviceName
 @property (nonatomic, copy) NSString *deviceName;
+/// timeZone
+@property (nonatomic, copy) NSString *timeZone;
 @end

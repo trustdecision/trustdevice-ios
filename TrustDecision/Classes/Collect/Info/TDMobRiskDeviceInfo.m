@@ -45,6 +45,12 @@
         NSString *deviceName = [[UIDevice currentDevice] systemName];
         _deviceName = deviceName;
     }
+    
+    // timeZone
+    {
+        NSString *timeZone = [[NSTimeZone localTimeZone] name];
+        _timeZone = timeZone;
+    }
 }
 
 @end
