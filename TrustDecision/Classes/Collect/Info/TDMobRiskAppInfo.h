@@ -19,4 +19,6 @@
 @property (nonatomic, copy) NSString *teamName;
 /// sandboxPath
 @property (nonatomic, copy) NSString *sandboxPath;
+/// appInstallTime
+@property (nonatomic, assign) NSTimeInterval appInstallTime;
 @end

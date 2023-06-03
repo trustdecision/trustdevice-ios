@@ -113,5 +113,14 @@
         NSString *sandboxPath = [NSHomeDirectory() lastPathComponent];
         _sandboxPath = sandboxPath;
     }
+
+    // appInstallTime
+    {
+        NSString *appDocumentsPath = [[[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject] path];
+        NSDictionary *appDocumentsDict = [[NSFileManager defaultManager] attributesOfItemAtPath:appDocumentsPath error:nil];
+        NSDate *appDocumentsCreationDate = appDocumentsDict[NSFileCreationDate];
+        NSTimeInterval appInstallTime = [appDocumentsCreationDate timeIntervalSince1970] * 1000000;
+        _appInstallTime = appInstallTime;
+    }
 }
 @end
