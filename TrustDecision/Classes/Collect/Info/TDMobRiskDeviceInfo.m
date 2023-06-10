@@ -51,6 +51,15 @@
         NSString *timeZone = [[NSTimeZone localTimeZone] name];
         _timeZone = timeZone;
     }
+    
+    // batteryState
+    {
+        UIDevice *currentDevice = [UIDevice currentDevice];
+        if (!currentDevice.isBatteryMonitoringEnabled) {
+            currentDevice.batteryMonitoringEnabled = true;
+        }
+        _batteryState = [currentDevice batteryState];
+    }
 }
 
 @end

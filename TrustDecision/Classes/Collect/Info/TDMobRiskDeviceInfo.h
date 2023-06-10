@@ -21,4 +21,6 @@
 @property (nonatomic, copy) NSString *deviceName;
 /// timeZone
 @property (nonatomic, copy) NSString *timeZone;
+/// batteryState
+@property (nonatomic, assign) NSInteger batteryState;
 @end
