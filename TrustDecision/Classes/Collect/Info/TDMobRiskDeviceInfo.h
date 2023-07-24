@@ -25,4 +25,6 @@
 @property (nonatomic, assign) NSInteger batteryState;
 /// Mobile Network Code
 @property (nonatomic, copy) NSString *mnc;
+/// Mobile Country Code
+@property (nonatomic, copy) NSString *mcc;
 @end

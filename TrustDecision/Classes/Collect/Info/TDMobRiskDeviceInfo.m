@@ -68,6 +68,12 @@
         CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
         _mnc = [[networkInfo subscriberCellularProvider] mobileNetworkCode];
     }
+    
+    // mcc
+    {
+        CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
+        _mcc = [[networkInfo subscriberCellularProvider] mobileCountryCode];
+    }
 }
 
 @end
