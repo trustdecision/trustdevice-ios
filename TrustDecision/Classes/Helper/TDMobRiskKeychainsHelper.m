@@ -8,7 +8,7 @@
 #import "TDMobRiskKeychainsHelper.h"
 #import <Security/Security.h>
 
-static NSString *keychainAccount = @"com.tongdun.mobrisk";
+static NSString *keychainAccount = @"com.td.mobrisk";
 @implementation TDMobRiskKeychainsHelper
 #pragma mark - function
 + (OSStatus)deleteValueForKey:(NSString *)key {

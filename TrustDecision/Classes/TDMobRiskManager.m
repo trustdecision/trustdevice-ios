@@ -43,7 +43,7 @@ static void TDMobRisk_assert(BOOL condition, const char *assertDescription);
         riskManager->initWithOptions = initWithOptions;
         riskManager->getBlackBox = getBlackBox;
         riskManager->getSDKVersion = getSDKVersion;
-        collectQueue = dispatch_queue_create("com.tongdun.mobrisk.collector", DISPATCH_QUEUE_CONCURRENT);
+        collectQueue = dispatch_queue_create("com.td.mobrisk.collector", DISPATCH_QUEUE_CONCURRENT);
     });
     return riskManager;
 }
