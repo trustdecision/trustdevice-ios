@@ -16,7 +16,7 @@
 /// SDK Object
 static TDMobRiskManager_t *riskManager;
 /// SDKVersion
-static NSString *sdkVersion = @"1.1";
+static NSString *sdkVersion = @"1.3";
 /// CollectData Dictionary
 static TDMobRiskSafeDictionary *infoDict;
 /// Global Collect Queue
