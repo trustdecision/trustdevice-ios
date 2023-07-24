@@ -8,6 +8,8 @@
 #import "TDMobRiskDeviceInfo.h"
 #import "TDMobRiskAPIHelper.h"
 #import <UIKit/UIKit.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
 @implementation TDMobRiskDeviceInfo
 #pragma mark - Collect Methods
@@ -59,6 +61,12 @@
             currentDevice.batteryMonitoringEnabled = true;
         }
         _batteryState = [currentDevice batteryState];
+    }
+    
+    // mnc
+    {
+        CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
+        _mnc = [[networkInfo subscriberCellularProvider] mobileNetworkCode];
     }
 }
 

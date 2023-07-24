@@ -23,4 +23,6 @@
 @property (nonatomic, copy) NSString *timeZone;
 /// batteryState
 @property (nonatomic, assign) NSInteger batteryState;
+/// Mobile Network Code
+@property (nonatomic, copy) NSString *mnc;
 @end
