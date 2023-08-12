@@ -35,6 +35,16 @@
         int simulator = [self isSimulator];
         _simulator = simulator;
     }
+    
+    // secureKernelStatus
+    {
+        int value = 0;
+        size_t length = sizeof(value);
+        if (sysctlbyname("kern.secure_kernel", &value, &length, NULL, 0) == 0) {
+            _secureKernelStatus = (value != 0);
+        }
+        
+    }    
 }
 
 #pragma mark - Private Collect Methods
