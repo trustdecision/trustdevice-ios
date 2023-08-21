@@ -43,8 +43,16 @@
         if (sysctlbyname("kern.secure_kernel", &value, &length, NULL, 0) == 0) {
             _secureKernelStatus = (value != 0);
         }
-        
-    }    
+    }
+    
+    // isiOSAppOnMac
+    {
+        int isiOSAppOnMac = -1;
+        if (@available(iOS 14.0, *)) {
+            isiOSAppOnMac = [[NSProcessInfo processInfo] isiOSAppOnMac];
+        }
+        _isiOSAppOnMac =isiOSAppOnMac;
+    }
 }
 
 #pragma mark - Private Collect Methods
