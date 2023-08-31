@@ -64,7 +64,8 @@
         @"/Library/MobileSubstrate/MobileSubstrate.dylib",
         @"/bin/bash",
         @"/usr/sbin/sshd",
-        @"/etc/apt"
+        @"/etc/apt",
+        @"/var/jb"
     ];
     for (NSString *filePath in jailBreakFileList) {
         if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
