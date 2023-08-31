@@ -75,34 +75,47 @@ manager?.pointee.initWithOptions(options)
 ## Data Sample
 ```json
 {
-    "device_id":"95438cde98fc3f18b9ffb7d464ec7abbd8225efa7b6199aee552d7563a5d4f0e",
+    "device_id":"4b3491c6bb6a27c6c58a038939a10d4cad97555e517574e7bd0291db96243859",
     "device_risk_label":{
-        "debug":true,
         "jailbreak":false,
-        "simulator":false
+        "simulator":false,
+        "debug":true
     },
     "device_detail":{
-        "appVersion":"1.0",
-        "bootTime":1670888977003957,
-        "bundleId":"org.cocoapods.demo.TrustDecision-Example",
-        "cpuCount":"6",
-        "currentTime":1670983993560205,
-        "debug":true,
-        "deviceModel":"N104AP",
-        "deviceType":"iPhone",
         "displayResolution":"828.0x1792.0",
-        "displayScale":2,
-        "freeDiskSpace":4624658432,
-        "idfv":"52FBDFEB-EBA3-4819-A92D-C456A2DE8FE0",
-        "jailbreak":false,
-        "kernelVersion":"Darwin Kernel Version 22.0.0: Tue Aug 16 20:50:57 PDT 2022; root:xnu-8792.2.11.0.1~1\/RELEASE_ARM64_T8030",
-        "memorySize":"4038836224",
-        "osRelease":"22.0.0",
+        "deviceModel":"N104AP",
+        "kernelVersion":"Darwin Kernel Version 22.6.0: Wed Jun 28 20:51:23 PDT 2023; root:xnu-8796.142.1~1\/RELEASE_ARM64_T8030",
+        "debug":true,
+        "sandboxPath":"3CDAE89E-1D51-4DD2-941C-02B2780021FF",
+        "mcc":"460",
+        "batteryState":2,
+        "teamName":"Hangzhou BoDunXiYan Technology Co., Ltd.",
+        "cloudid":"316A8157-B4E5-4F40-BE37-8115588CA734",
+        "bundleId":"com.trustdevice.fingerprint",
+        "appVersion":"1.0",
+        "timeZone":"Asia\/Shanghai",
+        "applicationId":"R3F7G5M76J.com.trustdevice.fingerprint",
+        "freeDiskSpace":4820676608,
+        "physicalMemory":"8333852672",
+        "currentTime":1693451898456090,
+        "totalDiskSpace":127933894656,
+        "mnc":"02",
+        "appInstallTime":1679884827203788.8,
+        "osVersion":"20G75",
+        "hostName":"ssd",
         "osType":"Darwin",
-        "osVersion":"20A362",
-        "physicalMemory":"8333803520",
+        "deviceType":"iPhone",
+        "displayScale":2,
+        "idfv":"E5082421-F447-4B45-B453-22C656B56314",
+        "osRelease":"22.6.0",
+        "memorySize":"4038885376",
+        "deviceName":"iOS",
+        "cpuCount":"9023060809483288582",
+        "isiOSAppOnMac":0,
         "simulator":false,
-        "totalDiskSpace":127933894656
+        "jailbreak":false,
+        "bootTime":1692954854089697,
+        "secureKernelStatus":true
     }
 }
 ```
