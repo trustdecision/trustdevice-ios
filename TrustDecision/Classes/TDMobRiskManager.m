@@ -16,7 +16,7 @@
 /// SDK Object
 static TDMobRiskManager_t *riskManager;
 /// SDKVersion
-static NSString *sdkVersion = @"1.1";
+static NSString *sdkVersion = @"1.3";
 /// CollectData Dictionary
 static TDMobRiskSafeDictionary *infoDict;
 /// Global Collect Queue
@@ -43,7 +43,7 @@ static void TDMobRisk_assert(BOOL condition, const char *assertDescription);
         riskManager->initWithOptions = initWithOptions;
         riskManager->getBlackBox = getBlackBox;
         riskManager->getSDKVersion = getSDKVersion;
-        collectQueue = dispatch_queue_create("com.tongdun.mobrisk.collector", DISPATCH_QUEUE_CONCURRENT);
+        collectQueue = dispatch_queue_create("com.td.mobrisk.collector", DISPATCH_QUEUE_CONCURRENT);
     });
     return riskManager;
 }

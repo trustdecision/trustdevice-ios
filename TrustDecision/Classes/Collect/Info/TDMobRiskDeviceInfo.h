@@ -19,4 +19,14 @@
 @property (nonatomic, copy) NSString *deviceModel;
 /// deviceName
 @property (nonatomic, copy) NSString *deviceName;
+/// hostName
+@property (nonatomic, copy) NSString *hostName;
+/// timeZone
+@property (nonatomic, copy) NSString *timeZone;
+/// batteryState
+@property (nonatomic, assign) NSInteger batteryState;
+/// Mobile Network Code
+@property (nonatomic, copy) NSString *mnc;
+/// Mobile Country Code
+@property (nonatomic, copy) NSString *mcc;
 @end

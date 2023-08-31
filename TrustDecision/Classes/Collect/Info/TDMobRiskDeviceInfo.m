@@ -8,6 +8,9 @@
 #import "TDMobRiskDeviceInfo.h"
 #import "TDMobRiskAPIHelper.h"
 #import <UIKit/UIKit.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <sys/sysctl.h>
 
 @implementation TDMobRiskDeviceInfo
 #pragma mark - Collect Methods
@@ -44,6 +47,48 @@
     {
         NSString *deviceName = [[UIDevice currentDevice] systemName];
         _deviceName = deviceName;
+    }
+    
+    // hostName
+    {
+        size_t size = 0;
+        const char *name = "kern.hostname";
+        sysctlbyname(name , 0LL, &size, 0, 0);
+        void *buf = malloc(size);
+        sysctlbyname(name, buf, &size, 0, 0);
+        NSString *hostName;
+        if(buf) {
+            hostName = [NSString stringWithCString:buf encoding:NSUTF8StringEncoding];
+            free(buf);
+        }
+        _hostName = hostName;
+    }
+
+    // timeZone
+    {
+        NSString *timeZone = [[NSTimeZone localTimeZone] name];
+        _timeZone = timeZone;
+    }
+    
+    // batteryState
+    {
+        UIDevice *currentDevice = [UIDevice currentDevice];
+        if (!currentDevice.isBatteryMonitoringEnabled) {
+            currentDevice.batteryMonitoringEnabled = true;
+        }
+        _batteryState = [currentDevice batteryState];
+    }
+    
+    // mnc
+    {
+        CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
+        _mnc = [[networkInfo subscriberCellularProvider] mobileNetworkCode];
+    }
+    
+    // mcc
+    {
+        CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
+        _mcc = [[networkInfo subscriberCellularProvider] mobileCountryCode];
     }
 }
 

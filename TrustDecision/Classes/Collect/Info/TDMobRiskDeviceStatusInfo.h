@@ -15,4 +15,8 @@
 @property (nonatomic, assign) BOOL debug;
 /// simulator
 @property (nonatomic, assign) BOOL simulator;
+/// secureKernelStatus
+@property (nonatomic, assign) BOOL secureKernelStatus;
+/// isiOSAppOnMac
+@property (nonatomic, assign) int isiOSAppOnMac;
 @end
