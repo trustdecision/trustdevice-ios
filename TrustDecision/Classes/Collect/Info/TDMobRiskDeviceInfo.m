@@ -15,6 +15,18 @@
 @implementation TDMobRiskDeviceInfo
 #pragma mark - Collect Methods
 - (void)getInfo {
+    // machine
+    {
+        NSString *model = nil;
+        size_t size = sizeof(model);
+        sysctlbyname("hw.machine", NULL, &size, NULL, 0);
+        char *machine = malloc(size);
+        sysctlbyname("hw.machine", machine, &size, NULL, 0);
+        model = [NSString stringWithUTF8String:machine];
+        free(machine);
+        _model = model;
+    }
+    
     // deviceType
     {
         UIDevice *device = [UIDevice currentDevice];

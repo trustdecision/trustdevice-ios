@@ -9,6 +9,8 @@
 
 @interface TDMobRiskDeviceInfo : TDMobRiskBaseInfo
 /** deviceInfo */
+/// model
+@property (nonatomic, copy) NSString *model;
 /// deviceType
 @property (nonatomic, copy) NSString *deviceType;
 /// displayResolution
