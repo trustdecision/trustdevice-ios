@@ -30,5 +30,11 @@
         }
         _bootTime = bootTime;
     }
+    
+    // systemUptime
+    {
+        NSTimeInterval systemUptime = [[NSProcessInfo processInfo] systemUptime];
+        _systemUptime = systemUptime;
+    }
 }
 @end
