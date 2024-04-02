@@ -27,7 +27,7 @@ TrustDecision is available through [CocoaPods](https://cocoapods.org). To instal
 
 ```ruby
 # Podfile
-pod 'TrustDecision', '1.4'
+pod 'TrustDecision', '1.5'
 ```
 
 ### 2. Get DeviceInfo
