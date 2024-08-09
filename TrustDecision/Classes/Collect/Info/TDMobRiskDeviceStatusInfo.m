@@ -59,13 +59,42 @@
 - (int)isJailbreak {
     NSArray *jailBreakFileList = @[
         @"/Applications/Cydia.app",
+        @"/Applications/Sileo.app",
+        @"/Applications/blackra1n.app",
+        @"/Applications/jailbreaks.app",
+        @"/Applications/unc0ver.app",
+        @"/Applications/Zebra.app",
         @"/private/var/lib/apt/",
         @"/User/Applications/",
         @"/Library/MobileSubstrate/MobileSubstrate.dylib",
         @"/bin/bash",
         @"/usr/sbin/sshd",
         @"/etc/apt",
-        @"/var/jb"
+        @"/var/jb",
+        @"/etc/apt/sources.list.d",
+        @"/etc/clutch.conf",
+        @"/etc/clutch_cracked.plist",
+        @"/etc/ssh/sshd_config",
+        @"/Library/LaunchDaemons/com.openssh.sshd.plist",
+        @"/Library/LaunchDaemons/com.rpetrich.rocketbootstrapd.plist",
+        @"/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist",
+        @"/Library/LaunchDaemons/com.tigisoftware.filza.helper.plist",
+        @"/Library/LaunchDaemons/dhpdaemon.plist",
+        @"/private/etc/apt",
+        @"/private/etc/apt/preferences.d/checkra1n",
+        @"/private/etc/apt/preferences.d/cydia",
+        @"/private/etc/dpkg/origins/debian",
+        @"/private/etc/ssh/sshd_config",
+        @"/private/var/binpack/Applications/loader.app",
+        @"/private/var/db/stash",
+        @"/private/var/lib/cydia",
+        @"/private/var/mobileLibrary/SBSettingsThemes",
+        @"/private/var/tmp/cydia.log",
+        @"/System/Library/LaunchDaemons/com.ikey.bbot.plist",
+        @"/System/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist",
+        @"/usr/bin/cycript",
+        @"/usr/bin/DHPDaemon",
+        @"/usr/bin/ssh"
     ];
     for (NSString *filePath in jailBreakFileList) {
         if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
