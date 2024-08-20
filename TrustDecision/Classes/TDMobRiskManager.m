@@ -12,6 +12,8 @@
 #import "TDMobRiskCalculator.h"
 #import "TDMobRiskHeader.h"
 
+extern void __assert_rtn(const char *, const char *, int, const char *);
+
 #pragma mark - Static Param
 /// SDK Object
 static TDMobRiskManager_t *riskManager;
