@@ -105,9 +105,6 @@
     if (strstr(env, "systemhook")) {
         return YES;
     }
-    if (env != NULL) {
-        return YES;
-    }
     if (!access("/Library/MobileSubstrate/DynamicLibraries/",R_OK)) {
         return YES;
     }
