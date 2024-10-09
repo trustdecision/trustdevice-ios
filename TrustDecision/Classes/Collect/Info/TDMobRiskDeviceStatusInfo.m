@@ -101,7 +101,10 @@
             return YES;
         }
     }
-    char *env = getenv("DYLD_INSERT_LIBRARIES");
+    char *env = getenv("DYLD_INSERT_LIBRARIES") ?: "";
+    if (strstr(env, "systemhook")) {
+        return YES;
+    }
     if (env != NULL) {
         return YES;
     }
