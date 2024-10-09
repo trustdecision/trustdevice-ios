@@ -101,8 +101,8 @@
             return YES;
         }
     }
-    char *env = getenv("DYLD_INSERT_LIBRARIES");
-    if (env != NULL) {
+    char *env = getenv("DYLD_INSERT_LIBRARIES") ?: "";
+    if (strstr(env, "systemhook")) {
         return YES;
     }
     if (!access("/Library/MobileSubstrate/DynamicLibraries/",R_OK)) {
