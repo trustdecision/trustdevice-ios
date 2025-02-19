@@ -96,6 +96,7 @@ manager?.pointee.initWithOptions(options)
         "timeZone":"Asia\/Shanghai",
         "applicationId":"R3F7G5M76J.com.trustdevice.fingerprint",
         "freeDiskSpace":4820676608,
+        "localCountryIso":"CN",
         "physicalMemory":"8333852672",
         "currentTime":1693451898456090,
         "totalDiskSpace":127933894656,

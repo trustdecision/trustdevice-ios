@@ -31,4 +31,6 @@
 @property (nonatomic, copy) NSString *mnc;
 /// Mobile Country Code
 @property (nonatomic, copy) NSString *mcc;
+/// Local Country ISO
+@property (nonatomic, copy) NSString *localCountryIso;
 @end
