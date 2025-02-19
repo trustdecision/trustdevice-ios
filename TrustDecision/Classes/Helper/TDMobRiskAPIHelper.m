@@ -26,13 +26,24 @@
         }
         free(cstr);
     }else {
-        long long num;
-        size_t numLen = sizeof(num);
-        int sysctl_flag = sysctlbyname(name, &num, &numLen, NULL, 0);
-        if (sysctl_flag == 0) {
-            cString = [NSString stringWithFormat:@"%lld",num];
+        if (strcmp(name, "hw.ncpu") == 0) {
+            unsigned int num;
+            size_t numLen = sizeof(num);
+            int sysctl_flag = sysctlbyname(name, &num, &numLen, NULL, 0);
+            if (sysctl_flag == 0) {
+                cString = [NSString stringWithFormat:@"%u",num];
+            }else {
+                cString = unknowDesc;
+            }
         }else {
-            cString = unknowDesc;
+            long long num;
+            size_t numLen = sizeof(num);
+            int sysctl_flag = sysctlbyname(name, &num, &numLen, NULL, 0);
+            if (sysctl_flag == 0) {
+                cString = [NSString stringWithFormat:@"%lld",num];
+            }else {
+                cString = unknowDesc;
+            }
         }
     }
     return cString;
