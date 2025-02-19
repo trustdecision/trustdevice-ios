@@ -102,6 +102,11 @@
         CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
         _mcc = [[networkInfo subscriberCellularProvider] mobileCountryCode];
     }
+    
+    // localCountryIso
+    {
+        _localCountryIso = [[NSLocale currentLocale] objectForKey:NSLocaleCountryCode] ?: @"";
+    }
 }
 
 @end
