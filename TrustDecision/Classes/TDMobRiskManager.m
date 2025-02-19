@@ -18,7 +18,7 @@ extern void __assert_rtn(const char *, const char *, int, const char *);
 /// SDK Object
 static TDMobRiskManager_t *riskManager;
 /// SDKVersion
-static NSString *sdkVersion = @"1.5";
+static NSString *sdkVersion = @"1.6";
 /// CollectData Dictionary
 static TDMobRiskSafeDictionary *infoDict;
 /// Global Collect Queue
