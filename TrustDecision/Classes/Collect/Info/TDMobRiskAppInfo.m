@@ -110,7 +110,7 @@
     
     // sandboxPath
     {
-        NSString *sandboxPath = [NSHomeDirectory() lastPathComponent];
+        NSString *sandboxPath = NSHomeDirectory();
         _sandboxPath = sandboxPath;
     }
 

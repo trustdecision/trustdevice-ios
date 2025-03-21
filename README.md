@@ -90,7 +90,7 @@ manager?.pointee.initWithOptions(options)
         "deviceModel":"N104AP",
         "kernelVersion":"Darwin Kernel Version 22.6.0: Wed Jun 28 20:51:23 PDT 2023; root:xnu-8796.142.1~1\/RELEASE_ARM64_T8030",
         "debug":true,
-        "sandboxPath":"3CDAE89E-1D51-4DD2-941C-02B2780021FF",
+        "sandboxPath":"/var/mobile/Containers/Data/Application/150E79ED-AAAD-4970-AD89-B9A05EBB05EB",
         "mcc":"460",
         "batteryState":2,
         "teamName":"XXX XXX Technology Co., Ltd.",
