@@ -1,11 +1,11 @@
 #import <XCTest/XCTest.h>
  #import <TrustDecision/TDMobRisk.h>
 
-@interface trust_device_iosTests : XCTestCase
+@interface trustdevice_iosTests : XCTestCase
 
 @end
 
-@implementation trust_device_iosTests
+@implementation trustdevice_iosTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
