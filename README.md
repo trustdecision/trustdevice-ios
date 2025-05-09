@@ -11,6 +11,15 @@
   <img src="images/demoApp.gif" width="195">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Swift-6.0-orange">
+  <img src="https://img.shields.io/badge/iOS-9%2B-blue"> 
+  <img src="https://img.shields.io/github/stars/zeinber/TDOCSDK"> 
+  <img src="https://img.shields.io/github/issues/zeinber/TDOCSDK">
+  <img src="https://img.shields.io/github/last-commit/zeinber/TDOCSDK">  
+</p>
+
+
 
 # TrustDevice-iOS
 A lightweight library for determining device uniqueness and risk identification.
@@ -23,18 +32,28 @@ Will remain the same after uninstalling and reinstalling or clearing app data.
 
 You can visit [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-5fkjqqnkoajcs?sr=0-1&ref_=beagle&applicationId=AWSMPContessa) or [TrustDecision](https://trustdecision.com/solutions/device-fingerprint)  to learn about our professional version.
 
-## Quick Start 
+## Installation
+### Swift Package Manager
 
-### 1. Add Dependcy
+1. In Xcode, select **File → Swift Packages → Add Package Dependency...**
+2. Enter the repository URL, for example:
 
-TrustDecision is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+   ```text
+   https://github.com/zeinber/TDOCSDK.git
+   ```
+3. Specify a version range (e.g. `from: "1.0.0"`).
+
+### Cocoapods
+1. TrustDecision is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 # Podfile
-pod 'TrustDecision', '1.5'
+pod 'TrustDecision', '1.6.0'
 ```
 
-### 2. Get DeviceInfo
+## Quick Start 
+
+### 1. Get DeviceInfo
 DeviceInfo contains device id, risk information and device details.
 
 #### Objective-C
