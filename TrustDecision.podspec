@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'TrustDevice' => 'TrustDevice@TrustDecision.com' }
   s.source           = { :git => 'https://github.com/trustdecision/trustdevice-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'TrustDecision/Sources/**/*'
+  s.source_files = 'Sources/**/*'
   s.static_framework = true
-  s.public_header_files = ['TrustDecision/Classes/include/TDMobRisk.h','TrustDecision/Classes/include/TDMobRiskManager.h']
+  s.public_header_files = ['Sources/include/TDMobRisk.h','Sources/include/TDMobRiskManager.h']
 end

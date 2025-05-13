@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TrustDecision/Sources/**/*",
+  "source_files": "Sources/**/*",
   "static_framework": true,
   "public_header_files": [
-    "TrustDecision/Classes/include/TDMobRisk.h",
-    "TrustDecision/Classes/include/TDMobRiskManager.h"
+    "Sources/include/TDMobRisk.h",
+    "Sources/include/TDMobRiskManager.h"
   ]
 }

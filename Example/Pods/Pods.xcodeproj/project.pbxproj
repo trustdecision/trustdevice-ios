@@ -7,137 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		084FA72A181685B9467C554619C858BD /* TDMobRiskSpaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B5F42AAFFFEA9E77418BE565F0A26 /* TDMobRiskSpaceInfo.m */; };
-		0BEE7855BD379B4A9245723121A89422 /* TDMobRiskDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AACA2C41CF3C7F246A27C12FBDADDA91 /* TDMobRiskDeviceInfo.m */; };
-		0C6D5348BE2D3F521C06E6329DA604E9 /* TDMobRiskTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 219CEB96ADB71954802EB3D6D16DB39E /* TDMobRiskTimeInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10D3FF0F27830F84352D49C2E4E8FBA4 /* TDMobRiskCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C03314AEB074E1FC763DCBDF87C0B04E /* TDMobRiskCalculator.m */; };
+		00772ABF669879A1B252BECB41B4C048 /* TrustDecision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9370EE21100B99DC60893652DB81864 /* TrustDecision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		027708BA7E2031EE87D5FAAD4DC8C88F /* TDMobRiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32186D985334E0DB078D1132B02AA90F /* TDMobRiskManager.m */; };
+		027C2229F3D15B2E764194CF3D488ADF /* TDMobRiskDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B2DE2B01E0791DCB4B8A72090B4C1 /* TDMobRiskDeviceInfo.m */; };
+		105695BA9E95610D3178B689B4D22459 /* TDMobRiskCpuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E804DC51084FE73B4E67614B01B4E /* TDMobRiskCpuInfo.m */; };
 		18F68737B1B8046D3C037ACA9239FAE3 /* Pods-TrustDecision_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4607AE5BAB28BE0C2ED798D16ADC8E /* Pods-TrustDecision_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B79824E43AB5110F6ED67AC6F446B1D /* TDMobRiskAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9C86FD2DCDEF05321B539B0EB8E58 /* TDMobRiskAPIHelper.m */; };
-		1E470D41970783AC7063643454021562 /* TDMobRiskAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6A7E7C9554ECFDBF7F67B03027CC8F /* TDMobRiskAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		204A53EE72D544E86C220ECFF67DC5E9 /* TDMobRiskCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5225A3C84788446B3D96C14218AE4C93 /* TDMobRiskCollector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		206406B5E6E4A475CB22AF613BD7926C /* TDMobRiskKeychainsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ADFE055026DE3BE436613139BC93BF /* TDMobRiskKeychainsHelper.m */; };
-		261D6F35E40C95DE79EA61800592AEC1 /* TDMobRiskSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F2ED21C094739A54E40F3FA6AD710BAA /* TDMobRiskSafeDictionary.m */; };
-		34D75AA056C039BBEA3EDCD4E06BCC66 /* TDMobRiskSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 074CE09FDC60D779F7C295D9059A2C67 /* TDMobRiskSafeDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39393F913A06F2D4F83A77F454F561E2 /* TDMobRiskDeviceStatusInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FCE91E21210B945450B7CA27D48612 /* TDMobRiskDeviceStatusInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		395F86C4718E1ACF69F653BA0688DF01 /* TDMobRiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCED8628CCCF21DA8EBB8250275E808 /* TDMobRiskManager.m */; };
-		3A3DFAD458511BFDA758C63EB377F8CB /* TDMobRiskIdCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0229A909434B1322A7984BD3D05F8B35 /* TDMobRiskIdCalculator.m */; };
+		19971C9CF2D91613D9456275D3681790 /* TDMobRiskDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D665EF09A86C30E2ED41F54D96AA24 /* TDMobRiskDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C08B2CC1B5A7DF7A96457E88E6D1AE2 /* TDMobRiskAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E21176B49EF1DD12DCFDCB412E7B0A /* TDMobRiskAppInfo.m */; };
+		20B82627D1341317B0638EE1E9203DD6 /* TDMobRiskDeviceStatusInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B0929537C4D1192470DEBFFB87E3DE /* TDMobRiskDeviceStatusInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D37748C32A79E55DE6C49E4D0812241 /* TDMobRiskCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A17667609685424B561C5C0F1D6A585 /* TDMobRiskCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		324D02068A51F7CD456461D9B7BC86BB /* TDMobRiskBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 565158A0035FCFE74C075FBE483673EF /* TDMobRiskBaseInfo.m */; };
+		33AFAFD764B8AB8413E3B671016ABBE8 /* TDMobRiskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9161D2D13C1BF4A73C20250E72B22F7C /* TDMobRiskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38C6F5C4D1FBE78FF4A7329B8E881F24 /* TDMobRiskAPIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 748E69470D19FD66CB6C444B2A05BADA /* TDMobRiskAPIHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3F9EBA1A546301E416FA1737D2E00902 /* Pods-TrustDecision_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A007E34F82BD8C4DF3B00F92FF1AF20F /* Pods-TrustDecision_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43E3C3707F3EA33176C05C1D13C70A8C /* TDMobRisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F19507872044BE3E9A0F6B99C692787 /* TDMobRisk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C7A01B3F94C1951C0AB0FCDADA55BE6 /* TDMobRiskIdentifierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF17D9A5EEDCA2C361047D23135CCC6 /* TDMobRiskIdentifierInfo.m */; };
-		5410BAC0807400C22C28AD3DF45B59FF /* TDMobRiskIdentifierInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C8251C5E0687E92609145DD671FD52 /* TDMobRiskIdentifierInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AC7F49AC27AF09ED7C58E8B562955C /* TDMobRiskEncodeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9956526BEFCDC445BAC52AE4FADA0934 /* TDMobRiskEncodeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C9C339B817412AA0F42D4FD66AB1D09 /* TrustDecision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A72EF6ABC6014EFBAB2DBE42FDF3D4 /* TrustDecision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F0A1E11B7E8B75CA927A45BAB9FA3C3 /* TDMobRiskDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFBEC806B29A142EE949EE966F0E6D0 /* TDMobRiskDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FACA172E7BA74356EA16F189C759A24 /* TDMobRiskBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B0A3B79A5FDAD7A3390261255B51B9 /* TDMobRiskBaseInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86F9BBBD4CA6F7F5B7A6D7943C87286A /* TDMobRiskOSInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E51C2325D11DAAB7643D333DCE76B32 /* TDMobRiskOSInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88B0D6802B5612904183D3CE328A2CBE /* TDMobRiskEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CB00CBE0598611DFBE89816CF34C5 /* TDMobRiskEncodeHelper.m */; };
+		408DF5FA69ED0E37FFD111565254129B /* TDMobRiskBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5222280D7E88E84C92870C55796B97F5 /* TDMobRiskBaseInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		496321A43313E483265CAE01C627DFC3 /* TDMobRiskSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = A73FDA6962C6A61075905D51CC65A0D5 /* TDMobRiskSafeDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A07ED5244298FB1949A7EAE1759F4CB /* TDMobRiskKeychainsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3320699CDF49A850CE5A2D0F593B68E2 /* TDMobRiskKeychainsHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FEDD3A5E10CDFEAD63044679589B105 /* TDMobRiskCpuInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 227A6648B6B37327794ECF66413B8A17 /* TDMobRiskCpuInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D400FB66487F3A424BD2240A828D828 /* TDMobRiskEncodeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E1F0F6C435EFA70A21CFBADE990A92 /* TDMobRiskEncodeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75D1D7316CA1D74217A591E80C89497D /* TDMobRiskTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C477086035797E9D06858F8FC4D9C5 /* TDMobRiskTimeInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A05745BE230D885D21B5EEFB2CE09A1 /* TDMobRiskAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 23436FB2F5D83622AA5389656795382F /* TDMobRiskAPIHelper.m */; };
+		7DC46ADD960AF87A1571F0BC982E92CF /* TDMobRisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 139D902F82A4A711ABA293FB6F61AD3E /* TDMobRisk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8FAAE690BC8D6228670E34584F8BDE /* TDMobRiskKeychainsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5EC3D83360A3F80E087FC1FE0417E6 /* TDMobRiskKeychainsHelper.m */; };
 		8F25582EFC871B29203539BE5D3B60AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		93D9B3E83F3D650E79AE3D25536C395B /* Pods-TrustDecision_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4119058FA0A5881E3731AFF96DA8FEF /* Pods-TrustDecision_Tests-dummy.m */; };
-		94B616F2EF855B4B8DF5729C728DAD6D /* TDMobRiskIdCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E431B4A944599A626F37F95C8EBF8E /* TDMobRiskIdCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9887513BA9FE3CFAF12223575D8C2CD5 /* TDMobRiskOSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C59D196D7DE7929B960803079E50D8 /* TDMobRiskOSInfo.m */; };
+		997E1620A95A96AFA632BEFA8A09CDE4 /* TDMobRiskIdCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F73340FF5A0F069CE14FC136267ACE /* TDMobRiskIdCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D554A611840C04229F06754871C187C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9F1BDAA439EFFBCA617A089ED0F030B1 /* TDMobRiskSpaceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C7C75435F7EC3AB6C698B8DEA6871A /* TDMobRiskSpaceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9F6935E899BC73B513205BDB808F7697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		A0ECA3C333187EA00A478D1E990E9BB5 /* TDMobRiskAPIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E22D020EBBF914C3BDFBC8A4E3CA6BB7 /* TDMobRiskAPIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A524EA0E125DB932EDB0E21BFCDA7FD5 /* TDMobRiskCpuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC97D646513D3C12ADC61CAF72783D /* TDMobRiskCpuInfo.m */; };
-		B17EA96E1992B9F8BAD6E3EDBA0A18F4 /* TDMobRiskCpuInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA7C4EC59AB6A10F8EC57AF3339A71E /* TDMobRiskCpuInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B351A44240C8220F86D86BE743D28A48 /* TDMobRiskKeychainsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 973CDCCF6AC082E6ABF89235EC605EC7 /* TDMobRiskKeychainsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B479D966B5ABBA45EF8DBCFFDBF50490 /* TDMobRiskCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA17892301859E2100B11128BACA85 /* TDMobRiskCollector.m */; };
-		B6D1AB93EB5C625048EA614F287D6913 /* TDMobRiskHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EE17C31AAEAD9A2CA0972A3075D0A0C1 /* TDMobRiskHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE9800554AFEE1761A37C7A16B771FE /* TDMobRiskDeviceStatusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FBFC776865BD440540B9AF308475EB /* TDMobRiskDeviceStatusInfo.m */; };
-		C7390ADD0BC17A7F121D48CEE9869D1F /* TDMobRiskCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA4EC8B179E6E732B7BD77612EC321B /* TDMobRiskCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD192F56CB4008293F041E91BBBEA036 /* TDMobRiskAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A309809F4D12DB4A7AF8F42D13E74C4 /* TDMobRiskAppInfo.m */; };
-		D1AC67C63084087F926F172A3E82D54C /* TDMobRiskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07193CC0252A42ED5F2E128BAFCA3D62 /* TDMobRiskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4CEE1923B4F4AF8A56961B8057E98E2 /* TDMobRiskTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF2691CE2FA2C5753872FD835CFF3A /* TDMobRiskTimeInfo.m */; };
-		DE53B52D753D860420101A5E09201213 /* TrustDecision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B7F988A366D043DE183EB33509A69E /* TrustDecision-dummy.m */; };
+		BA13B9AF77F75825D5A844FD68113E16 /* TDMobRiskCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3D3CF72D924EFF6C9E5CF1026239BB /* TDMobRiskCollector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC48C2AD7C95C8B4C6DEA66A2CF3E084 /* TDMobRiskDeviceStatusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BCDED2BBA7029E604E19075EC799F3 /* TDMobRiskDeviceStatusInfo.m */; };
+		CABB9AED578A548F274970C4FE1B3977 /* TrustDecision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D73B4564C7F31418A219DD4A4E3966EA /* TrustDecision-dummy.m */; };
+		CD599D96A842FF7295C1E9FA067BD8D7 /* TDMobRiskSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D36F5556EF2F3EC0380E0C4D567CE390 /* TDMobRiskSafeDictionary.m */; };
+		D45798212C4C14436EAFA2533FCAC614 /* TDMobRiskIdentifierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5511E1FF89780C93096E54EB2CD9E45B /* TDMobRiskIdentifierInfo.m */; };
+		D61B0704E04A906BD6A52C23B0C99722 /* TDMobRiskAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 101CC605C1009F8E54D98231065EB421 /* TDMobRiskAppInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8087740BC2451592729753E58BBF8BC /* TDMobRiskTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2189221D140A468B89A8B60797F72 /* TDMobRiskTimeInfo.m */; };
+		DF240EF4D9B928D26426A9B570CB863F /* TDMobRiskOSInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C2A8F08FB26C238D921E746916BECF /* TDMobRiskOSInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF780FEDF16A615B5E6194746382C4C8 /* TDMobRiskIdentifierInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DD27C9DB84CD9B92B6ED6845EFC04C /* TDMobRiskIdentifierInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1AC0AC5911CC0F60D07A4A922436823 /* TDMobRiskOSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83698F39E03E90C6E812F0CB97F590 /* TDMobRiskOSInfo.m */; };
+		E620D2059902267D1E7A1B3210A991A4 /* TDMobRiskCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E43E85824423FFDE2809424EE329C /* TDMobRiskCalculator.m */; };
+		E76A7C89B120F96AA719623DB5F58B40 /* TDMobRiskIdCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE34E80E5FB42E1350CFC47DD56B1C9 /* TDMobRiskIdCalculator.m */; };
+		E86578E43749EB936FC1BC3BAFDA5800 /* TDMobRiskSpaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E502C6CCF0A83A6B6F5A6C785B06DDB /* TDMobRiskSpaceInfo.m */; };
 		E8AB52BA4D5D6249C81CD35DB301DF69 /* Pods-TrustDecision_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF49433CFC06697B279F0F0B059DF2EA /* Pods-TrustDecision_Example-dummy.m */; };
-		ED77D34C7FEAEB7DB3F7C3A494F8677A /* TDMobRiskSpaceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9778C3044A8A97FBA66F6F7758E4B567 /* TDMobRiskSpaceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFB5E94875881F8DD286DF4993731659 /* TDMobRiskBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F0BFB5EC5597A5CBD7A3B628636819 /* TDMobRiskBaseInfo.m */; };
+		EC22C3C64BE7BAD03B443A280C73EEA2 /* TDMobRiskCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8097E31D6CFB773C2E3EC654BD15F /* TDMobRiskCollector.m */; };
+		F97E712D8AD9BA9463760FC2E786E9E9 /* TDMobRiskHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 897D328402961C73D6E4997BF075714C /* TDMobRiskHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC05B935C5314C4638A6AA2B373FCFDE /* TDMobRiskEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96CCF4D83FAD455B43F0E3634901F6 /* TDMobRiskEncodeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A66C2A3BCFF64A0B3DA98C8839B1928 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E6E41C7F38055ADB1C69E0CA8CB8C1F;
-			remoteInfo = TrustDecision;
-		};
-		E904946E8B7CCA27DED18F180572585E /* PBXContainerItemProxy */ = {
+		37FEE706E67FFFDC5C1C2F9C19916FF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A9618CF90C1C6372C6E524DA93A3F8AB;
 			remoteInfo = "Pods-TrustDecision_Example";
 		};
+		D1745639A9FF1FA8F5FB31C7DE452111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6E41C7F38055ADB1C69E0CA8CB8C1F;
+			remoteInfo = TrustDecision;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01FBFC776865BD440540B9AF308475EB /* TDMobRiskDeviceStatusInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskDeviceStatusInfo.m; sourceTree = "<group>"; };
-		0229A909434B1322A7984BD3D05F8B35 /* TDMobRiskIdCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskIdCalculator.m; sourceTree = "<group>"; };
-		03EF2691CE2FA2C5753872FD835CFF3A /* TDMobRiskTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskTimeInfo.m; sourceTree = "<group>"; };
-		047CB00CBE0598611DFBE89816CF34C5 /* TDMobRiskEncodeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskEncodeHelper.m; sourceTree = "<group>"; };
+		00E1F0F6C435EFA70A21CFBADE990A92 /* TDMobRiskEncodeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskEncodeHelper.h; path = Sources/TDMobRiskEncodeHelper.h; sourceTree = "<group>"; };
+		01F73340FF5A0F069CE14FC136267ACE /* TDMobRiskIdCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskIdCalculator.h; path = Sources/TDMobRiskIdCalculator.h; sourceTree = "<group>"; };
+		056F41A50A30BB4C69C4743B83EBEE00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0630B3402D9149282F2840812AB66D0B /* Pods-TrustDecision_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TrustDecision_Example"; path = Pods_TrustDecision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07193CC0252A42ED5F2E128BAFCA3D62 /* TDMobRiskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskManager.h; sourceTree = "<group>"; };
-		074CE09FDC60D779F7C295D9059A2C67 /* TDMobRiskSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskSafeDictionary.h; sourceTree = "<group>"; };
 		085060607798E73A17BBEBFB23DE88DC /* Pods-TrustDecision_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrustDecision_Example.modulemap"; sourceTree = "<group>"; };
-		0FA7C4EC59AB6A10F8EC57AF3339A71E /* TDMobRiskCpuInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskCpuInfo.h; sourceTree = "<group>"; };
+		101CC605C1009F8E54D98231065EB421 /* TDMobRiskAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskAppInfo.h; path = Sources/TDMobRiskAppInfo.h; sourceTree = "<group>"; };
+		11DB7DBA081B62075B8F9DB2A5421103 /* TrustDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.debug.xcconfig; sourceTree = "<group>"; };
+		139D902F82A4A711ABA293FB6F61AD3E /* TDMobRisk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRisk.h; sourceTree = "<group>"; };
+		17B0929537C4D1192470DEBFFB87E3DE /* TDMobRiskDeviceStatusInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskDeviceStatusInfo.h; path = Sources/TDMobRiskDeviceStatusInfo.h; sourceTree = "<group>"; };
+		18B8097E31D6CFB773C2E3EC654BD15F /* TDMobRiskCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskCollector.m; path = Sources/TDMobRiskCollector.m; sourceTree = "<group>"; };
+		1A17667609685424B561C5C0F1D6A585 /* TDMobRiskCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskCalculator.h; path = Sources/TDMobRiskCalculator.h; sourceTree = "<group>"; };
+		1C2E43E85824423FFDE2809424EE329C /* TDMobRiskCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskCalculator.m; path = Sources/TDMobRiskCalculator.m; sourceTree = "<group>"; };
 		1EBC17218B0315FE3A914098881D63DB /* Pods-TrustDecision_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrustDecision_Tests.modulemap"; sourceTree = "<group>"; };
-		219CEB96ADB71954802EB3D6D16DB39E /* TDMobRiskTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskTimeInfo.h; sourceTree = "<group>"; };
-		22FCE91E21210B945450B7CA27D48612 /* TDMobRiskDeviceStatusInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskDeviceStatusInfo.h; sourceTree = "<group>"; };
-		2495DFAFA100D38E34038AC736E5627F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		26B0A3B79A5FDAD7A3390261255B51B9 /* TDMobRiskBaseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskBaseInfo.h; sourceTree = "<group>"; };
+		227A6648B6B37327794ECF66413B8A17 /* TDMobRiskCpuInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskCpuInfo.h; path = Sources/TDMobRiskCpuInfo.h; sourceTree = "<group>"; };
+		23436FB2F5D83622AA5389656795382F /* TDMobRiskAPIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskAPIHelper.m; path = Sources/TDMobRiskAPIHelper.m; sourceTree = "<group>"; };
 		27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrustDecision; path = TrustDecision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27E0D9BDC0B9C59EE0613B74CC816699 /* TrustDecision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrustDecision.modulemap; sourceTree = "<group>"; };
-		28A8D813CA5E7AF8B81F3047088B1AEE /* TrustDecision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-prefix.pch"; sourceTree = "<group>"; };
-		3228609B9E1F5521213C889AB2B6460C /* TrustDecision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrustDecision-Info.plist"; sourceTree = "<group>"; };
+		2F5E804DC51084FE73B4E67614B01B4E /* TDMobRiskCpuInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskCpuInfo.m; path = Sources/TDMobRiskCpuInfo.m; sourceTree = "<group>"; };
+		32186D985334E0DB078D1132B02AA90F /* TDMobRiskManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskManager.m; path = Sources/TDMobRiskManager.m; sourceTree = "<group>"; };
+		3320699CDF49A850CE5A2D0F593B68E2 /* TDMobRiskKeychainsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskKeychainsHelper.h; path = Sources/TDMobRiskKeychainsHelper.h; sourceTree = "<group>"; };
 		341E7966A3C2E5A8203748EEF7B20173 /* Pods-TrustDecision_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		36CA17892301859E2100B11128BACA85 /* TDMobRiskCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskCollector.m; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38C477086035797E9D06858F8FC4D9C5 /* TDMobRiskTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskTimeInfo.h; path = Sources/TDMobRiskTimeInfo.h; sourceTree = "<group>"; };
 		46A2E1D81070C5D39B27522AEED7C4D0 /* Pods-TrustDecision_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Example-Info.plist"; sourceTree = "<group>"; };
-		48ADFE055026DE3BE436613139BC93BF /* TDMobRiskKeychainsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskKeychainsHelper.m; sourceTree = "<group>"; };
+		4B5434C88126BACAF7B661D4733CF9D9 /* TrustDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.release.xcconfig; sourceTree = "<group>"; };
+		4D6B2DE2B01E0791DCB4B8A72090B4C1 /* TDMobRiskDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskDeviceInfo.m; path = Sources/TDMobRiskDeviceInfo.m; sourceTree = "<group>"; };
 		4E08FD4E82667C032C7D69D73EDF72F6 /* Pods-TrustDecision_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4EF17D9A5EEDCA2C361047D23135CCC6 /* TDMobRiskIdentifierInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskIdentifierInfo.m; sourceTree = "<group>"; };
-		5225A3C84788446B3D96C14218AE4C93 /* TDMobRiskCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskCollector.h; sourceTree = "<group>"; };
-		533B5F42AAFFFEA9E77418BE565F0A26 /* TDMobRiskSpaceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskSpaceInfo.m; sourceTree = "<group>"; };
-		57F0BFB5EC5597A5CBD7A3B628636819 /* TDMobRiskBaseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskBaseInfo.m; sourceTree = "<group>"; };
-		59D4CB50DCB98AF277CFC5BE31462E6F /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5BA4EC8B179E6E732B7BD77612EC321B /* TDMobRiskCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskCalculator.h; sourceTree = "<group>"; };
+		5222280D7E88E84C92870C55796B97F5 /* TDMobRiskBaseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskBaseInfo.h; path = Sources/TDMobRiskBaseInfo.h; sourceTree = "<group>"; };
+		52C2A8F08FB26C238D921E746916BECF /* TDMobRiskOSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskOSInfo.h; path = Sources/TDMobRiskOSInfo.h; sourceTree = "<group>"; };
+		5511E1FF89780C93096E54EB2CD9E45B /* TDMobRiskIdentifierInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskIdentifierInfo.m; path = Sources/TDMobRiskIdentifierInfo.m; sourceTree = "<group>"; };
+		565158A0035FCFE74C075FBE483673EF /* TDMobRiskBaseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskBaseInfo.m; path = Sources/TDMobRiskBaseInfo.m; sourceTree = "<group>"; };
 		5E207BED7F67A61339C779308B12EC48 /* Pods-TrustDecision_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TrustDecision_Tests"; path = Pods_TrustDecision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E502C6CCF0A83A6B6F5A6C785B06DDB /* TDMobRiskSpaceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskSpaceInfo.m; path = Sources/TDMobRiskSpaceInfo.m; sourceTree = "<group>"; };
 		5E80DFF1D96F189B933F84C20828C90E /* Pods-TrustDecision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		62A72EF6ABC6014EFBAB2DBE42FDF3D4 /* TrustDecision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-umbrella.h"; sourceTree = "<group>"; };
+		65133B9F4701F5D7024C03DAED8A7C22 /* TrustDecision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrustDecision-Info.plist"; sourceTree = "<group>"; };
 		6516C08D40CE9D760900C6C163AF5379 /* Pods-TrustDecision_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6A309809F4D12DB4A7AF8F42D13E74C4 /* TDMobRiskAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskAppInfo.m; sourceTree = "<group>"; };
-		7BFBEC806B29A142EE949EE966F0E6D0 /* TDMobRiskDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskDeviceInfo.h; sourceTree = "<group>"; };
+		668B9CD5E98B474D4C5D672574C6B059 /* TrustDecision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-prefix.pch"; sourceTree = "<group>"; };
+		6C83698F39E03E90C6E812F0CB97F590 /* TDMobRiskOSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskOSInfo.m; path = Sources/TDMobRiskOSInfo.m; sourceTree = "<group>"; };
+		70BCDED2BBA7029E604E19075EC799F3 /* TDMobRiskDeviceStatusInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskDeviceStatusInfo.m; path = Sources/TDMobRiskDeviceStatusInfo.m; sourceTree = "<group>"; };
+		748E69470D19FD66CB6C444B2A05BADA /* TDMobRiskAPIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskAPIHelper.h; path = Sources/TDMobRiskAPIHelper.h; sourceTree = "<group>"; };
+		7C5EC3D83360A3F80E087FC1FE0417E6 /* TDMobRiskKeychainsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskKeychainsHelper.m; path = Sources/TDMobRiskKeychainsHelper.m; sourceTree = "<group>"; };
 		8602B22E9E5960A05165EAB66C6E9BEE /* Pods-TrustDecision_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrustDecision_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		897D328402961C73D6E4997BF075714C /* TDMobRiskHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskHeader.h; path = Sources/TDMobRiskHeader.h; sourceTree = "<group>"; };
+		8C3D3CF72D924EFF6C9E5CF1026239BB /* TDMobRiskCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskCollector.h; path = Sources/TDMobRiskCollector.h; sourceTree = "<group>"; };
 		8DF5DE5304FD14ADB82A8F7A9518D82E /* Pods-TrustDecision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8E6A7E7C9554ECFDBF7F67B03027CC8F /* TDMobRiskAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskAppInfo.h; sourceTree = "<group>"; };
-		8F19507872044BE3E9A0F6B99C692787 /* TDMobRisk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRisk.h; sourceTree = "<group>"; };
-		90DC97D646513D3C12ADC61CAF72783D /* TDMobRiskCpuInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskCpuInfo.m; sourceTree = "<group>"; };
-		928BFC5ED1A437EEE4E900F641329FFA /* TrustDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.debug.xcconfig; sourceTree = "<group>"; };
-		973CDCCF6AC082E6ABF89235EC605EC7 /* TDMobRiskKeychainsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskKeychainsHelper.h; sourceTree = "<group>"; };
-		9778C3044A8A97FBA66F6F7758E4B567 /* TDMobRiskSpaceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskSpaceInfo.h; sourceTree = "<group>"; };
-		9956526BEFCDC445BAC52AE4FADA0934 /* TDMobRiskEncodeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskEncodeHelper.h; sourceTree = "<group>"; };
-		9BCED8628CCCF21DA8EBB8250275E808 /* TDMobRiskManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskManager.m; path = TrustDecision/Sources/TDMobRiskManager.m; sourceTree = "<group>"; };
-		9BF9C86FD2DCDEF05321B539B0EB8E58 /* TDMobRiskAPIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskAPIHelper.m; sourceTree = "<group>"; };
+		9161D2D13C1BF4A73C20250E72B22F7C /* TDMobRiskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskManager.h; sourceTree = "<group>"; };
+		91D665EF09A86C30E2ED41F54D96AA24 /* TDMobRiskDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskDeviceInfo.h; path = Sources/TDMobRiskDeviceInfo.h; sourceTree = "<group>"; };
+		91E1F6E6C15D2B02FDEA54F20C33D1F7 /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E51C2325D11DAAB7643D333DCE76B32 /* TDMobRiskOSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskOSInfo.h; sourceTree = "<group>"; };
 		A007E34F82BD8C4DF3B00F92FF1AF20F /* Pods-TrustDecision_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrustDecision_Example-umbrella.h"; sourceTree = "<group>"; };
+		A4C2189221D140A468B89A8B60797F72 /* TDMobRiskTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskTimeInfo.m; path = Sources/TDMobRiskTimeInfo.m; sourceTree = "<group>"; };
 		A54BBA75ECFDB03E6008C22892EA35CC /* Pods-TrustDecision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A8E64081571636B5C714866627D964BC /* TrustDecision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.release.xcconfig; sourceTree = "<group>"; };
-		AACA2C41CF3C7F246A27C12FBDADDA91 /* TDMobRiskDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskDeviceInfo.m; sourceTree = "<group>"; };
-		B3C59D196D7DE7929B960803079E50D8 /* TDMobRiskOSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskOSInfo.m; sourceTree = "<group>"; };
-		C03314AEB074E1FC763DCBDF87C0B04E /* TDMobRiskCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskCalculator.m; sourceTree = "<group>"; };
+		A73FDA6962C6A61075905D51CC65A0D5 /* TDMobRiskSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskSafeDictionary.h; path = Sources/TDMobRiskSafeDictionary.h; sourceTree = "<group>"; };
+		A9370EE21100B99DC60893652DB81864 /* TrustDecision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-umbrella.h"; sourceTree = "<group>"; };
+		B7C7C75435F7EC3AB6C698B8DEA6871A /* TDMobRiskSpaceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskSpaceInfo.h; path = Sources/TDMobRiskSpaceInfo.h; sourceTree = "<group>"; };
+		B9E21176B49EF1DD12DCFDCB412E7B0A /* TDMobRiskAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskAppInfo.m; path = Sources/TDMobRiskAppInfo.m; sourceTree = "<group>"; };
+		BA6BB348A128B6107DF49EE90DC38205 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C39955CA15D3D998B0038C7828322692 /* Pods-TrustDecision_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrustDecision_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB96CCF4D83FAD455B43F0E3634901F6 /* TDMobRiskEncodeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskEncodeHelper.m; path = Sources/TDMobRiskEncodeHelper.m; sourceTree = "<group>"; };
 		CE4607AE5BAB28BE0C2ED798D16ADC8E /* Pods-TrustDecision_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrustDecision_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D9B7F988A366D043DE183EB33509A69E /* TrustDecision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrustDecision-dummy.m"; sourceTree = "<group>"; };
-		E20570164BD9C4C2A08477C33CAB85DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E22D020EBBF914C3BDFBC8A4E3CA6BB7 /* TDMobRiskAPIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskAPIHelper.h; sourceTree = "<group>"; };
+		D1DD27C9DB84CD9B92B6ED6845EFC04C /* TDMobRiskIdentifierInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskIdentifierInfo.h; path = Sources/TDMobRiskIdentifierInfo.h; sourceTree = "<group>"; };
+		D36F5556EF2F3EC0380E0C4D567CE390 /* TDMobRiskSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskSafeDictionary.m; path = Sources/TDMobRiskSafeDictionary.m; sourceTree = "<group>"; };
+		D73B4564C7F31418A219DD4A4E3966EA /* TrustDecision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrustDecision-dummy.m"; sourceTree = "<group>"; };
 		E4119058FA0A5881E3731AFF96DA8FEF /* Pods-TrustDecision_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrustDecision_Tests-dummy.m"; sourceTree = "<group>"; };
-		EE17C31AAEAD9A2CA0972A3075D0A0C1 /* TDMobRiskHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskHeader.h; path = TrustDecision/Sources/TDMobRiskHeader.h; sourceTree = "<group>"; };
+		EA8BA42AF708A2C053D9B3089B4961AA /* TrustDecision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrustDecision.modulemap; sourceTree = "<group>"; };
 		EF49433CFC06697B279F0F0B059DF2EA /* Pods-TrustDecision_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrustDecision_Example-dummy.m"; sourceTree = "<group>"; };
-		F1E431B4A944599A626F37F95C8EBF8E /* TDMobRiskIdCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskIdCalculator.h; sourceTree = "<group>"; };
-		F2ED21C094739A54E40F3FA6AD710BAA /* TDMobRiskSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMobRiskSafeDictionary.m; sourceTree = "<group>"; };
-		F9C8251C5E0687E92609145DD671FD52 /* TDMobRiskIdentifierInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskIdentifierInfo.h; sourceTree = "<group>"; };
+		FDE34E80E5FB42E1350CFC47DD56B1C9 /* TDMobRiskIdCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskIdCalculator.m; path = Sources/TDMobRiskIdCalculator.m; sourceTree = "<group>"; };
 		FF98216532CAABF4379B9F2BD7F95389 /* Pods-TrustDecision_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrustDecision_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,39 +179,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31466FF879D3A5371D1B57FD508D34DA /* Pod */ = {
+		3F64911CCC5C213CAC54A46C4D8DC956 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2495DFAFA100D38E34038AC736E5627F /* LICENSE */,
-				E20570164BD9C4C2A08477C33CAB85DE /* README.md */,
-				59D4CB50DCB98AF277CFC5BE31462E6F /* TrustDecision.podspec */,
+				F0895D23545648852FCF14BA0C601BC4 /* TrustDecision */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3C0D5EDB5074D818769D8AC7DDB6F841 /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				8E6A7E7C9554ECFDBF7F67B03027CC8F /* TDMobRiskAppInfo.h */,
-				6A309809F4D12DB4A7AF8F42D13E74C4 /* TDMobRiskAppInfo.m */,
-				0FA7C4EC59AB6A10F8EC57AF3339A71E /* TDMobRiskCpuInfo.h */,
-				90DC97D646513D3C12ADC61CAF72783D /* TDMobRiskCpuInfo.m */,
-				7BFBEC806B29A142EE949EE966F0E6D0 /* TDMobRiskDeviceInfo.h */,
-				AACA2C41CF3C7F246A27C12FBDADDA91 /* TDMobRiskDeviceInfo.m */,
-				22FCE91E21210B945450B7CA27D48612 /* TDMobRiskDeviceStatusInfo.h */,
-				01FBFC776865BD440540B9AF308475EB /* TDMobRiskDeviceStatusInfo.m */,
-				F9C8251C5E0687E92609145DD671FD52 /* TDMobRiskIdentifierInfo.h */,
-				4EF17D9A5EEDCA2C361047D23135CCC6 /* TDMobRiskIdentifierInfo.m */,
-				9E51C2325D11DAAB7643D333DCE76B32 /* TDMobRiskOSInfo.h */,
-				B3C59D196D7DE7929B960803079E50D8 /* TDMobRiskOSInfo.m */,
-				9778C3044A8A97FBA66F6F7758E4B567 /* TDMobRiskSpaceInfo.h */,
-				533B5F42AAFFFEA9E77418BE565F0A26 /* TDMobRiskSpaceInfo.m */,
-				219CEB96ADB71954802EB3D6D16DB39E /* TDMobRiskTimeInfo.h */,
-				03EF2691CE2FA2C5753872FD835CFF3A /* TDMobRiskTimeInfo.m */,
-				8320AD46E9BF5AB29CD06F5796FFE96F /* Base */,
-			);
-			name = Info;
-			path = Info;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4490C374E857951A19E7FFBF63F55960 /* Pods-TrustDecision_Tests */ = {
@@ -230,21 +203,19 @@
 			path = "Target Support Files/Pods-TrustDecision_Tests";
 			sourceTree = "<group>";
 		};
-		45BDBB3E44050EDAE7D8203DE4551AB0 /* TrustDecision */ = {
+		65872F1758E51265692E13C5DD825FE7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE17C31AAEAD9A2CA0972A3075D0A0C1 /* TDMobRiskHeader.h */,
-				9BCED8628CCCF21DA8EBB8250275E808 /* TDMobRiskManager.m */,
-				FBCBBDB377B31AC61F9067D1593B2051 /* Collect */,
-				A53CFD44B0056C1A40DA38D5B2F5904E /* Containers */,
-				860E0188600739737E79794A849EE8A5 /* Core */,
-				EF03CE85393B635CBCC9203C5769810D /* Helper */,
-				75982BD2D325B293057893D469B7F492 /* include */,
-				31466FF879D3A5371D1B57FD508D34DA /* Pod */,
-				92C363C0C890099A8743AFD3132CF695 /* Support Files */,
+				EA8BA42AF708A2C053D9B3089B4961AA /* TrustDecision.modulemap */,
+				D73B4564C7F31418A219DD4A4E3966EA /* TrustDecision-dummy.m */,
+				65133B9F4701F5D7024C03DAED8A7C22 /* TrustDecision-Info.plist */,
+				668B9CD5E98B474D4C5D672574C6B059 /* TrustDecision-prefix.pch */,
+				A9370EE21100B99DC60893652DB81864 /* TrustDecision-umbrella.h */,
+				11DB7DBA081B62075B8F9DB2A5421103 /* TrustDecision.debug.xcconfig */,
+				4B5434C88126BACAF7B661D4733CF9D9 /* TrustDecision.release.xcconfig */,
 			);
-			name = TrustDecision;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TrustDecision";
 			sourceTree = "<group>";
 		};
 		6AD7141324799BC944E8B117360DD6E3 /* Pods-TrustDecision_Example */ = {
@@ -263,76 +234,11 @@
 			path = "Target Support Files/Pods-TrustDecision_Example";
 			sourceTree = "<group>";
 		};
-		75982BD2D325B293057893D469B7F492 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				8F19507872044BE3E9A0F6B99C692787 /* TDMobRisk.h */,
-				07193CC0252A42ED5F2E128BAFCA3D62 /* TDMobRiskManager.h */,
-			);
-			name = include;
-			path = TrustDecision/Sources/include;
-			sourceTree = "<group>";
-		};
-		8320AD46E9BF5AB29CD06F5796FFE96F /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				26B0A3B79A5FDAD7A3390261255B51B9 /* TDMobRiskBaseInfo.h */,
-				57F0BFB5EC5597A5CBD7A3B628636819 /* TDMobRiskBaseInfo.m */,
-			);
-			name = Base;
-			path = Base;
-			sourceTree = "<group>";
-		};
-		860E0188600739737E79794A849EE8A5 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				5BA4EC8B179E6E732B7BD77612EC321B /* TDMobRiskCalculator.h */,
-				C03314AEB074E1FC763DCBDF87C0B04E /* TDMobRiskCalculator.m */,
-				F1E431B4A944599A626F37F95C8EBF8E /* TDMobRiskIdCalculator.h */,
-				0229A909434B1322A7984BD3D05F8B35 /* TDMobRiskIdCalculator.m */,
-			);
-			name = Core;
-			path = TrustDecision/Sources/Core;
-			sourceTree = "<group>";
-		};
-		92C363C0C890099A8743AFD3132CF695 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				27E0D9BDC0B9C59EE0613B74CC816699 /* TrustDecision.modulemap */,
-				D9B7F988A366D043DE183EB33509A69E /* TrustDecision-dummy.m */,
-				3228609B9E1F5521213C889AB2B6460C /* TrustDecision-Info.plist */,
-				28A8D813CA5E7AF8B81F3047088B1AEE /* TrustDecision-prefix.pch */,
-				62A72EF6ABC6014EFBAB2DBE42FDF3D4 /* TrustDecision-umbrella.h */,
-				928BFC5ED1A437EEE4E900F641329FFA /* TrustDecision.debug.xcconfig */,
-				A8E64081571636B5C714866627D964BC /* TrustDecision.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TrustDecision";
-			sourceTree = "<group>";
-		};
-		9C05ECC975F4678148632DB3F4E6ED3D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				45BDBB3E44050EDAE7D8203DE4551AB0 /* TrustDecision */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A53CFD44B0056C1A40DA38D5B2F5904E /* Containers */ = {
-			isa = PBXGroup;
-			children = (
-				074CE09FDC60D779F7C295D9059A2C67 /* TDMobRiskSafeDictionary.h */,
-				F2ED21C094739A54E40F3FA6AD710BAA /* TDMobRiskSafeDictionary.m */,
-			);
-			name = Containers;
-			path = TrustDecision/Sources/Containers;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9C05ECC975F4678148632DB3F4E6ED3D /* Development Pods */,
+				3F64911CCC5C213CAC54A46C4D8DC956 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2D9DE88CC8D066F7D8C130ACE7A2DABA /* Products */,
 				EBCD7BA1DB44695F5DEE91E4CE711E71 /* Targets Support Files */,
@@ -345,6 +251,26 @@
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D40B17B67E37F85D1FDB31287D45FCED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA6BB348A128B6107DF49EE90DC38205 /* LICENSE */,
+				056F41A50A30BB4C69C4743B83EBEE00 /* README.md */,
+				91E1F6E6C15D2B02FDEA54F20C33D1F7 /* TrustDecision.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E06EA5F3040B8727E61A8FF23E26BE5C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				139D902F82A4A711ABA293FB6F61AD3E /* TDMobRisk.h */,
+				9161D2D13C1BF4A73C20250E72B22F7C /* TDMobRiskManager.h */,
+			);
+			name = include;
+			path = Sources/include;
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -364,29 +290,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EF03CE85393B635CBCC9203C5769810D /* Helper */ = {
+		F0895D23545648852FCF14BA0C601BC4 /* TrustDecision */ = {
 			isa = PBXGroup;
 			children = (
-				E22D020EBBF914C3BDFBC8A4E3CA6BB7 /* TDMobRiskAPIHelper.h */,
-				9BF9C86FD2DCDEF05321B539B0EB8E58 /* TDMobRiskAPIHelper.m */,
-				9956526BEFCDC445BAC52AE4FADA0934 /* TDMobRiskEncodeHelper.h */,
-				047CB00CBE0598611DFBE89816CF34C5 /* TDMobRiskEncodeHelper.m */,
-				973CDCCF6AC082E6ABF89235EC605EC7 /* TDMobRiskKeychainsHelper.h */,
-				48ADFE055026DE3BE436613139BC93BF /* TDMobRiskKeychainsHelper.m */,
+				748E69470D19FD66CB6C444B2A05BADA /* TDMobRiskAPIHelper.h */,
+				23436FB2F5D83622AA5389656795382F /* TDMobRiskAPIHelper.m */,
+				101CC605C1009F8E54D98231065EB421 /* TDMobRiskAppInfo.h */,
+				B9E21176B49EF1DD12DCFDCB412E7B0A /* TDMobRiskAppInfo.m */,
+				5222280D7E88E84C92870C55796B97F5 /* TDMobRiskBaseInfo.h */,
+				565158A0035FCFE74C075FBE483673EF /* TDMobRiskBaseInfo.m */,
+				1A17667609685424B561C5C0F1D6A585 /* TDMobRiskCalculator.h */,
+				1C2E43E85824423FFDE2809424EE329C /* TDMobRiskCalculator.m */,
+				8C3D3CF72D924EFF6C9E5CF1026239BB /* TDMobRiskCollector.h */,
+				18B8097E31D6CFB773C2E3EC654BD15F /* TDMobRiskCollector.m */,
+				227A6648B6B37327794ECF66413B8A17 /* TDMobRiskCpuInfo.h */,
+				2F5E804DC51084FE73B4E67614B01B4E /* TDMobRiskCpuInfo.m */,
+				91D665EF09A86C30E2ED41F54D96AA24 /* TDMobRiskDeviceInfo.h */,
+				4D6B2DE2B01E0791DCB4B8A72090B4C1 /* TDMobRiskDeviceInfo.m */,
+				17B0929537C4D1192470DEBFFB87E3DE /* TDMobRiskDeviceStatusInfo.h */,
+				70BCDED2BBA7029E604E19075EC799F3 /* TDMobRiskDeviceStatusInfo.m */,
+				00E1F0F6C435EFA70A21CFBADE990A92 /* TDMobRiskEncodeHelper.h */,
+				CB96CCF4D83FAD455B43F0E3634901F6 /* TDMobRiskEncodeHelper.m */,
+				897D328402961C73D6E4997BF075714C /* TDMobRiskHeader.h */,
+				01F73340FF5A0F069CE14FC136267ACE /* TDMobRiskIdCalculator.h */,
+				FDE34E80E5FB42E1350CFC47DD56B1C9 /* TDMobRiskIdCalculator.m */,
+				D1DD27C9DB84CD9B92B6ED6845EFC04C /* TDMobRiskIdentifierInfo.h */,
+				5511E1FF89780C93096E54EB2CD9E45B /* TDMobRiskIdentifierInfo.m */,
+				3320699CDF49A850CE5A2D0F593B68E2 /* TDMobRiskKeychainsHelper.h */,
+				7C5EC3D83360A3F80E087FC1FE0417E6 /* TDMobRiskKeychainsHelper.m */,
+				32186D985334E0DB078D1132B02AA90F /* TDMobRiskManager.m */,
+				52C2A8F08FB26C238D921E746916BECF /* TDMobRiskOSInfo.h */,
+				6C83698F39E03E90C6E812F0CB97F590 /* TDMobRiskOSInfo.m */,
+				A73FDA6962C6A61075905D51CC65A0D5 /* TDMobRiskSafeDictionary.h */,
+				D36F5556EF2F3EC0380E0C4D567CE390 /* TDMobRiskSafeDictionary.m */,
+				B7C7C75435F7EC3AB6C698B8DEA6871A /* TDMobRiskSpaceInfo.h */,
+				5E502C6CCF0A83A6B6F5A6C785B06DDB /* TDMobRiskSpaceInfo.m */,
+				38C477086035797E9D06858F8FC4D9C5 /* TDMobRiskTimeInfo.h */,
+				A4C2189221D140A468B89A8B60797F72 /* TDMobRiskTimeInfo.m */,
+				E06EA5F3040B8727E61A8FF23E26BE5C /* include */,
+				D40B17B67E37F85D1FDB31287D45FCED /* Pod */,
+				65872F1758E51265692E13C5DD825FE7 /* Support Files */,
 			);
-			name = Helper;
-			path = TrustDecision/Sources/Helper;
-			sourceTree = "<group>";
-		};
-		FBCBBDB377B31AC61F9067D1593B2051 /* Collect */ = {
-			isa = PBXGroup;
-			children = (
-				5225A3C84788446B3D96C14218AE4C93 /* TDMobRiskCollector.h */,
-				36CA17892301859E2100B11128BACA85 /* TDMobRiskCollector.m */,
-				3C0D5EDB5074D818769D8AC7DDB6F841 /* Info */,
-			);
-			name = Collect;
-			path = TrustDecision/Sources/Collect;
+			name = TrustDecision;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,30 +346,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		357E73A0D13A07DC102DBEAE842E66D9 /* Headers */ = {
+		A40F7B7FF8BD3596828377FE3BFEC7AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43E3C3707F3EA33176C05C1D13C70A8C /* TDMobRisk.h in Headers */,
-				A0ECA3C333187EA00A478D1E990E9BB5 /* TDMobRiskAPIHelper.h in Headers */,
-				1E470D41970783AC7063643454021562 /* TDMobRiskAppInfo.h in Headers */,
-				7FACA172E7BA74356EA16F189C759A24 /* TDMobRiskBaseInfo.h in Headers */,
-				C7390ADD0BC17A7F121D48CEE9869D1F /* TDMobRiskCalculator.h in Headers */,
-				204A53EE72D544E86C220ECFF67DC5E9 /* TDMobRiskCollector.h in Headers */,
-				B17EA96E1992B9F8BAD6E3EDBA0A18F4 /* TDMobRiskCpuInfo.h in Headers */,
-				6F0A1E11B7E8B75CA927A45BAB9FA3C3 /* TDMobRiskDeviceInfo.h in Headers */,
-				39393F913A06F2D4F83A77F454F561E2 /* TDMobRiskDeviceStatusInfo.h in Headers */,
-				55AC7F49AC27AF09ED7C58E8B562955C /* TDMobRiskEncodeHelper.h in Headers */,
-				B6D1AB93EB5C625048EA614F287D6913 /* TDMobRiskHeader.h in Headers */,
-				94B616F2EF855B4B8DF5729C728DAD6D /* TDMobRiskIdCalculator.h in Headers */,
-				5410BAC0807400C22C28AD3DF45B59FF /* TDMobRiskIdentifierInfo.h in Headers */,
-				B351A44240C8220F86D86BE743D28A48 /* TDMobRiskKeychainsHelper.h in Headers */,
-				D1AC67C63084087F926F172A3E82D54C /* TDMobRiskManager.h in Headers */,
-				86F9BBBD4CA6F7F5B7A6D7943C87286A /* TDMobRiskOSInfo.h in Headers */,
-				34D75AA056C039BBEA3EDCD4E06BCC66 /* TDMobRiskSafeDictionary.h in Headers */,
-				ED77D34C7FEAEB7DB3F7C3A494F8677A /* TDMobRiskSpaceInfo.h in Headers */,
-				0C6D5348BE2D3F521C06E6329DA604E9 /* TDMobRiskTimeInfo.h in Headers */,
-				5C9C339B817412AA0F42D4FD66AB1D09 /* TrustDecision-umbrella.h in Headers */,
+				7DC46ADD960AF87A1571F0BC982E92CF /* TDMobRisk.h in Headers */,
+				38C6F5C4D1FBE78FF4A7329B8E881F24 /* TDMobRiskAPIHelper.h in Headers */,
+				D61B0704E04A906BD6A52C23B0C99722 /* TDMobRiskAppInfo.h in Headers */,
+				408DF5FA69ED0E37FFD111565254129B /* TDMobRiskBaseInfo.h in Headers */,
+				2D37748C32A79E55DE6C49E4D0812241 /* TDMobRiskCalculator.h in Headers */,
+				BA13B9AF77F75825D5A844FD68113E16 /* TDMobRiskCollector.h in Headers */,
+				5FEDD3A5E10CDFEAD63044679589B105 /* TDMobRiskCpuInfo.h in Headers */,
+				19971C9CF2D91613D9456275D3681790 /* TDMobRiskDeviceInfo.h in Headers */,
+				20B82627D1341317B0638EE1E9203DD6 /* TDMobRiskDeviceStatusInfo.h in Headers */,
+				6D400FB66487F3A424BD2240A828D828 /* TDMobRiskEncodeHelper.h in Headers */,
+				F97E712D8AD9BA9463760FC2E786E9E9 /* TDMobRiskHeader.h in Headers */,
+				997E1620A95A96AFA632BEFA8A09CDE4 /* TDMobRiskIdCalculator.h in Headers */,
+				DF780FEDF16A615B5E6194746382C4C8 /* TDMobRiskIdentifierInfo.h in Headers */,
+				4A07ED5244298FB1949A7EAE1759F4CB /* TDMobRiskKeychainsHelper.h in Headers */,
+				33AFAFD764B8AB8413E3B671016ABBE8 /* TDMobRiskManager.h in Headers */,
+				DF240EF4D9B928D26426A9B570CB863F /* TDMobRiskOSInfo.h in Headers */,
+				496321A43313E483265CAE01C627DFC3 /* TDMobRiskSafeDictionary.h in Headers */,
+				9F1BDAA439EFFBCA617A089ED0F030B1 /* TDMobRiskSpaceInfo.h in Headers */,
+				75D1D7316CA1D74217A591E80C89497D /* TDMobRiskTimeInfo.h in Headers */,
+				00772ABF669879A1B252BECB41B4C048 /* TrustDecision-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,8 +388,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8043CC818FA8D54C7BBABE52E18EFA5A /* Build configuration list for PBXNativeTarget "TrustDecision" */;
 			buildPhases = (
-				357E73A0D13A07DC102DBEAE842E66D9 /* Headers */,
-				464E928CFF2B578A36E20C00D98DA069 /* Sources */,
+				A40F7B7FF8BD3596828377FE3BFEC7AE /* Headers */,
+				E03EEC85741F10FD71B6DA12D6D8B193 /* Sources */,
 				0C88D7CAD0DB2CB0D78E7D7D8B4B57FE /* Frameworks */,
 				EA0BE2E083FA22FEB66EC5F50EB96029 /* Resources */,
 			);
@@ -468,7 +414,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DD70409136476F0233F9706832EB6CA2 /* PBXTargetDependency */,
+				0EC2B0A0FFA75014D3BD8CE31B046678 /* PBXTargetDependency */,
 			);
 			name = "Pods-TrustDecision_Example";
 			productName = Pods_TrustDecision_Example;
@@ -487,7 +433,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F881DF42331A13DC886C481157CB81A5 /* PBXTargetDependency */,
+				5D250439C5F5A998A7F41765AF16B5FA /* PBXTargetDependency */,
 			);
 			name = "Pods-TrustDecision_Tests";
 			productName = Pods_TrustDecision_Tests;
@@ -550,36 +496,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		464E928CFF2B578A36E20C00D98DA069 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B79824E43AB5110F6ED67AC6F446B1D /* TDMobRiskAPIHelper.m in Sources */,
-				CD192F56CB4008293F041E91BBBEA036 /* TDMobRiskAppInfo.m in Sources */,
-				EFB5E94875881F8DD286DF4993731659 /* TDMobRiskBaseInfo.m in Sources */,
-				10D3FF0F27830F84352D49C2E4E8FBA4 /* TDMobRiskCalculator.m in Sources */,
-				B479D966B5ABBA45EF8DBCFFDBF50490 /* TDMobRiskCollector.m in Sources */,
-				A524EA0E125DB932EDB0E21BFCDA7FD5 /* TDMobRiskCpuInfo.m in Sources */,
-				0BEE7855BD379B4A9245723121A89422 /* TDMobRiskDeviceInfo.m in Sources */,
-				BDE9800554AFEE1761A37C7A16B771FE /* TDMobRiskDeviceStatusInfo.m in Sources */,
-				88B0D6802B5612904183D3CE328A2CBE /* TDMobRiskEncodeHelper.m in Sources */,
-				3A3DFAD458511BFDA758C63EB377F8CB /* TDMobRiskIdCalculator.m in Sources */,
-				4C7A01B3F94C1951C0AB0FCDADA55BE6 /* TDMobRiskIdentifierInfo.m in Sources */,
-				206406B5E6E4A475CB22AF613BD7926C /* TDMobRiskKeychainsHelper.m in Sources */,
-				395F86C4718E1ACF69F653BA0688DF01 /* TDMobRiskManager.m in Sources */,
-				9887513BA9FE3CFAF12223575D8C2CD5 /* TDMobRiskOSInfo.m in Sources */,
-				261D6F35E40C95DE79EA61800592AEC1 /* TDMobRiskSafeDictionary.m in Sources */,
-				084FA72A181685B9467C554619C858BD /* TDMobRiskSpaceInfo.m in Sources */,
-				D4CEE1923B4F4AF8A56961B8057E98E2 /* TDMobRiskTimeInfo.m in Sources */,
-				DE53B52D753D860420101A5E09201213 /* TrustDecision-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5583CD31E5DB6E564EAC8DAC511DFA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				93D9B3E83F3D650E79AE3D25536C395B /* Pods-TrustDecision_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03EEC85741F10FD71B6DA12D6D8B193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A05745BE230D885D21B5EEFB2CE09A1 /* TDMobRiskAPIHelper.m in Sources */,
+				1C08B2CC1B5A7DF7A96457E88E6D1AE2 /* TDMobRiskAppInfo.m in Sources */,
+				324D02068A51F7CD456461D9B7BC86BB /* TDMobRiskBaseInfo.m in Sources */,
+				E620D2059902267D1E7A1B3210A991A4 /* TDMobRiskCalculator.m in Sources */,
+				EC22C3C64BE7BAD03B443A280C73EEA2 /* TDMobRiskCollector.m in Sources */,
+				105695BA9E95610D3178B689B4D22459 /* TDMobRiskCpuInfo.m in Sources */,
+				027C2229F3D15B2E764194CF3D488ADF /* TDMobRiskDeviceInfo.m in Sources */,
+				BC48C2AD7C95C8B4C6DEA66A2CF3E084 /* TDMobRiskDeviceStatusInfo.m in Sources */,
+				FC05B935C5314C4638A6AA2B373FCFDE /* TDMobRiskEncodeHelper.m in Sources */,
+				E76A7C89B120F96AA719623DB5F58B40 /* TDMobRiskIdCalculator.m in Sources */,
+				D45798212C4C14436EAFA2533FCAC614 /* TDMobRiskIdentifierInfo.m in Sources */,
+				8E8FAAE690BC8D6228670E34584F8BDE /* TDMobRiskKeychainsHelper.m in Sources */,
+				027708BA7E2031EE87D5FAAD4DC8C88F /* TDMobRiskManager.m in Sources */,
+				E1AC0AC5911CC0F60D07A4A922436823 /* TDMobRiskOSInfo.m in Sources */,
+				CD599D96A842FF7295C1E9FA067BD8D7 /* TDMobRiskSafeDictionary.m in Sources */,
+				E86578E43749EB936FC1BC3BAFDA5800 /* TDMobRiskSpaceInfo.m in Sources */,
+				D8087740BC2451592729753E58BBF8BC /* TDMobRiskTimeInfo.m in Sources */,
+				CABB9AED578A548F274970C4FE1B3977 /* TrustDecision-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,24 +540,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DD70409136476F0233F9706832EB6CA2 /* PBXTargetDependency */ = {
+		0EC2B0A0FFA75014D3BD8CE31B046678 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TrustDecision;
 			target = 8E6E41C7F38055ADB1C69E0CA8CB8C1F /* TrustDecision */;
-			targetProxy = 1A66C2A3BCFF64A0B3DA98C8839B1928 /* PBXContainerItemProxy */;
+			targetProxy = D1745639A9FF1FA8F5FB31C7DE452111 /* PBXContainerItemProxy */;
 		};
-		F881DF42331A13DC886C481157CB81A5 /* PBXTargetDependency */ = {
+		5D250439C5F5A998A7F41765AF16B5FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TrustDecision_Example";
 			target = A9618CF90C1C6372C6E524DA93A3F8AB /* Pods-TrustDecision_Example */;
-			targetProxy = E904946E8B7CCA27DED18F180572585E /* PBXContainerItemProxy */;
+			targetProxy = 37FEE706E67FFFDC5C1C2F9C19916FF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00D21322FB8E57BD5299A7A1ACEEA46F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 928BFC5ED1A437EEE4E900F641329FFA /* TrustDecision.debug.xcconfig */;
+			baseConfigurationReference = 11DB7DBA081B62075B8F9DB2A5421103 /* TrustDecision.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -916,7 +862,7 @@
 		};
 		ECB5414F1CF45A5722E55A850532FEC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8E64081571636B5C714866627D964BC /* TrustDecision.release.xcconfig */;
+			baseConfigurationReference = 4B5434C88126BACAF7B661D4733CF9D9 /* TrustDecision.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
