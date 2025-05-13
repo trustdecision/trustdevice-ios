@@ -14,9 +14,9 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Swift-6.0-orange">
   <img src="https://img.shields.io/badge/iOS-9%2B-blue"> 
-  <img src="https://img.shields.io/github/stars/zeinber/TDOCSDK"> 
-  <img src="https://img.shields.io/github/issues/zeinber/TDOCSDK">
-  <img src="https://img.shields.io/github/last-commit/zeinber/TDOCSDK">  
+  <img src="https://img.shields.io/github/stars/trustdecision/trustdevice-ios"> 
+  <img src="https://img.shields.io/github/issues/trustdecision/trustdevice-ios">
+  <img src="https://img.shields.io/github/last-commit/trustdecision/trustdevice-ios">  
 </p>
 
 
@@ -39,16 +39,16 @@ You can visit [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-5
 2. Enter the repository URL, for example:
 
    ```text
-   https://github.com/zeinber/TDOCSDK.git
+   https://github.com/trustdecision/trustdevice-ios.git
    ```
-3. Specify a version range (e.g. `from: "1.0.0"`).
+3. Specify a version range (e.g. `from: "1.6.1"`).
 
 ### Cocoapods
 1. TrustDecision is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 # Podfile
-pod 'TrustDecision', '1.6.0.1'
+pod 'TrustDecision', '1.6.1'
 ```
 
 ## Quick Start 
