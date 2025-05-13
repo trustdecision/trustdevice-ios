@@ -1,6 +1,6 @@
 {
   "name": "TrustDecision",
-  "version": "1.6.0.1",
+  "version": "1.6.1",
   "summary": "Local fingerprint of trust device.",
   "description": "Local fingerprint of trust device, generate your unique device fingerprint.",
   "homepage": "https://trustdecision.com/trustDevice",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/trustdecision/trustdevice-ios.git",
-    "tag": "1.6.0.1"
+    "tag": "1.6.1"
   },
   "platforms": {
     "ios": "9.0"
