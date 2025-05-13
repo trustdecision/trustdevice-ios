@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "TrustDecision",
+    name: "trustdevice-ios",
     platforms: [.iOS(.v9)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/trustdecision/trustdevice-ios.git",  
-        from: "1.6.1"),
+        from: "1.6.2"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

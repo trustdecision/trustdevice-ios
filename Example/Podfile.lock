@@ -1,5 +1,5 @@
 PODS:
-  - TrustDecision (1.6.1)
+  - TrustDecision (1.6.2)
 
 DEPENDENCIES:
   - TrustDecision (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TrustDecision: 212e704b7bc6bb4ade90e1a151bd792a647ed5ac
+  TrustDecision: 4c825a66a0c6db63d24baa0a69dbe0dad650c103
 
 PODFILE CHECKSUM: d691f7b070d9d99673eef8c67ec94b649a254ddc
 

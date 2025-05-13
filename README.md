@@ -41,14 +41,14 @@ You can visit [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-5
    ```text
    https://github.com/trustdecision/trustdevice-ios.git
    ```
-3. Specify a version range (e.g. `from: "1.6.1"`).
+3. Specify a version range (e.g. `from: "1.6.2"`).
 
 ### Cocoapods
 1. TrustDecision is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 # Podfile
-pod 'TrustDecision', '1.6.1'
+pod 'TrustDecision', '1.6.2'
 ```
 
 ## Quick Start 
