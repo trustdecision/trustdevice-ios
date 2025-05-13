@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrustDecision'
-  s.version          = '1.6'
+  s.version          = '1.6.0'
   s.summary          = 'Local fingerprint of trust device.'
   s.description      = 'Local fingerprint of trust device, generate your unique device fingerprint.'
   s.homepage         = 'https://trustdecision.com/trustDevice'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'TrustDevice' => 'TrustDevice@TrustDecision.com' }
   s.source           = { :git => 'https://github.com/trustdecision/trustdevice-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'TrustDecision/Classes/**/*'
+  s.source_files = 'TrustDecision/Sources/**/*'
   s.static_framework = true
-  s.public_header_files = ['TrustDecision/Classes/TDMobRisk.h','TrustDecision/Classes/TDMobRiskManager.h']
+  s.public_header_files = ['TrustDecision/Classes/include/TDMobRisk.h','TrustDecision/Classes/include/TDMobRiskManager.h']
 end

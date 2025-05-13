@@ -1,6 +1,6 @@
 {
   "name": "TrustDecision",
-  "version": "1.1",
+  "version": "1.6.0",
   "summary": "Local fingerprint of trust device.",
   "description": "Local fingerprint of trust device, generate your unique device fingerprint.",
   "homepage": "https://trustdecision.com/trustDevice",
@@ -13,15 +13,15 @@
   },
   "source": {
     "git": "https://github.com/trustdecision/trustdevice-ios.git",
-    "tag": "1.1"
+    "tag": "1.6.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TrustDecision/Classes/**/*",
+  "source_files": "TrustDecision/Sources/**/*",
   "static_framework": true,
   "public_header_files": [
-    "TrustDecision/Classes/TDMobRisk.h",
-    "TrustDecision/Classes/TDMobRiskManager.h"
+    "TrustDecision/Classes/include/TDMobRisk.h",
+    "TrustDecision/Classes/include/TDMobRiskManager.h"
   ]
 }

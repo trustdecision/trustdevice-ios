@@ -14,4 +14,4 @@ FOUNDATION_EXPORT double TDMobRiskVersionNumber;
 FOUNDATION_EXPORT const unsigned char TDMobRiskVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TDMobRisk/PublicHeader.h>
-#import <TrustDecision/TDMobRiskManager.h>
+#import "TDMobRiskManager.h"
