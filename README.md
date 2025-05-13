@@ -48,7 +48,7 @@ You can visit [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-5
 
 ```ruby
 # Podfile
-pod 'TrustDecision', '1.6.0'
+pod 'TrustDecision', '1.6.0.1'
 ```
 
 ## Quick Start 

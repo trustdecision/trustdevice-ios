@@ -74,8 +74,8 @@
 /* Begin PBXFileReference section */
 		00E1F0F6C435EFA70A21CFBADE990A92 /* TDMobRiskEncodeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskEncodeHelper.h; path = Sources/TDMobRiskEncodeHelper.h; sourceTree = "<group>"; };
 		01F73340FF5A0F069CE14FC136267ACE /* TDMobRiskIdCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskIdCalculator.h; path = Sources/TDMobRiskIdCalculator.h; sourceTree = "<group>"; };
-		056F41A50A30BB4C69C4743B83EBEE00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0630B3402D9149282F2840812AB66D0B /* Pods_TrustDecision_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustDecision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		056F41A50A30BB4C69C4743B83EBEE00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0630B3402D9149282F2840812AB66D0B /* Pods-TrustDecision_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TrustDecision_Example"; path = Pods_TrustDecision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		085060607798E73A17BBEBFB23DE88DC /* Pods-TrustDecision_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrustDecision_Example.modulemap"; sourceTree = "<group>"; };
 		101CC605C1009F8E54D98231065EB421 /* TDMobRiskAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskAppInfo.h; path = Sources/TDMobRiskAppInfo.h; sourceTree = "<group>"; };
 		11DB7DBA081B62075B8F9DB2A5421103 /* TrustDecision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustDecision.debug.xcconfig; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		1EBC17218B0315FE3A914098881D63DB /* Pods-TrustDecision_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrustDecision_Tests.modulemap"; sourceTree = "<group>"; };
 		227A6648B6B37327794ECF66413B8A17 /* TDMobRiskCpuInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskCpuInfo.h; path = Sources/TDMobRiskCpuInfo.h; sourceTree = "<group>"; };
 		23436FB2F5D83622AA5389656795382F /* TDMobRiskAPIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskAPIHelper.m; path = Sources/TDMobRiskAPIHelper.m; sourceTree = "<group>"; };
-		27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrustDecision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrustDecision; path = TrustDecision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5E804DC51084FE73B4E67614B01B4E /* TDMobRiskCpuInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskCpuInfo.m; path = Sources/TDMobRiskCpuInfo.m; sourceTree = "<group>"; };
 		32186D985334E0DB078D1132B02AA90F /* TDMobRiskManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskManager.m; path = Sources/TDMobRiskManager.m; sourceTree = "<group>"; };
 		3320699CDF49A850CE5A2D0F593B68E2 /* TDMobRiskKeychainsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskKeychainsHelper.h; path = Sources/TDMobRiskKeychainsHelper.h; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		52C2A8F08FB26C238D921E746916BECF /* TDMobRiskOSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskOSInfo.h; path = Sources/TDMobRiskOSInfo.h; sourceTree = "<group>"; };
 		5511E1FF89780C93096E54EB2CD9E45B /* TDMobRiskIdentifierInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskIdentifierInfo.m; path = Sources/TDMobRiskIdentifierInfo.m; sourceTree = "<group>"; };
 		565158A0035FCFE74C075FBE483673EF /* TDMobRiskBaseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskBaseInfo.m; path = Sources/TDMobRiskBaseInfo.m; sourceTree = "<group>"; };
-		5E207BED7F67A61339C779308B12EC48 /* Pods_TrustDecision_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustDecision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E207BED7F67A61339C779308B12EC48 /* Pods-TrustDecision_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TrustDecision_Tests"; path = Pods_TrustDecision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E502C6CCF0A83A6B6F5A6C785B06DDB /* TDMobRiskSpaceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskSpaceInfo.m; path = Sources/TDMobRiskSpaceInfo.m; sourceTree = "<group>"; };
 		5E80DFF1D96F189B933F84C20828C90E /* Pods-TrustDecision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		65133B9F4701F5D7024C03DAED8A7C22 /* TrustDecision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrustDecision-Info.plist"; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 		8DF5DE5304FD14ADB82A8F7A9518D82E /* Pods-TrustDecision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9161D2D13C1BF4A73C20250E72B22F7C /* TDMobRiskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMobRiskManager.h; sourceTree = "<group>"; };
 		91D665EF09A86C30E2ED41F54D96AA24 /* TDMobRiskDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskDeviceInfo.h; path = Sources/TDMobRiskDeviceInfo.h; sourceTree = "<group>"; };
-		91E1F6E6C15D2B02FDEA54F20C33D1F7 /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
+		91E1F6E6C15D2B02FDEA54F20C33D1F7 /* TrustDecision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrustDecision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A007E34F82BD8C4DF3B00F92FF1AF20F /* Pods-TrustDecision_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrustDecision_Example-umbrella.h"; sourceTree = "<group>"; };
 		A4C2189221D140A468B89A8B60797F72 /* TDMobRiskTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskTimeInfo.m; path = Sources/TDMobRiskTimeInfo.m; sourceTree = "<group>"; };
 		A54BBA75ECFDB03E6008C22892EA35CC /* Pods-TrustDecision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrustDecision_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		A9370EE21100B99DC60893652DB81864 /* TrustDecision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustDecision-umbrella.h"; sourceTree = "<group>"; };
 		B7C7C75435F7EC3AB6C698B8DEA6871A /* TDMobRiskSpaceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMobRiskSpaceInfo.h; path = Sources/TDMobRiskSpaceInfo.h; sourceTree = "<group>"; };
 		B9E21176B49EF1DD12DCFDCB412E7B0A /* TDMobRiskAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskAppInfo.m; path = Sources/TDMobRiskAppInfo.m; sourceTree = "<group>"; };
-		BA6BB348A128B6107DF49EE90DC38205 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BA6BB348A128B6107DF49EE90DC38205 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C39955CA15D3D998B0038C7828322692 /* Pods-TrustDecision_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrustDecision_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB96CCF4D83FAD455B43F0E3634901F6 /* TDMobRiskEncodeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMobRiskEncodeHelper.m; path = Sources/TDMobRiskEncodeHelper.m; sourceTree = "<group>"; };
 		CE4607AE5BAB28BE0C2ED798D16ADC8E /* Pods-TrustDecision_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrustDecision_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -172,9 +172,9 @@
 		2D9DE88CC8D066F7D8C130ACE7A2DABA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0630B3402D9149282F2840812AB66D0B /* Pods_TrustDecision_Example.framework */,
-				5E207BED7F67A61339C779308B12EC48 /* Pods_TrustDecision_Tests.framework */,
-				27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision.framework */,
+				0630B3402D9149282F2840812AB66D0B /* Pods-TrustDecision_Example */,
+				5E207BED7F67A61339C779308B12EC48 /* Pods-TrustDecision_Tests */,
+				27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -399,7 +399,7 @@
 			);
 			name = TrustDecision;
 			productName = TrustDecision;
-			productReference = 27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision.framework */;
+			productReference = 27B5E7D21308F0025ED3E0115E1D24F2 /* TrustDecision */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9618CF90C1C6372C6E524DA93A3F8AB /* Pods-TrustDecision_Example */ = {
@@ -418,7 +418,7 @@
 			);
 			name = "Pods-TrustDecision_Example";
 			productName = Pods_TrustDecision_Example;
-			productReference = 0630B3402D9149282F2840812AB66D0B /* Pods_TrustDecision_Example.framework */;
+			productReference = 0630B3402D9149282F2840812AB66D0B /* Pods-TrustDecision_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		EDAD33EA12114E22157A10B327CAB450 /* Pods-TrustDecision_Tests */ = {
@@ -437,7 +437,7 @@
 			);
 			name = "Pods-TrustDecision_Tests";
 			productName = Pods_TrustDecision_Tests;
-			productReference = 5E207BED7F67A61339C779308B12EC48 /* Pods_TrustDecision_Tests.framework */;
+			productReference = 5E207BED7F67A61339C779308B12EC48 /* Pods-TrustDecision_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -458,6 +458,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D9DE88CC8D066F7D8C130ACE7A2DABA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -750,7 +752,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
