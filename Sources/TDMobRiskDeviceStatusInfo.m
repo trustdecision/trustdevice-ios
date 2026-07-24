@@ -56,6 +56,32 @@
 }
 
 #pragma mark - Private Collect Methods
+- (BOOL)hasJailbreakInjectedDylib {
+    NSArray<NSString *> *indicators = @[
+        @"MobileSubstrate",
+        @"SubstrateLoader",
+        @"SubstrateInserter",
+        @"TweakInject",
+        @"libhooker",
+        @"ElleKit",
+        @"/var/jb/"
+    ];
+    uint32_t imageCount = _dyld_image_count();
+    for (uint32_t i = 0; i < imageCount; i++) {
+        const char *imageName = _dyld_get_image_name(i);
+        if (!imageName) {
+            continue;
+        }
+        NSString *imagePath = [NSString stringWithUTF8String:imageName];
+        for (NSString *indicator in indicators) {
+            if ([imagePath rangeOfString:indicator options:NSCaseInsensitiveSearch].location != NSNotFound) {
+                return YES;
+            }
+        }
+    }
+    return NO;
+}
+
 - (int)isJailbreak {
     NSArray *jailBreakFileList = @[
         @"/Applications/Cydia.app",
@@ -64,13 +90,22 @@
         @"/Applications/jailbreaks.app",
         @"/Applications/unc0ver.app",
         @"/Applications/Zebra.app",
+        @"/Applications/Dopamine.app",
+        @"/Applications/palera1nLoader.app",
         @"/private/var/lib/apt/",
         @"/User/Applications/",
         @"/Library/MobileSubstrate/MobileSubstrate.dylib",
+        @"/Library/MobileSubstrate/DynamicLibraries/",
         @"/bin/bash",
         @"/usr/sbin/sshd",
+        @"/usr/lib/libhooker.dylib",
+        @"/usr/lib/ellekit/",
+        @"/usr/lib/TweakInject/",
         @"/etc/apt",
         @"/var/jb",
+        @"/var/Liy",
+        @"/private/preboot/jb",
+        @"/private/var/containers/Bundle/tweaksupport",
         @"/etc/apt/sources.list.d",
         @"/etc/clutch.conf",
         @"/etc/clutch_cracked.plist",
@@ -101,8 +136,8 @@
             return YES;
         }
     }
-    char *env = getenv("DYLD_INSERT_LIBRARIES") ?: "";
-    if (strstr(env, "systemhook")) {
+    char *env = getenv("DYLD_INSERT_LIBRARIES");
+    if ((env && strlen(env) > 0) || getenv("_MSSafeMode") || getenv("_SafeMode")) {
         return YES;
     }
     if (!access("/Library/MobileSubstrate/DynamicLibraries/",R_OK)) {
@@ -125,6 +160,16 @@
         if (f == 0 && (sym.st_mode & S_IFLNK)) {
             return YES;
         }
+    }
+    if ([self hasJailbreakInjectedDylib]) {
+        return YES;
+    }
+    NSString *testPath = @"/private/td_jailbreak_test";
+    NSError *error = nil;
+    [@"1" writeToFile:testPath atomically:YES encoding:NSUTF8StringEncoding error:&error];
+    if (!error) {
+        [[NSFileManager defaultManager] removeItemAtPath:testPath error:nil];
+        return YES;
     }
     return NO;
 }
